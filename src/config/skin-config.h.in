@@ -1,8 +1,8 @@
 /* src/config/colx-config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef COLX_CONFIG_H
+#ifndef SKINXXX_CONFIG_H
 
-#define COLX_CONFIG_H
+#define SKINXXX_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 #undef AC_APPLE_UNIVERSAL_BUILD

@@ -14,8 +14,8 @@ AC_CONFIG_MACRO_DIR([build-aux/m4])
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef COLX_CONFIG_H])
-AH_TOP([#define COLX_CONFIG_H])
+AH_TOP([#ifndef SKINXXX_CONFIG_H])
+AH_TOP([#define SKINXXX_CONFIG_H])
 AH_BOTTOM([#endif //COLX_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
