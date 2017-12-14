@@ -37,12 +37,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_colx">res/icons/unit_colx.png</file>
-        <file alias="unit_mcolx">res/icons/unit_mcolx.png</file>
-        <file alias="unit_ucolx">res/icons/unit_ucolx.png</file>
-        <file alias="unit_tcolx">res/icons/unit_tcolx.png</file>
-        <file alias="unit_tmcolx">res/icons/unit_tmcolx.png</file>
-        <file alias="unit_tucolx">res/icons/unit_tucolx.png</file>
+        <file alias="unit_skin">res/icons/unit_skin.png</file>
+        <file alias="unit_mskin">res/icons/unit_mskin.png</file>
+        <file alias="unit_uskin">res/icons/unit_uskin.png</file>
+        <file alias="unit_tskin">res/icons/unit_tskin.png</file>
+        <file alias="unit_tmskin">res/icons/unit_tmskin.png</file>
+        <file alias="unit_tuskin">res/icons/unit_tuskin.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -58,7 +58,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="colx_logo_horizontal">res/images/colx_logo_horizontal.png</file>
+        <file alias="skin_logo_horizontal">res/images/skin_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
         <file alias="upArrow_small">res/images/upArrow_small.png</file>

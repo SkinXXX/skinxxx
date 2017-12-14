@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun COLX osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your SKIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun SKIN osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun COLX osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your SKIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun SKIN osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,16 +164,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>COLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your COLXs from being stolen by malware infecting your computer.</source>
-        <translation>COLX sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella COLXien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <translation>SKIN sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SKINien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COLX&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki COLXisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKIN&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki SKINisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -237,7 +237,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>COLX osoite, jolla viesti allekirjoitetaan</translation>
+        <translation>SKIN osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -268,8 +268,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän COLX osoitteen</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän SKIN osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -289,7 +289,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>COLX osoite, jolla viesti allekirjoitettiin</translation>
+        <translation>SKIN osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -575,16 +575,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Ydin</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a COLX address</source>
-        <translation>Lähetä kolikkoja COLX osoitteeseen</translation>
+        <source>Send coins to a SKIN address</source>
+        <translation>Lähetä kolikkoja SKIN osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and colx: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja colx: URIja)</translation>
+        <source>Request payments (generates QR codes and skin: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja skin: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -595,24 +595,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About COLX Core</source>
-        <translation>COLX Core &amp;ytimestä</translation>
+        <source>&amp;About SKIN Core</source>
+        <translation>SKIN Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about COLX Core</source>
-        <translation>Näytä tietoja COLX Ytimestä</translation>
+        <source>Show information about SKIN Core</source>
+        <translation>Näytä tietoja SKIN Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for COLX</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja COLX:lle</translation>
+        <source>Modify configuration options for SKIN</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja SKIN:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your COLX addresses to prove you own them</source>
+        <source>Sign messages with your SKIN addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified COLX addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä COLX osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified SKIN addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä SKIN osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -643,8 +643,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a COLX: URI or payment request</source>
-        <translation>Avaa COLX: URI tai pyydä maksua</translation>
+        <source>Open a SKIN: URI or payment request</source>
+        <translation>Avaa SKIN: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -655,12 +655,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the COLX Core help message to get a list with possible COLX command-line options</source>
-        <translation>Näytä COLX Ydin apuviesti saadaksesi lista mahdollisista COLX komentolinja komennoista.</translation>
+        <source>Show the SKIN Core help message to get a list with possible SKIN command-line options</source>
+        <translation>Näytä SKIN Ydin apuviesti saadaksesi lista mahdollisista SKIN komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>COLX Core client</source>
-        <translation>COLX Ydin asiakasohjelma</translation>
+        <source>SKIN Core client</source>
+        <translation>SKIN Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -894,8 +894,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Ydin</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -913,12 +913,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to COLX Core.</source>
-        <translation>Tervetuloa COLX Ytimeen.</translation>
+        <source>Welcome to SKIN Core.</source>
+        <translation>Tervetuloa SKIN Ytimeen.</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Ydin</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1091,32 +1091,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 COLX</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 COLX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SKIN</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 SKIN</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 COLX</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 COLX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SKIN</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 SKIN</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 COLX to anonymize 10000 COLX</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 COLX anonymoidaksesi 10000 COLX</translation>
+        <source>This option is the quickest and will cost about ~0.025 SKIN to anonymize 10000 SKIN</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 SKIN anonymoidaksesi 10000 SKIN</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 COLX to anonymize 10000 COLX</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 COLX anonymoidaksesi 10000 COLX</translation>
+        <source>This option is moderately fast and will cost about 0.05 SKIN to anonymize 10000 SKIN</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 SKIN anonymoidaksesi 10000 SKIN</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 COLX per 10000 COLX you anonymize.</source>
-        <translation>0.1 per 10000 COLX, jotka anonymisoit.</translation>
+        <source>0.1 SKIN per 10000 SKIN you anonymize.</source>
+        <translation>0.1 per 10000 SKIN, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1165,12 +1165,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start COLX after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä COLX kun kirjaudut sisään.</translation>
+        <source>Automatically start SKIN after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä SKIN kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start COLX on system login</source>
-        <translation>&amp;Aloita COLX järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start SKIN on system login</source>
+        <translation>&amp;Aloita SKIN järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1315,8 +1315,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the COLX RPC console.</source>
-        <translation>Tervetuloa COLX RPC konsoliin.</translation>
+        <source>Welcome to the SKIN RPC console.</source>
+        <translation>Tervetuloa SKIN RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1503,8 +1503,8 @@ Please check the address and try again.</source>
         <translation>ei</translation>
     </message>
     <message>
-        <source>0 COLX</source>
-        <translation>0 COLX</translation>
+        <source>0 SKIN</source>
+        <translation>0 SKIN</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1609,7 +1609,7 @@ Please check the address and try again.</source>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>COLX osoite, jolla viesti allekirjoitetaan</translation>
+        <translation>SKIN osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1632,12 +1632,12 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän COLX osoitteen</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän SKIN osoitteen</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>COLX osoite, jolla viesti allekirjoitettiin</translation>
+        <translation>SKIN osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1675,8 +1675,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Ydin</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Ydin</translation>
     </message>
     </context>
 <context>
@@ -1887,7 +1887,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>colx-core</name>
+    <name>skin-core</name>
     <message>
         <source>Error</source>
         <translation>Virhe</translation>

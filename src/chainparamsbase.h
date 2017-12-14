@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between colx-cli and colxd)
+ * CBaseChainParams defines the base parameters (shared between skin-cli and skind)
  * of a given instance of the Pivx system.
  */
 class CBaseChainParams

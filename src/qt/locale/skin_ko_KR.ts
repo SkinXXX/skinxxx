@@ -62,12 +62,12 @@
         <translation>받는 주소</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>이 주소들은 전송할 COLX 주소입니다. 송금하기 전 항상 금액과 전송할 주소를 확인해주세요.</translation>
+        <source>These are your SKIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>이 주소들은 전송할 SKIN 주소입니다. 송금하기 전 항상 금액과 전송할 주소를 확인해주세요.</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>이 주소들은 전송 받을 COLX 주소입니다. 각 트랜잭션별로 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
+        <source>These are your SKIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>이 주소들은 전송 받을 SKIN 주소입니다. 각 트랜잭션별로 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>COLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your COLXs from being stolen by malware infecting your computer.</source>
-        <translation>COLX는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 COLXs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <translation>SKIN는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 SKINs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COLX&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 COLX를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKIN&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 SKIN를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -248,7 +248,7 @@
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>메세지를 서명하기 위한 COLX 주소</translation>
+        <translation>메세지를 서명하기 위한 SKIN 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>이 COLX 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>이 SKIN 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -304,11 +304,11 @@
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>메세지에 서명된 COLX 주소</translation>
+        <translation>메세지에 서명된 SKIN 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified COLX address</source>
-        <translation>메세지가 지정된 COLX 주소로 서명되었는지 확인해주세요</translation>
+        <source>Verify the message to ensure it was signed with the specified SKIN address</source>
+        <translation>메세지가 지정된 SKIN 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>탭 도구 모음</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
-        <source>Send coins to a COLX address</source>
-        <translation>COLX 주소로 전송하기</translation>
+        <source>Send coins to a SKIN address</source>
+        <translation>SKIN 주소로 전송하기</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and colx: URIs)</source>
-        <translation>결제 요청 (QR 코드 및 colx: URI 생성)</translation>
+        <source>Request payments (generates QR codes and skin: URIs)</source>
+        <translation>결제 요청 (QR 코드 및 skin: URI 생성)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -622,24 +622,24 @@
         <translation>마스터노드 검색</translation>
     </message>
     <message>
-        <source>&amp;About COLX Core</source>
-        <translation>COLX Core &amp;정보</translation>
+        <source>&amp;About SKIN Core</source>
+        <translation>SKIN Core &amp;정보</translation>
     </message>
     <message>
-        <source>Show information about COLX Core</source>
-        <translation>COLX Core에 대한 정보 표시</translation>
+        <source>Show information about SKIN Core</source>
+        <translation>SKIN Core에 대한 정보 표시</translation>
     </message>
     <message>
-        <source>Modify configuration options for COLX</source>
-        <translation>COLX에 대한 구성 옵션 수정</translation>
+        <source>Modify configuration options for SKIN</source>
+        <translation>SKIN에 대한 구성 옵션 수정</translation>
     </message>
     <message>
-        <source>Sign messages with your COLX addresses to prove you own them</source>
-        <translation>COLX 주소로 메시지에 서명하여 소유하고 있음을 증명하십시오.</translation>
+        <source>Sign messages with your SKIN addresses to prove you own them</source>
+        <translation>SKIN 주소로 메시지에 서명하여 소유하고 있음을 증명하십시오.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified COLX addresses</source>
-        <translation>메시지가 지정된 COLX 주소로 서명되었는지 확인합니다.</translation>
+        <source>Verify messages to ensure they were signed with specified SKIN addresses</source>
+        <translation>메시지가 지정된 SKIN 주소로 서명되었는지 확인합니다.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +670,8 @@
         <translation>마스터노드 구성 파일 열기</translation>
     </message>
     <message>
-        <source>Open a COLX: URI or payment request</source>
-        <translation>COLX: URI 또는 ​​결제 요청 열기</translation>
+        <source>Open a SKIN: URI or payment request</source>
+        <translation>SKIN: URI 또는 ​​결제 요청 열기</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,16 +682,16 @@
         <translation>블록 탐색 창</translation>
     </message>
     <message>
-        <source>Show the COLX Core help message to get a list with possible COLX command-line options</source>
-        <translation>COLX Core 도움말 메세지를 표시하여 사용 가능한 COLX 명령행 옵션 목록 표시</translation>
+        <source>Show the SKIN Core help message to get a list with possible SKIN command-line options</source>
+        <translation>SKIN Core 도움말 메세지를 표시하여 사용 가능한 SKIN 명령행 옵션 목록 표시</translation>
     </message>
     <message>
-        <source>COLX Core client</source>
-        <translation>COLX Core 클라이언트</translation>
+        <source>SKIN Core client</source>
+        <translation>SKIN Core 클라이언트</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to COLX network</source>
-        <translation><numerusform>COLX 네트워크에  %n 연결</numerusform></translation>
+        <source>%n active connection(s) to SKIN network</source>
+        <translation><numerusform>SKIN 네트워크에  %n 연결</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -837,8 +837,8 @@ Address: %4
         <translation>텍스트라벨</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (colx.conf).</source>
-        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (colx.conf)에 txindex = 1을 설정해야합니다.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skin.conf).</source>
+        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (skin.conf)에 txindex = 1을 설정해야합니다.</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ Address: %4
         <translation>보내는 주소 수정</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid COLX address.</source>
-        <translation>입력된 주소 "%1"는 올바른 COLX 주소가 아닙니다.</translation>
+        <source>The entered address "%1" is not a valid SKIN address.</source>
+        <translation>입력된 주소 "%1"는 올바른 SKIN 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,16 +1184,16 @@ Address: %4
         <translation>버전</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About COLX Core</source>
-        <translation>COLX Core 정보</translation>
+        <source>About SKIN Core</source>
+        <translation>SKIN Core 정보</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ Address: %4
         <translation>환영합니다</translation>
     </message>
     <message>
-        <source>Welcome to COLX Core.</source>
-        <translation>COLX Core 환영합니다.</translation>
+        <source>Welcome to SKIN Core.</source>
+        <translation>SKIN Core 환영합니다.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where COLX Core will store its data.</source>
-        <translation>이 프로그램이 처음 실행되었으므로 COLX Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
+        <source>As this is the first time the program is launched, you can choose where SKIN Core will store its data.</source>
+        <translation>이 프로그램이 처음 실행되었으므로 SKIN Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <source>COLX Core will download and store a copy of the COLX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>COLX Core는 COLX 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
+        <source>SKIN Core will download and store a copy of the SKIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SKIN Core는 SKIN 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ Address: %4
         <translation>사용자 지정 데이터 디렉토리 사용:</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1401,12 +1401,12 @@ Address: %4
         <translation>보낼 주소 입력</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other COLX addresses after it matures.
-To Add: enter percentage to give and COLX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SKIN addresses after it matures.
+To Add: enter percentage to give and SKIN address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>다중전송을 사용하면 성취 한 뒤 다른 COLX 주소 목록에 최대 100% 스테이크 또는 마스터노드 보상을 자동으로 보낼 수 있습니다.
-추가하려면 : 부여 할 백분율과 다중전송 벡터에 추가 할 COLX 주소를 입력하십시오.
+        <translation>다중전송을 사용하면 성취 한 뒤 다른 SKIN 주소 목록에 최대 100% 스테이크 또는 마스터노드 보상을 자동으로 보낼 수 있습니다.
+추가하려면 : 부여 할 백분율과 다중전송 벡터에 추가 할 SKIN 주소를 입력하십시오.
 삭제하려면 삭제할 주소를 입력하고 삭제를 누릅니다.
 활성화를 클릭하지 않으면 다중전송이 활성화되지 않습니다.</translation>
     </message>
@@ -1544,48 +1544,48 @@ Please check the address and try again.</source>
         <translation>익명화 레벨을 선택해주세요.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 COLX</source>
-        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 COLX 를 섞을 수 있습니다.</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SKIN</source>
+        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 SKIN 를 섞을 수 있습니다.</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 COLX</source>
-        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 COLX 를 섞을 수 있습니다.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SKIN</source>
+        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 SKIN 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16개의 개별 마스터노드를 사용</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 COLX to anonymize 10000 COLX</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 10000 COLX 익명화에 약 ~0.025 COLX의 비용이 들어갑니다.</translation>
+        <source>This option is the quickest and will cost about ~0.025 SKIN to anonymize 10000 SKIN</source>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 SKIN 익명화에 약 ~0.025 SKIN의 비용이 들어갑니다.</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 COLX to anonymize 10000 COLX</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 COLX 익명화에 약 0.05 COLX의 비용이 들어갑니다.</translation>
+        <source>This option is moderately fast and will cost about 0.05 SKIN to anonymize 10000 SKIN</source>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 SKIN 익명화에 약 0.05 SKIN의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>이것은 가장 느리고 안전한 옵션입니다. 최고 익명성을 사용하면 비용이 발생합니다.</translation>
     </message>
     <message>
-        <source>0.1 COLX per 10000 COLX you anonymize.</source>
-        <translation>10000 COLX 익명화에 0.1 COLX 가 듭니다.</translation>
+        <source>0.1 SKIN per 10000 SKIN you anonymize.</source>
+        <translation>10000 SKIN 익명화에 0.1 SKIN 가 듭니다.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>난독화 구성</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening COLX's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 2 rounds) COLX의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SKIN's configuration screen.</source>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 2 rounds) SKIN의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening COLX's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 8 rounds) COLX의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SKIN's configuration screen.</source>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 8 rounds) SKIN의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening COLX's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 16 rounds) COLX의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SKIN's configuration screen.</source>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 16 rounds) SKIN의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -1646,8 +1646,8 @@ Please check the address and try again.</source>
         <translation>확인되지 않은 변경사항을 사용하지 않도록 설정하면 해당 트랜잭션에 하나 이상의 컨펌이 진행되야&lt;br/&gt;트랜잭션에 변경사항을 적용할 수 있습니다.&lt;br/&gt;또한 이것은 잔액 계산 방식에도 영향을 줍니다.</translation>
     </message>
     <message>
-        <source>Automatically open the COLX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>라우터에서 COLX 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
+        <source>Automatically open the SKIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>라우터에서 SKIN 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1666,12 +1666,12 @@ Please check the address and try again.</source>
         <translation>전문적</translation>
     </message>
     <message>
-        <source>Automatically start COLX after logging in to the system.</source>
-        <translation>시스템 로그인 후 COLX을 자동으로 시작합니다.</translation>
+        <source>Automatically start SKIN after logging in to the system.</source>
+        <translation>시스템 로그인 후 SKIN을 자동으로 시작합니다.</translation>
     </message>
     <message>
-        <source>&amp;Start COLX on system login</source>
-        <translation>&amp;시스템 로그인시 COLX 시작</translation>
+        <source>&amp;Start SKIN on system login</source>
+        <translation>&amp;시스템 로그인시 SKIN 시작</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1686,8 +1686,8 @@ Please check the address and try again.</source>
         <translation>이 금액에 도달하면 난독화를 끌 수 있는 임계 값 역할을 합니다.</translation>
     </message>
     <message>
-        <source>Amount of COLX to keep anonymized</source>
-        <translation>익명화할 COLX 수량</translation>
+        <source>Amount of SKIN to keep anonymized</source>
+        <translation>익명화할 SKIN 수량</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1714,22 +1714,22 @@ Please check the address and try again.</source>
         <translation>&amp;네트워크</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting COLX.</source>
-        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 COLX을 다시 시작한 후에 적용됩니다.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SKIN.</source>
+        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 SKIN을 다시 시작한 후에 적용됩니다.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/colx-project/colx-project-translations</source>
+https://www.transifex.com/skin-project/skin-project-translations</source>
         <translation>지원 언어가 없거나 번역이 불완전한가요? 번역 기여 도움말:
-https://www.transifex.com/colx-project/colx-project-translations</translation>
+https://www.transifex.com/skin-project/skin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Connect to the COLX network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 프록시를 통해 COLX 네트워크에 연결해주세요.</translation>
+        <source>Connect to the SKIN network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 프록시를 통해 SKIN 네트워크에 연결해주세요.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1883,8 +1883,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>잔액</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the COLX network after a connection is established, but this process has not completed yet.</source>
-        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 COLX 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SKIN network after a connection is established, but this process has not completed yet.</source>
+        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 SKIN 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1927,8 +1927,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>난독화 된 잔액:</translation>
     </message>
     <message>
-        <source>0 COLX / 0 Rounds</source>
-        <translation>0 COLX / 0 수량</translation>
+        <source>0 SKIN / 0 Rounds</source>
+        <translation>0 SKIN / 0 수량</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2092,12 +2092,12 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>잘못된 결제 주소 %1</translation>
     </message>
     <message>
-        <source>Cannot start colx: click-to-pay handler</source>
-        <translation>COLX을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
+        <source>Cannot start skin: click-to-pay handler</source>
+        <translation>SKIN을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid COLX address or malformed URI parameters.</source>
-        <translation>URI를 분석할 수 없습니다! 이는 잘못된 COLX 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid SKIN address or malformed URI parameters.</source>
+        <translation>URI를 분석할 수 없습니다! 이는 잘못된 SKIN 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2182,8 +2182,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>금액</translation>
     </message>
     <message>
-        <source>Enter a COLX address (e.g. %1)</source>
-        <translation>COLX 주소를 입력하세요 (예 %1)</translation>
+        <source>Enter a SKIN address (e.g. %1)</source>
+        <translation>SKIN 주소를 입력하세요 (예 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2316,8 +2316,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>블록체인</translation>
     </message>
     <message>
-        <source>Open the COLX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>현재 데이터 디렉토리에서 COLX 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
+        <source>Open the SKIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>현재 데이터 디렉토리에서 SKIN 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2485,8 +2485,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>출력:</translation>
     </message>
     <message>
-        <source>Welcome to the COLX RPC console.</source>
-        <translation>COLX RPC 콘솔에 오신 것을 환영합니다.</translation>
+        <source>Welcome to the SKIN RPC console.</source>
+        <translation>SKIN RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2556,12 +2556,12 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>새로운 수신 주소와 연결할 선택적 라벨.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the COLX network.</source>
-        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다. 참고: COLX 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SKIN network.</source>
+        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다. 참고: SKIN 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the COLX network.</source>
-        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다.&lt;br&gt;참고: COLX 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SKIN network.</source>
+        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다.&lt;br&gt;참고: SKIN 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2793,8 +2793,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 COLX</source>
-        <translation>0 COLX</translation>
+        <source>0 SKIN</source>
+        <translation>0 SKIN</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2841,16 +2841,16 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>승인 시간:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCOLXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCOLXs in fee,&lt;br /&gt;while "at least" pays 1000 uCOLXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uCOLXs로 설정되고,&lt;br /&gt;1000 uCOLXs 안에는 최소 "킬로바이트당" 250 uCOLXs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uSKINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSKINs in fee,&lt;br /&gt;while "at least" pays 1000 uSKINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uSKINs로 설정되고,&lt;br /&gt;1000 uSKINs 안에는 최소 "킬로바이트당" 250 uSKINs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCOLXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCOLXs in fee,&lt;br /&gt;while "total at least" pays 1000 uCOLXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uCOLXs로 설정되고,&lt;br /&gt;1000 uCOLXs 안에는 전체에서 최소 "킬로바이트당" 250 uCOLXs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uSKINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSKINs in fee,&lt;br /&gt;while "total at least" pays 1000 uSKINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uSKINs로 설정되고,&lt;br /&gt;1000 uSKINs 안에는 전체에서 최소 "킬로바이트당" 250 uSKINs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for COLX transactions than the network can process.</source>
-        <translation>블록의 공간보다 트랜잭션량이 적으면 최소 수수료만 지불하면 됩니다.&lt;br /&gt;하지만 COLX 트랜잭션 수가 많으면 미확인된 트랜잭션로 네트워크가 처리할 수도 있습니다.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SKIN transactions than the network can process.</source>
+        <translation>블록의 공간보다 트랜잭션량이 적으면 최소 수수료만 지불하면 됩니다.&lt;br /&gt;하지만 SKIN 트랜잭션 수가 많으면 미확인된 트랜잭션로 네트워크가 처리할 수도 있습니다.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2953,8 +2953,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>익명 자금</translation>
     </message>
     <message>
-        <source>Warning: Invalid COLX address</source>
-        <translation>경고: 잘못된 COLX 주소</translation>
+        <source>Warning: Invalid SKIN address</source>
+        <translation>경고: 잘못된 SKIN 주소</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3057,7 +3057,7 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
     </message>
     <message>
         <source>The PIVX address to send the payment to</source>
-        <translation>전송할 COLX 주소</translation>
+        <translation>전송할 SKIN 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3096,8 +3096,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>메세지:</translation>
     </message>
     <message>
-        <source>A message that was attached to the COLX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the COLX network.</source>
-        <translation>참조용으로 트랜잭션과 함께 기록되는 COLX : URI에 첨부된 메세지입니다. 참고: 이 메세지는 COLX 네트워크를 통해 전송되지 않습니다.</translation>
+        <source>A message that was attached to the SKIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SKIN network.</source>
+        <translation>참조용으로 트랜잭션과 함께 기록되는 SKIN : URI에 첨부된 메세지입니다. 참고: 이 메세지는 SKIN 네트워크를 통해 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3123,8 +3123,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>COLX Core is shutting down...</source>
-        <translation>COLX Core가 종료됩니다...</translation>
+        <source>SKIN Core is shutting down...</source>
+        <translation>SKIN Core가 종료됩니다...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3147,7 +3147,7 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>메세지를 서명하기 위한 COLX 주소</translation>
+        <translation>메세지를 서명하기 위한 SKIN 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3178,16 +3178,16 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>이 COLX 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>이 SKIN 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>메세지에 서명된 COLX 주소</translation>
+        <translation>메세지에 서명된 SKIN 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified COLX address</source>
-        <translation>메세지가 지정된 COLX 주소로 서명되었는지 확인해주세요</translation>
+        <source>Verify the message to ensure it was signed with the specified SKIN address</source>
+        <translation>메세지가 지정된 SKIN 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3273,8 +3273,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3290,7 +3290,7 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
     </message>
     <message>
         <source>The PIVX Core developers</source>
-        <translation>COLX Core 개발자</translation>
+        <translation>SKIN Core 개발자</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3822,8 +3822,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 COLX.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 COLX로 제한됩니다.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SKIN.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 SKIN로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -3866,7 +3866,7 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>colx-core</name>
+    <name>skin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx 메타 데이터 유지 예 : 계정 소유자 및 지불 요청 정보, 2 = tx 메타 데이터 삭제)</translation>
@@ -3892,8 +3892,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>JSON-RPC연결 수신을 위해 주어진 주소를 지정합니다. [host]: IPv6 포트 표기법 사용. 이 옵션은 여러번 지정할 수 있습니다. (기본값 : 모든 인터페이스에 지정)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. COLX Core is probably already running.</source>
-        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. COLX Core는 이미 실행 중입니다.</translation>
+        <source>Cannot obtain a lock on data directory %s. SKIN Core is probably already running.</source>
+        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. SKIN Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3912,8 +3912,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>지갑의 모든 트랜잭션들을 삭제하고 오직 블록체인을 통한 트랜잭션 부분들만 복구합니다 -시작 시 다시 스캔</translation>
     </message>
     <message>
-        <source>Disable all COLX specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>COLX의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
+        <source>Disable all SKIN specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>SKIN의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3952,12 +3952,12 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in COLX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (COLX/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in SKIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (SKIN/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in COLX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (COLX/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in SKIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (SKIN/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4052,44 +4052,44 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>이 제품은 OpenSSL이 개발한 Open SSL 툴킷 &lt;https://www.openssl.org/&gt; 에서 사용하기 위한 프로젝트 소프트웨어, Eric Young이 개발한 암호화 소프트웨어, Thomas Bernard가 개발한 UPnP 소프트웨어가 포함되어 있습니다.</translation>
     </message>
     <message>
-        <source>To use colxd, or the -server option to colx-qt, you must set an rpcpassword in the configuration file:
+        <source>To use skind, or the -server option to skin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=colxrpc
+rpcuser=skinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "COLX Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "SKIN Alert" admin@foo.com
 </source>
-        <translation>COLXd 또는 COLX-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
+        <translation>SKINd 또는 SKIN-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
 %s
 다음 무작위 암호를 사용하는 것을 추천합니다:
-rpcuser=COLXpc
+rpcuser=SKINpc
 rpcpassword=%s
 (이 비밀번호는 기억할 필요가 없습니다)
 유저 이름과 비밀번호는 반드시 달라야 합니다.
 파일이 존재하지 않는다면 작성자만 읽기 가능한 권한으로 파일을 생성하십시오.
 또한 문제 발생 알림을 받을려면 alertnotify를 설정하는 것을 추천합니다.
-예시: alertnotify=echo %%s | mail -s "COLX Alert" admin@foo.com
+예시: alertnotify=echo %%s | mail -s "SKIN Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. COLX Core is probably already running.</source>
-        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. COLX Core는 이미 실행 중입니다.</translation>
+        <source>Unable to bind to %s on this computer. SKIN Core is probably already running.</source>
+        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. SKIN Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 COLX.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 COLX과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 SKIN.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 SKIN과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 COLX.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 COLX와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 SKIN.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 SKIN와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4104,8 +4104,8 @@ rpcpassword=%s
         <translation>경고 : -paytxfee가 매우 높게 설정되었습니다! 이것은 전송할 경우 지불 할 트랜잭션 수수료입니다.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong COLX Core will not work properly.</source>
-        <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 COLX 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SKIN Core will not work properly.</source>
+        <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 SKIN 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4320,8 +4320,8 @@ rpcpassword=%s
         <translation>wallet.dat을 불러오는 중 오류가 발생했습니다: 지갑 손상됨</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of COLX Core</source>
-        <translation>wallet.dat를 로드하는 중 오류가 발생했습니다. 지갑에 최신 버전의 COLX 코어가 필요합니다.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SKIN Core</source>
+        <translation>wallet.dat를 로드하는 중 오류가 발생했습니다. 지갑에 최신 버전의 SKIN 코어가 필요합니다.</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4372,8 +4372,8 @@ rpcpassword=%s
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in COLX/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (COLX/kB) (기본값: %s)</translation>
+        <source>Fee (in SKIN/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (SKIN/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4432,8 +4432,8 @@ rpcpassword=%s
         <translation>정보</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. COLX Core is shutting down.</source>
-        <translation>초기화 정확성 검사에 실패 했습니다. COLX Core가 종료됩니다.</translation>
+        <source>Initialization sanity check failed. SKIN Core is shutting down.</source>
+        <translation>초기화 정확성 검사에 실패 했습니다. SKIN Core가 종료됩니다.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4500,8 +4500,8 @@ rpcpassword=%s
         <translation>스테이킹 기능 사용 (0-1, 기본값: %u)</translation>
     </message>
     <message>
-        <source>Keep N COLX anonymized (default: %u)</source>
-        <translation>N COLX 익명으로 유지 (기본값: %u)</translation>
+        <source>Keep N SKIN anonymized (default: %u)</source>
+        <translation>N SKIN 익명으로 유지 (기본값: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -5008,8 +5008,8 @@ rpcpassword=%s
         <translation>지갑이 잠겼습니다.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart COLX Core to complete</source>
-        <translation>지갑을 다시 작성해야 합니다: 완료하려면 COLX 코어를 재시작해야 합니다</translation>
+        <source>Wallet needed to be rewritten: restart SKIN Core to complete</source>
+        <translation>지갑을 다시 작성해야 합니다: 완료하려면 SKIN 코어를 재시작해야 합니다</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/colx/.colx" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/colx/.colx"
+if [ -d "/var/lib/skin/.skin" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/skin/.skin"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/colxd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/skind"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/colx/colx.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/colxd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/colxd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/skin/skin.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/skind}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/skind.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-colx}
-BITCOIND_GROUP=${BITCOIND_GROUP:-colx}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/colxd}
+BITCOIND_USER=${BITCOIND_USER:-skin}
+BITCOIND_GROUP=${BITCOIND_GROUP:-skin}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/skind}
 
-name="COLX Core Daemon"
-description="COLX crypto-currency p2p network daemon"
+name="SKIN Core Daemon"
+description="SKIN crypto-currency p2p network daemon"
 
-command="/usr/bin/colxd"
+command="/usr/bin/skind"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run colxd."
+		eerror "ERROR: You must set a secure rpcpassword to run skind."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "

@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie COLX überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie SKIN überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie COLX empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie SKIN empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre COLX-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie COLX überweisen.</translation>
+        <source>These are your SKIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre SKIN-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie SKIN überweisen.</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre COLX-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your SKIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre SKIN-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>COLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your COLXs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer COLXs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer SKINs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COLX&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre COLXs verlieren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKIN&lt;/b&gt;!</source>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre SKINs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -240,7 +240,7 @@
     </message>
     <message>
         <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine COLX Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <translation>Gib eine SKIN Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -248,7 +248,7 @@
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>COLX Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <translation>SKIN Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese COLX Adresse besitzt</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese SKIN Adresse besitzt</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -538,16 +538,16 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
-        <source>Send coins to a COLX address</source>
-        <translation>An eine COLX-Adresse überweisen</translation>
+        <source>Send coins to a SKIN address</source>
+        <translation>An eine SKIN-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and colx: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und colx: URIs)</translation>
+        <source>Request payments (generates QR codes and skin: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und skin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -558,24 +558,24 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About COLX Core</source>
-        <translation>Über.COLX Core</translation>
+        <source>&amp;About SKIN Core</source>
+        <translation>Über.SKIN Core</translation>
     </message>
     <message>
-        <source>Show information about COLX Core</source>
-        <translation>Zeigt Informationen über COLX Core</translation>
+        <source>Show information about SKIN Core</source>
+        <translation>Zeigt Informationen über SKIN Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for COLX</source>
-        <translation>Konfiguration von COLX verändern</translation>
+        <source>Modify configuration options for SKIN</source>
+        <translation>Konfiguration von SKIN verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your COLX addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer COLX-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your SKIN addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer SKIN-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified COLX addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten COLX-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified SKIN addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten SKIN-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -586,8 +586,8 @@
         <translation>MultiSend Einstellungen</translation>
     </message>
     <message>
-        <source>COLX Core client</source>
-        <translation>COLX Core Client</translation>
+        <source>SKIN Core client</source>
+        <translation>SKIN Core Client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -700,8 +700,8 @@ Adresse: %4</translation>
         <translation>Suche</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (colx.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "colx.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skin.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "skin.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -881,8 +881,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid COLX address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige COLX-Adresse.</translation>
+        <source>The entered address "%1" is not a valid SKIN address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige SKIN-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -927,16 +927,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About COLX Core</source>
-        <translation>Über COLX Core</translation>
+        <source>About SKIN Core</source>
+        <translation>Über SKIN Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -970,16 +970,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to COLX Core.</source>
-        <translation>Willkommen zu COLX Core.</translation>
+        <source>Welcome to SKIN Core.</source>
+        <translation>Willkommen zu SKIN Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where COLX Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie COLX Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where SKIN Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie SKIN Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>COLX Core will download and store a copy of the COLX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>COLX Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>SKIN Core will download and store a copy of the SKIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SKIN Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -990,8 +990,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1228,8 +1228,8 @@ Adresse: %4</translation>
         <translation>Verschleierter Betrag:</translation>
     </message>
     <message>
-        <source>0 COLX / 0 Rounds</source>
-        <translation>0 COLX / 0 Runden</translation>
+        <source>0 SKIN / 0 Rounds</source>
+        <translation>0 SKIN / 0 Runden</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1361,8 +1361,8 @@ Adresse: %4</translation>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a COLX address (e.g. %1)</source>
-        <translation>COLX-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a SKIN address (e.g. %1)</source>
+        <translation>SKIN-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1548,7 +1548,7 @@ Adresse: %4</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>COLXs überweisen</translation>
+        <translation>SKINs überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1623,8 +1623,8 @@ Adresse: %4</translation>
         <translation>UTXO Größe:</translation>
     </message>
     <message>
-        <source>0 COLX</source>
-        <translation>0 COLX</translation>
+        <source>0 SKIN</source>
+        <translation>0 SKIN</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1735,7 +1735,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>The PIVX address to send the payment to</source>
-        <translation>COLX-Adresse, an die überwiesen werden soll</translation>
+        <translation>SKIN-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1774,8 +1774,8 @@ Adresse: %4</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the COLX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the COLX network.</source>
-        <translation>Eine an die COLX-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das COLX-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the SKIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SKIN network.</source>
+        <translation>Eine an die SKIN-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das SKIN-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1801,8 +1801,8 @@ Adresse: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>COLX Core is shutting down...</source>
-        <translation>COLX Core wird beendet...</translation>
+        <source>SKIN Core is shutting down...</source>
+        <translation>SKIN Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1817,7 +1817,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>COLX Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <translation>SKIN Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1844,8 +1844,8 @@ Adresse: %4</translation>
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese COLX Adresse besitzt</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese SKIN Adresse besitzt</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1875,8 +1875,8 @@ Adresse: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1892,7 +1892,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>The PIVX Core developers</source>
-        <translation>Die COLX Core Entwickler</translation>
+        <translation>Die SKIN Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2050,7 +2050,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte COLXs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine COLXs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte SKINs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine SKINs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2412,11 +2412,11 @@ Adresse: %4</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>COLXs überweisen</translation>
+        <translation>SKINs überweisen</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 COLX.</source>
-        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 COLX begrenzt.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SKIN.</source>
+        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 SKIN begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -2459,7 +2459,7 @@ Adresse: %4</translation>
     </message>
 </context>
 <context>
-    <name>colx-core</name>
+    <name>skin-core</name>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>
@@ -2609,8 +2609,8 @@ Adresse: %4</translation>
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart COLX Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte COLX Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart SKIN Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte SKIN Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

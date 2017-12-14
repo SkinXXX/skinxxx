@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += colxd
+  bin_PROGRAMS += skind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += colx-cli colx-tx
+  bin_PROGRAMS += skin-cli skin-tx
 endif
 
 .PHONY: FORCE
-# colx core #
+# skin core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -180,7 +180,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between colxd and colx-qt
+# server: shared between skind and skin-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +224,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between colxd and colx-qt, but only linked
+# wallet: shared between skind and skin-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between colxd, and colx-qt and non-server tools
+# common: shared between skind, and skin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between colx-cli and colx-qt
+# cli: shared between skin-cli and skin-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-colxd_LDADD = \
+skind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ colxd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-colxd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+skind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-colxd_LDADD += libbitcoin_wallet.a
+skind_LDADD += libbitcoin_wallet.a
 endif
-colxd_SOURCES = colxd.cpp
+skind_SOURCES = skind.cpp
 #
 
 if TARGET_WINDOWS
-colxd_SOURCES += colxd-res.rc
+skind_SOURCES += skind-res.rc
 endif
 
-colxd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-colxd_CPPFLAGS = $(BITCOIN_INCLUDES)
-colxd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+skind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+skind_CPPFLAGS = $(BITCOIN_INCLUDES)
+skind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# colx-cli binary #
-colx_cli_LDADD = \
+# skin-cli binary #
+skin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-colx_cli_SOURCES = \
-  colx-cli.cpp
+skin_cli_SOURCES = \
+  skin-cli.cpp
 
-colx_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+skin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# colx-tx binary #
-colx_tx_LDADD = \
+# skin-tx binary #
+skin_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ colx_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-colx_tx_SOURCES = colx-tx.cpp
-colx_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+skin_tx_SOURCES = skin-tx.cpp
+skin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-colx_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+skin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-colx_cli_SOURCES += colx-cli-res.rc
+skin_cli_SOURCES += skin-cli-res.rc
 endif
-colx_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+skin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

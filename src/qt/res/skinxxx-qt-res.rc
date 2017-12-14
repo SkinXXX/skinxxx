@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "COLX"
-            VALUE "FileDescription",    "COLX Core (OSS GUI client for COLX)"
+            VALUE "CompanyName",        "SKIN"
+            VALUE "FileDescription",    "SKIN Core (OSS GUI client for SKIN)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "colx-qt"
+            VALUE "InternalName",       "skin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "colx-qt.exe"
-            VALUE "ProductName",        "COLX Core"
+            VALUE "OriginalFilename",   "skin-qt.exe"
+            VALUE "ProductName",        "SKIN Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

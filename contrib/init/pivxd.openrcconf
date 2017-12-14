@@ -1,25 +1,25 @@
-# /etc/conf.d/colxd: config file for /etc/init.d/colxd
+# /etc/conf.d/skind: config file for /etc/init.d/skind
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/colx/colx.conf"
+#BITCOIND_CONFIGFILE="/etc/skin/skin.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/colxd"
+#BITCOIND_PIDDIR="/var/run/skind"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/colxd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/skind.pid"
 
-# Where to write colxd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/colxd"
+# Where to write skind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/skind"
 
-# User and group to own colxd process
-#BITCOIND_USER="colx"
-#BITCOIND_GROUP="colx"
+# User and group to own skind process
+#BITCOIND_USER="skin"
+#BITCOIND_GROUP="skin"
 
-# Path to colxd executable
-#BITCOIND_BIN="/usr/bin/colxd"
+# Path to skind executable
+#BITCOIND_BIN="/usr/bin/skind"
 
-# Nice value to run colxd under
+# Nice value to run skind under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi COLX per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your SKIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi SKIN per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi COLX per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your SKIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi SKIN per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>COLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your COLXs from being stolen by malware infecting your computer.</source>
-        <translation>COLX verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi COLX dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <translation>SKIN verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi SKIN dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COLX&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI COLX&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKIN&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI SKIN&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -248,7 +248,7 @@
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>L'indirizzo COLX per firmare il messaggio con</translation>
+        <translation>L'indirizzo SKIN per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo COLX</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo SKIN</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -304,11 +304,11 @@
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>L'indirizzo COLX con cui è stato firmato il messaggio</translation>
+        <translation>L'indirizzo SKIN con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified COLX address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo COLX specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified SKIN address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo SKIN specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
-        <source>Send coins to a COLX address</source>
-        <translation>Invia monete all' indirizzo COLX</translation>
+        <source>Send coins to a SKIN address</source>
+        <translation>Invia monete all' indirizzo SKIN</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and colx: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e colx: URIs)</translation>
+        <source>Request payments (generates QR codes and skin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e skin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About COLX Core</source>
-        <translation>&amp;Informazioni COLX Core</translation>
+        <source>&amp;About SKIN Core</source>
+        <translation>&amp;Informazioni SKIN Core</translation>
     </message>
     <message>
-        <source>Show information about COLX Core</source>
-        <translation>Visualizza informazioni su COLX Core</translation>
+        <source>Show information about SKIN Core</source>
+        <translation>Visualizza informazioni su SKIN Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for COLX</source>
-        <translation>Modifica le opzioni di configurazione per COLX</translation>
+        <source>Modify configuration options for SKIN</source>
+        <translation>Modifica le opzioni di configurazione per SKIN</translation>
     </message>
     <message>
-        <source>Sign messages with your COLX addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi COLX per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your SKIN addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi SKIN per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified COLX addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi COLX specifici</translation>
+        <source>Verify messages to ensure they were signed with specified SKIN addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi SKIN specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a COLX: URI or payment request</source>
-        <translation>Apri un COLX: URI o richiesta di pagamento</translation>
+        <source>Open a SKIN: URI or payment request</source>
+        <translation>Apri un SKIN: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the COLX Core help message to get a list with possible COLX command-line options</source>
-        <translation>Mostra il messaggio di aiuto COLX Core per ottenere un elenco con le possibili opzioni di riga di comando COLX</translation>
+        <source>Show the SKIN Core help message to get a list with possible SKIN command-line options</source>
+        <translation>Mostra il messaggio di aiuto SKIN Core per ottenere un elenco con le possibili opzioni di riga di comando SKIN</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (colx.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (colx.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skin.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (skin.conf)</translation>
     </message>
 </context>
 <context>
@@ -893,8 +893,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -920,8 +920,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1107,7 +1107,7 @@ MultiSend: %1</translation>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>L'indirizzo COLX per firmare il messaggio con</translation>
+        <translation>L'indirizzo SKIN per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo COLX</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo SKIN</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>L'indirizzo COLX con cui è stato firmato il messaggio</translation>
+        <translation>L'indirizzo SKIN con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified COLX address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo COLX specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified SKIN address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo SKIN specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1177,8 +1177,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     </context>
 <context>
@@ -1273,7 +1273,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>colx-core</name>
+    <name>skin-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

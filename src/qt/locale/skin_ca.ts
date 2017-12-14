@@ -270,12 +270,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
-        <source>&amp;About COLX Core</source>
-        <translation>&amp;Sobre COLX Core</translation>
+        <source>&amp;About SKIN Core</source>
+        <translation>&amp;Sobre SKIN Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -468,12 +468,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
-        <source>About COLX Core</source>
-        <translation>Sobre COLX Core</translation>
+        <source>About SKIN Core</source>
+        <translation>Sobre SKIN Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -491,12 +491,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to COLX Core.</source>
-        <translation>Benvingut a COLX Core.</translation>
+        <source>Welcome to SKIN Core.</source>
+        <translation>Benvingut a SKIN Core.</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1048,8 +1048,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1200,7 +1200,7 @@
     </message>
     </context>
 <context>
-    <name>colx-core</name>
+    <name>skin-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

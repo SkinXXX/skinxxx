@@ -1,6 +1,6 @@
 [Protocol]
-exec=colx-qt '%u'
-protocol=colx
+exec=skin-qt '%u'
+protocol=skin
 input=none
 output=none
 helper=true

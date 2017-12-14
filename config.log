@@ -136,10 +136,10 @@ configure:4661: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | /* end confdefs.h.  */
 | 
@@ -467,10 +467,10 @@ configure:5173: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -493,10 +493,10 @@ configure:5211: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -514,10 +514,10 @@ configure:5226: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -535,10 +535,10 @@ configure:5242: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -696,10 +696,10 @@ configure:9596: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -714,10 +714,10 @@ configure:9655: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -823,10 +823,10 @@ configure:14178: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -853,10 +853,10 @@ configure:14237: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -957,10 +957,10 @@ configure:20539: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -992,10 +992,10 @@ configure:20602: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1032,10 +1032,10 @@ configure:20876: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1068,10 +1068,10 @@ configure:20985: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1115,10 +1115,10 @@ configure:20985: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1157,10 +1157,10 @@ configure:20985: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1199,10 +1199,10 @@ configure:20985: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1242,10 +1242,10 @@ configure:20985: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1318,10 +1318,10 @@ configure:21519: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1394,10 +1394,10 @@ configure:21894: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1437,10 +1437,10 @@ configure:21930: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1490,10 +1490,10 @@ configure:22076: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1583,10 +1583,10 @@ configure:22230: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1703,10 +1703,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1771,10 +1771,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1839,10 +1839,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1907,10 +1907,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1975,10 +1975,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2043,10 +2043,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2111,10 +2111,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2179,10 +2179,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2247,10 +2247,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2315,10 +2315,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2383,10 +2383,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2451,10 +2451,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2519,10 +2519,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2587,10 +2587,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2655,10 +2655,10 @@ configure:22642: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2803,10 +2803,10 @@ configure:24340: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2879,10 +2879,10 @@ configure:25090: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Pivx Core"
-| #define PACKAGE_TARNAME "colx"
+| #define PACKAGE_TARNAME "skin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "Pivx Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.colx.org"
+| #define PACKAGE_BUGREPORT "www.skin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -3110,9 +3110,9 @@ configure:28606: result: yes
 configure:28673: checking for protoc
 configure:28691: found /usr/bin/protoc
 configure:28703: result: /usr/bin/protoc
-configure:28737: checking whether to build colxd
+configure:28737: checking whether to build skind
 configure:28747: result: yes
-configure:28750: checking whether to build utils (colx-cli colx-tx)
+configure:28750: checking whether to build utils (skin-cli skin-tx)
 configure:28760: result: yes
 configure:28763: checking whether to build libraries
 configure:28778: result: yes
@@ -3128,9 +3128,9 @@ configure:28897: checking whether to build GUI with support for D-Bus
 configure:28904: result: yes
 configure:28907: checking whether to build GUI with support for QR codes
 configure:28917: result: yes
-configure:28934: checking whether to build test_colx-qt
+configure:28934: checking whether to build test_skin-qt
 configure:28937: result: yes
-configure:28955: checking whether to build test_colx
+configure:28955: checking whether to build test_skin
 configure:28958: result: yes
 configure:28966: checking whether to reduce exports
 configure:28969: result: yes
@@ -3161,7 +3161,7 @@ config.status:1365: creating src/test/buildenv.py
 config.status:1365: creating qa/pull-tester/run-bitcoind-for-test.sh
 config.status:1365: creating qa/pull-tester/tests-config.sh
 config.status:1365: creating contrib/devtools/split-debug.sh
-config.status:1365: creating src/config/colx-config.h
+config.status:1365: creating src/config/skin-config.h
 config.status:1594: executing depfiles commands
 config.status:1594: executing libtool commands
 configure:31882: === configuring in src/secp256k1 (/home/loki/Source/skinxxx/SkinXXX/src/secp256k1)
@@ -3575,11 +3575,11 @@ OBJDUMP='objdump'
 OBJEXT='o'
 OTOOL64=''
 OTOOL=''
-PACKAGE='colx'
-PACKAGE_BUGREPORT='www.colx.org'
+PACKAGE='skin'
+PACKAGE_BUGREPORT='www.skin.org'
 PACKAGE_NAME='Pivx Core'
 PACKAGE_STRING='Pivx Core 1.0.0'
-PACKAGE_TARNAME='colx'
+PACKAGE_TARNAME='skin'
 PACKAGE_URL=''
 PACKAGE_VERSION='1.0.0'
 PATH_SEPARATOR=':'
@@ -3719,10 +3719,10 @@ target_alias=''
 
 /* confdefs.h */
 #define PACKAGE_NAME "Pivx Core"
-#define PACKAGE_TARNAME "colx"
+#define PACKAGE_TARNAME "skin"
 #define PACKAGE_VERSION "1.0.0"
 #define PACKAGE_STRING "Pivx Core 1.0.0"
-#define PACKAGE_BUGREPORT "www.colx.org"
+#define PACKAGE_BUGREPORT "www.skin.org"
 #define PACKAGE_URL ""
 #define HAVE_CXX11 1
 #define STDC_HEADERS 1

@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * COLX RPC command dispatcher.
+ * SKIN RPC command dispatcher.
  */
 class CRPCTable
 {

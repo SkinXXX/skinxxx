@@ -41,7 +41,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "COLX cannot be compiled without assertions."
+#error "SKIN cannot be compiled without assertions."
 #endif
 
 /**
@@ -1613,11 +1613,11 @@ double ConvertBitsToDouble(unsigned int nBits)
 int64_t GetBlockValue(int nHeight, CAmount nFees, bool fBudgetBlock)
 {
     /**
-     * Block 1: 12 Billions COLX pre-mined
+     * Block 1: 12 Billions SKIN pre-mined
      Block Reward:
-     Blocks 2 - 151,200 - 2500 COLX
-     Blocks 151,201 - 302,399 - 1250 COLX
-     Blocks 302,400 - Infinite:  1000 COLX
+     Blocks 2 - 151,200 - 2500 SKIN
+     Blocks 151,201 - 302,399 - 1250 SKIN
+     Blocks 302,400 - Infinite:  1000 SKIN
      Proof of Stake Schedule - 5% to proposals for all phases
      95% distributed to stake wallet and master node
      */
@@ -2025,7 +2025,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("colx-scriptch");
+    RenameThread("skin-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2178,7 +2178,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
                 nHeight = (*mi).second->nHeight + 1;
         }
 
-        // COLX
+        // SKIN
         // It is entierly possible that we don't have enough data and this could fail
         // (i.e. the block could indeed be valid). Store the block for later consideration
         // but issue an initial reject message.

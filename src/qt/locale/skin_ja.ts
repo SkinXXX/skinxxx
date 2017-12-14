@@ -260,6 +260,6 @@
     </message>
     </context>
 <context>
-    <name>colx-core</name>
+    <name>skin-core</name>
     </context>
 </TS>

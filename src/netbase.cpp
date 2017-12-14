@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifdef HAVE_CONFIG_H
-#include "config/colx-config.h"
+#include "config/skin-config.h"
 #endif
 
 #include "netbase.h"

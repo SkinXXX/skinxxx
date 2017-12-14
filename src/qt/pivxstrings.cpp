@@ -8,156 +8,156 @@
 #else
 #define UNUSED
 #endif
-static const char UNUSED *colx_strings[] = {
-QT_TRANSLATE_NOOP("colx-core", ""
+static const char UNUSED *skin_strings[] = {
+QT_TRANSLATE_NOOP("skin-core", ""
 "(1 = keep tx meta data e.g. account owner and payment request information, 2 "
 "= drop tx meta data)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Allow JSON-RPC connections from specified source. Valid for <ip> are a "
 "single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or "
 "a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "An error occurred while setting up the RPC address %s port %u for listening: "
 "%s"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Bind to given address and always listen on it. Use [host]:port notation for "
 "IPv6"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Bind to given address and whitelist peers connecting to it. Use [host]:port "
 "notation for IPv6"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Bind to given address to listen for JSON-RPC connections. Use [host]:port "
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Cannot obtain a lock on data directory %s. skinxxx Core is probably already "
 "running."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
 "exact finalized budget match to my generated budget. (string, default: auto)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Continuously rate-limit free transactions to <n>*1000 bytes per minute "
 "(default:%u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
 "effective with disabled wallet functionality)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Disable all skinxxx specific functionality (Masternodes, Obfuscation, SwiftTX, "
 "Budgeting) (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Distributed under the MIT software license, see the accompanying file "
 "COPYING or <http://www.opensource.org/licenses/mit-license.php>."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Enable spork administration functionality with the appropriate private key."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Enable swifttx, show confirmations for locked transactions (bool, default: "
 "%s)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Enable use of automated obfuscation for funds stored in this wallet (0-1, "
 "default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Enter regression test mode, which uses a special chain in which blocks can "
 "be solved instantly."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Error: Listening for incoming connections failed (listen returned error %s)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Error: Unsupported argument -socks found. Setting SOCKS version isn't "
 "possible anymore, only SOCKS5 proxies are supported."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Execute command when a relevant alert is received or we see a really long "
 "fork (%s in cmd is replaced by message)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Execute command when a wallet transaction changes (%s in cmd is replaced by "
 "TxID)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
-QT_TRANSLATE_NOOP("colx-core", ""
-"Fees (in COLX/Kb) smaller than this are considered zero fee for relaying "
+QT_TRANSLATE_NOOP("skin-core", ""
+"Fees (in SKIN/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", ""
-"Fees (in COLX/Kb) smaller than this are considered zero fee for transaction "
+QT_TRANSLATE_NOOP("skin-core", ""
+"Fees (in SKIN/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
 "(default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Found unconfirmed denominated outputs, will wait till they confirm to "
 "continue."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "How thorough the block verification of -checkblocks is (0-4, default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "If paytxfee is not set, include enough fee so transactions begin "
 "confirmation on average within n blocks (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "In this mode -genproclimit controls how many blocks are generated "
 "immediately."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Invalid amount for -maxtxfee=<amount>: '%s' (must be at least the minrelay "
 "fee of %s to prevent stuck transactions)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Keep the specified amount available for spending at all times (default: 0)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Log transaction priority and fee per kB when mining blocks (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Maintain a full transaction index, used by the getrawtransaction rpc call "
 "(default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Maximum size of data in data carrier transactions we relay and mine "
 "(default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Maximum total fees to use in a single wallet transaction, setting too low "
 "may abort large transactions (default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Number of seconds to keep misbehaving peers from reconnecting (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Obfuscation uses exact denominated amounts to send funds, you might simply "
 "need to anonymize some more coins."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Provide liquidity to Obfuscation by infrequently mixing coins on a continual "
 "basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, "
 "low fees)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Query for peer addresses via DNS lookup, if low on addresses (default: 1 "
 "unless -connect)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Require high priority for relaying free or low-fee transactions (default:%u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Send trace/debug info to console instead of debug.log file (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Set maximum size of high-priority/low-fee transactions in bytes (default: %d)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Set the number of script verification threads (%u to %d, 0 = auto, <0 = "
 "leave that many cores free, default: %d)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Set the number of threads for coin generation if enabled (-1 = all cores, "
 "default: %d)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Show N confirmations for a successfully locked transaction (0-9999, default: "
 "%u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Support filtering of blocks and transaction with bloom filters (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "SwiftTX requires inputs with at least 6 confirmations, you might need to "
 "wait a few minutes and try again."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
 "staking or merchant applications!"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "This product includes software developed by the OpenSSL Project for use in "
 "the OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software "
 "written by Eric Young and UPnP software written by Thomas Bernard."),
-QT_TRANSLATE_NOOP("colx-core", ""
-"To use colxd, or the -server option to colx-qt, you must set an rpcpassword "
+QT_TRANSLATE_NOOP("skin-core", ""
+"To use skind, or the -server option to skin-qt, you must set an rpcpassword "
 "in the configuration file:\n"
 "%s\n"
 "It is recommended you use the following random password:\n"
-"rpcuser=colxrpc\n"
+"rpcuser=skinrpc\n"
 "rpcpassword=%s\n"
 "(you do not need to remember this password)\n"
 "The username and password MUST NOT be the same.\n"
@@ -165,292 +165,292 @@ QT_TRANSLATE_NOOP("colx-core", ""
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
 "for example: alertnotify=echo %%s | mail -s \"skinxxx Alert\" admin@foo.com\n"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Unable to bind to %s on this computer. skinxxx Core is probably already running."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 COLX."),
-QT_TRANSLATE_NOOP("colx-core", ""
+"transaction that are not equal 10000 SKIN."),
+QT_TRANSLATE_NOOP("skin-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"COLX."),
-QT_TRANSLATE_NOOP("colx-core", ""
+"SKIN."),
+QT_TRANSLATE_NOOP("skin-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Warning: -maxtxfee is set very high! Fees this large could be paid on a "
 "single transaction."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Warning: -paytxfee is set very high! This is the transaction fee you will "
 "pay if you send a transaction."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
 "your clock is wrong skinxxx Core will not work properly."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Warning: We do not appear to fully agree with our peers! You may need to "
 "upgrade, or other nodes may need to upgrade."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Warning: error reading wallet.dat! All keys read correctly, but transaction "
 "data or address book entries might be missing or incorrect."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as "
 "wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect "
 "you should restore from a backup."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Whitelist peers connecting from the given netmask or IP address. Can be "
 "specified multiple times."),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "Whitelisted peers cannot be DoS banned and their transactions are always "
 "relayed, even if they are already in the mempool, useful e.g. for a gateway"),
-QT_TRANSLATE_NOOP("colx-core", ""
+QT_TRANSLATE_NOOP("skin-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("colx-core", "(51472 could be used only on mainnet)"),
-QT_TRANSLATE_NOOP("colx-core", "(default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("colx-core", "(must be 51472 for mainnet)"),
-QT_TRANSLATE_NOOP("colx-core", "<category> can be:"),
-QT_TRANSLATE_NOOP("colx-core", "Accept command line and JSON-RPC commands"),
-QT_TRANSLATE_NOOP("colx-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
-QT_TRANSLATE_NOOP("colx-core", "Accept public REST requests (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Acceptable ciphers (default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", "Add a node to connect to and attempt to keep the connection open"),
-QT_TRANSLATE_NOOP("colx-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
-QT_TRANSLATE_NOOP("colx-core", "Already have that input."),
-QT_TRANSLATE_NOOP("colx-core", "Always query for peer addresses via DNS lookup (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Attempt to force blockchain corruption recovery"),
-QT_TRANSLATE_NOOP("colx-core", "Attempt to recover private keys from a corrupt wallet.dat"),
-QT_TRANSLATE_NOOP("colx-core", "Block creation options:"),
-QT_TRANSLATE_NOOP("colx-core", "Can't denominate: no compatible inputs left."),
-QT_TRANSLATE_NOOP("colx-core", "Can't find random Masternode."),
-QT_TRANSLATE_NOOP("colx-core", "Can't mix while sync in progress."),
-QT_TRANSLATE_NOOP("colx-core", "Cannot downgrade wallet"),
-QT_TRANSLATE_NOOP("colx-core", "Cannot resolve -bind address: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Cannot resolve -externalip address: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Cannot resolve -whitebind address: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Cannot write default address"),
-QT_TRANSLATE_NOOP("colx-core", "Collateral not valid."),
-QT_TRANSLATE_NOOP("colx-core", "Connect only to the specified node(s)"),
-QT_TRANSLATE_NOOP("colx-core", "Connect through SOCKS5 proxy"),
-QT_TRANSLATE_NOOP("colx-core", "Connect to a node to retrieve peer addresses, and disconnect"),
-QT_TRANSLATE_NOOP("colx-core", "Connection options:"),
-QT_TRANSLATE_NOOP("colx-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("colx-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("colx-core", "Copyright (C) 2015-%i The skinxxx Core Developers"),
-QT_TRANSLATE_NOOP("colx-core", "Corrupted block database detected"),
-QT_TRANSLATE_NOOP("colx-core", "Could not parse -rpcbind value %s as network address"),
-QT_TRANSLATE_NOOP("colx-core", "Could not parse masternode.conf"),
-QT_TRANSLATE_NOOP("colx-core", "Debugging/Testing options:"),
-QT_TRANSLATE_NOOP("colx-core", "Disable safemode, override a real safe mode event (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Discover own IP address (default: 1 when listening and no -externalip)"),
-QT_TRANSLATE_NOOP("colx-core", "Display the stake modifier calculations in the debug.log file."),
-QT_TRANSLATE_NOOP("colx-core", "Display verbose coin stake messages in the debug.log file."),
-QT_TRANSLATE_NOOP("colx-core", "Do not load the wallet and disable wallet RPC calls"),
-QT_TRANSLATE_NOOP("colx-core", "Do you want to rebuild the block database now?"),
-QT_TRANSLATE_NOOP("colx-core", "Done loading"),
-QT_TRANSLATE_NOOP("colx-core", "Enable publish hash block in <address>"),
-QT_TRANSLATE_NOOP("colx-core", "Enable publish hash transaction (locked via SwiftTX) in <address>"),
-QT_TRANSLATE_NOOP("colx-core", "Enable publish hash transaction in <address>"),
-QT_TRANSLATE_NOOP("colx-core", "Enable publish raw block in <address>"),
-QT_TRANSLATE_NOOP("colx-core", "Enable publish raw transaction (locked via SwiftTX) in <address>"),
-QT_TRANSLATE_NOOP("colx-core", "Enable publish raw transaction in <address>"),
-QT_TRANSLATE_NOOP("colx-core", "Enable staking functionality (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Enable the client to act as a masternode (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Entries are full."),
-QT_TRANSLATE_NOOP("colx-core", "Error connecting to Masternode."),
-QT_TRANSLATE_NOOP("colx-core", "Error initializing block database"),
-QT_TRANSLATE_NOOP("colx-core", "Error initializing wallet database environment %s!"),
-QT_TRANSLATE_NOOP("colx-core", "Error loading block database"),
-QT_TRANSLATE_NOOP("colx-core", "Error loading wallet.dat"),
-QT_TRANSLATE_NOOP("colx-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("colx-core", "Error loading wallet.dat: Wallet requires newer version of skinxxx Core"),
-QT_TRANSLATE_NOOP("colx-core", "Error opening block database"),
-QT_TRANSLATE_NOOP("colx-core", "Error reading from database, shutting down."),
-QT_TRANSLATE_NOOP("colx-core", "Error recovering public key."),
-QT_TRANSLATE_NOOP("colx-core", "Error"),
-QT_TRANSLATE_NOOP("colx-core", "Error: A fatal internal error occured, see debug.log for details"),
-QT_TRANSLATE_NOOP("colx-core", "Error: Can't select current denominated inputs"),
-QT_TRANSLATE_NOOP("colx-core", "Error: Disk space is low!"),
-QT_TRANSLATE_NOOP("colx-core", "Error: Unsupported argument -tor found, use -onion."),
-QT_TRANSLATE_NOOP("colx-core", "Error: Wallet locked, unable to create transaction!"),
-QT_TRANSLATE_NOOP("colx-core", "Error: You already have pending entries in the Obfuscation pool"),
-QT_TRANSLATE_NOOP("colx-core", "Failed to listen on any port. Use -listen=0 if you want this."),
-QT_TRANSLATE_NOOP("colx-core", "Failed to read block"),
-QT_TRANSLATE_NOOP("colx-core", "Fee (in COLX/kB) to add to transactions you send (default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", "Finalizing transaction."),
-QT_TRANSLATE_NOOP("colx-core", "Force safe mode (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Found enough users, signing ( waiting %s )"),
-QT_TRANSLATE_NOOP("colx-core", "Found enough users, signing ..."),
-QT_TRANSLATE_NOOP("colx-core", "Generate coins (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "How many blocks to check at startup (default: %u, 0 = all)"),
-QT_TRANSLATE_NOOP("colx-core", "If <category> is not supplied, output all debugging information."),
-QT_TRANSLATE_NOOP("colx-core", "Importing..."),
-QT_TRANSLATE_NOOP("colx-core", "Imports blocks from external blk000??.dat file"),
-QT_TRANSLATE_NOOP("colx-core", "Include IP addresses in debug output (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Incompatible mode."),
-QT_TRANSLATE_NOOP("colx-core", "Incompatible version."),
-QT_TRANSLATE_NOOP("colx-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
-QT_TRANSLATE_NOOP("colx-core", "Information"),
-QT_TRANSLATE_NOOP("colx-core", "Initialization sanity check failed. skinxxx Core is shutting down."),
-QT_TRANSLATE_NOOP("colx-core", "Input is not valid."),
-QT_TRANSLATE_NOOP("colx-core", "Insufficient funds."),
-QT_TRANSLATE_NOOP("colx-core", "Invalid -onion address: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Invalid -proxy address: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Invalid amount for -maxtxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Invalid amount for -minrelaytxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Invalid amount for -mintxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Invalid amount for -paytxfee=<amount>: '%s' (must be at least %s)"),
-QT_TRANSLATE_NOOP("colx-core", "Invalid amount for -paytxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Invalid amount for -reservebalance=<amount>"),
-QT_TRANSLATE_NOOP("colx-core", "Invalid masternodeprivkey. Please see documenation."),
-QT_TRANSLATE_NOOP("colx-core", "Invalid netmask specified in -whitelist: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Invalid port detected in masternode.conf"),
-QT_TRANSLATE_NOOP("colx-core", "Invalid private key."),
-QT_TRANSLATE_NOOP("colx-core", "Invalid script detected."),
-QT_TRANSLATE_NOOP("colx-core", "Keep N COLX anonymized (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Last Obfuscation was too recent."),
-QT_TRANSLATE_NOOP("colx-core", "Last successful Obfuscation action was too recent."),
-QT_TRANSLATE_NOOP("colx-core", "Limit size of signature cache to <n> entries (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Line: %d"),
-QT_TRANSLATE_NOOP("colx-core", "Listen for JSON-RPC connections on <port> (default: %u or testnet: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Listen for connections on <port> (default: %u or testnet: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Loading addresses..."),
-QT_TRANSLATE_NOOP("colx-core", "Loading block index..."),
-QT_TRANSLATE_NOOP("colx-core", "Loading budget cache..."),
-QT_TRANSLATE_NOOP("colx-core", "Loading masternode cache..."),
-QT_TRANSLATE_NOOP("colx-core", "Loading masternode payment cache..."),
-QT_TRANSLATE_NOOP("colx-core", "Loading wallet... (%3.2f %%)"),
-QT_TRANSLATE_NOOP("colx-core", "Loading wallet..."),
-QT_TRANSLATE_NOOP("colx-core", "Lock is already in place."),
-QT_TRANSLATE_NOOP("colx-core", "Lock masternodes from masternode configuration file (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Maintain at most <n> connections to peers (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Masternode options:"),
-QT_TRANSLATE_NOOP("colx-core", "Masternode queue is full."),
-QT_TRANSLATE_NOOP("colx-core", "Masternode:"),
-QT_TRANSLATE_NOOP("colx-core", "Maximum per-connection receive buffer, <n>*1000 bytes (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Maximum per-connection send buffer, <n>*1000 bytes (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Missing input transaction information."),
-QT_TRANSLATE_NOOP("colx-core", "Mixing in progress..."),
-QT_TRANSLATE_NOOP("colx-core", "Need to specify a port with -whitebind: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "No Masternodes detected."),
-QT_TRANSLATE_NOOP("colx-core", "No compatible Masternode found."),
-QT_TRANSLATE_NOOP("colx-core", "No funds detected in need of denominating."),
-QT_TRANSLATE_NOOP("colx-core", "No matching denominations found for mixing."),
-QT_TRANSLATE_NOOP("colx-core", "Node relay options:"),
-QT_TRANSLATE_NOOP("colx-core", "Non-standard public key detected."),
-QT_TRANSLATE_NOOP("colx-core", "Not compatible with existing transactions."),
-QT_TRANSLATE_NOOP("colx-core", "Not enough file descriptors available."),
-QT_TRANSLATE_NOOP("colx-core", "Not in the Masternode list."),
-QT_TRANSLATE_NOOP("colx-core", "Number of automatic wallet backups (default: 10)"),
-QT_TRANSLATE_NOOP("colx-core", "Obfuscation is idle."),
-QT_TRANSLATE_NOOP("colx-core", "Obfuscation options:"),
-QT_TRANSLATE_NOOP("colx-core", "Obfuscation request complete:"),
-QT_TRANSLATE_NOOP("colx-core", "Obfuscation request incomplete:"),
-QT_TRANSLATE_NOOP("colx-core", "Only accept block chain matching built-in checkpoints (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Only connect to nodes in network <net> (ipv4, ipv6 or onion)"),
-QT_TRANSLATE_NOOP("colx-core", "Options:"),
-QT_TRANSLATE_NOOP("colx-core", "Password for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("colx-core", "Prepend debug output with timestamp (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Print version and exit"),
-QT_TRANSLATE_NOOP("colx-core", "RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
-QT_TRANSLATE_NOOP("colx-core", "RPC server options:"),
-QT_TRANSLATE_NOOP("colx-core", "RPC support for HTTP persistent connections (default: %d)"),
-QT_TRANSLATE_NOOP("colx-core", "Randomly drop 1 of every <n> network messages"),
-QT_TRANSLATE_NOOP("colx-core", "Randomly fuzz 1 of every <n> network messages"),
-QT_TRANSLATE_NOOP("colx-core", "Rebuild block chain index from current blk000??.dat files"),
-QT_TRANSLATE_NOOP("colx-core", "Receive and display P2P network alerts (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Relay and mine data carrier transactions (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Relay non-P2SH multisig (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Rescan the block chain for missing wallet transactions"),
-QT_TRANSLATE_NOOP("colx-core", "Rescanning..."),
-QT_TRANSLATE_NOOP("colx-core", "Run a thread to flush wallet periodically (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Run in the background as a daemon and accept commands"),
-QT_TRANSLATE_NOOP("colx-core", "Send transactions as zero-fee transactions if possible (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Server certificate file (default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", "Server private key (default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", "Session not complete!"),
-QT_TRANSLATE_NOOP("colx-core", "Session timed out."),
-QT_TRANSLATE_NOOP("colx-core", "Set database cache size in megabytes (%d to %d, default: %d)"),
-QT_TRANSLATE_NOOP("colx-core", "Set external address:port to get to this masternode (example: %s)"),
-QT_TRANSLATE_NOOP("colx-core", "Set key pool size to <n> (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Set maximum block size in bytes (default: %d)"),
-QT_TRANSLATE_NOOP("colx-core", "Set minimum block size in bytes (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Set the masternode private key"),
-QT_TRANSLATE_NOOP("colx-core", "Set the number of threads to service RPC calls (default: %d)"),
-QT_TRANSLATE_NOOP("colx-core", "Sets the DB_PRIVATE flag in the wallet db environment (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Show all debugging options (usage: --help -help-debug)"),
-QT_TRANSLATE_NOOP("colx-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
-QT_TRANSLATE_NOOP("colx-core", "Signing failed."),
-QT_TRANSLATE_NOOP("colx-core", "Signing timed out."),
-QT_TRANSLATE_NOOP("colx-core", "Signing transaction failed"),
-QT_TRANSLATE_NOOP("colx-core", "Specify configuration file (default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", "Specify connection timeout in milliseconds (minimum: 1, default: %d)"),
-QT_TRANSLATE_NOOP("colx-core", "Specify data directory"),
-QT_TRANSLATE_NOOP("colx-core", "Specify masternode configuration file (default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", "Specify pid file (default: %s)"),
-QT_TRANSLATE_NOOP("colx-core", "Specify wallet file (within data directory)"),
-QT_TRANSLATE_NOOP("colx-core", "Specify your own public address"),
-QT_TRANSLATE_NOOP("colx-core", "Spend unconfirmed change when sending transactions (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Staking options:"),
-QT_TRANSLATE_NOOP("colx-core", "Stop running after importing blocks from disk (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Submitted following entries to masternode: %u / %d"),
-QT_TRANSLATE_NOOP("colx-core", "Submitted to masternode, waiting for more entries ( %u / %d ) %s"),
-QT_TRANSLATE_NOOP("colx-core", "Submitted to masternode, waiting in queue %s"),
-QT_TRANSLATE_NOOP("colx-core", "SwiftTX options:"),
-QT_TRANSLATE_NOOP("colx-core", "Synchronization failed"),
-QT_TRANSLATE_NOOP("colx-core", "Synchronization finished"),
-QT_TRANSLATE_NOOP("colx-core", "Synchronization pending..."),
-QT_TRANSLATE_NOOP("colx-core", "Synchronizing budgets..."),
-QT_TRANSLATE_NOOP("colx-core", "Synchronizing masternode winners..."),
-QT_TRANSLATE_NOOP("colx-core", "Synchronizing masternodes..."),
-QT_TRANSLATE_NOOP("colx-core", "Synchronizing sporks..."),
-QT_TRANSLATE_NOOP("colx-core", "This help message"),
-QT_TRANSLATE_NOOP("colx-core", "This is experimental software."),
-QT_TRANSLATE_NOOP("colx-core", "This is intended for regression testing tools and app development."),
-QT_TRANSLATE_NOOP("colx-core", "This is not a Masternode."),
-QT_TRANSLATE_NOOP("colx-core", "Threshold for disconnecting misbehaving peers (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Transaction amount too small"),
-QT_TRANSLATE_NOOP("colx-core", "Transaction amounts must be positive"),
-QT_TRANSLATE_NOOP("colx-core", "Transaction created successfully."),
-QT_TRANSLATE_NOOP("colx-core", "Transaction fees are too high."),
-QT_TRANSLATE_NOOP("colx-core", "Transaction not valid."),
-QT_TRANSLATE_NOOP("colx-core", "Transaction too large for fee policy"),
-QT_TRANSLATE_NOOP("colx-core", "Transaction too large"),
-QT_TRANSLATE_NOOP("colx-core", "Transmitting final transaction."),
-QT_TRANSLATE_NOOP("colx-core", "Unable to bind to %s on this computer (bind returned error %s)"),
-QT_TRANSLATE_NOOP("colx-core", "Unable to sign spork message, wrong key?"),
-QT_TRANSLATE_NOOP("colx-core", "Unknown network specified in -onlynet: '%s'"),
-QT_TRANSLATE_NOOP("colx-core", "Unknown state: id = %u"),
-QT_TRANSLATE_NOOP("colx-core", "Upgrade wallet to latest format"),
-QT_TRANSLATE_NOOP("colx-core", "Use N separate masternodes to anonymize funds  (2-8, default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Use OpenSSL (https) for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("colx-core", "Use UPnP to map the listening port (default: %u)"),
-QT_TRANSLATE_NOOP("colx-core", "Use UPnP to map the listening port (default: 1 when listening)"),
-QT_TRANSLATE_NOOP("colx-core", "Use the test network"),
-QT_TRANSLATE_NOOP("colx-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("colx-core", "Value more than Obfuscation pool maximum allows."),
-QT_TRANSLATE_NOOP("colx-core", "Verifying blocks..."),
-QT_TRANSLATE_NOOP("colx-core", "Verifying wallet..."),
-QT_TRANSLATE_NOOP("colx-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("colx-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("colx-core", "Wallet needed to be rewritten: restart skinxxx Core to complete"),
-QT_TRANSLATE_NOOP("colx-core", "Wallet options:"),
-QT_TRANSLATE_NOOP("colx-core", "Wallet window title"),
-QT_TRANSLATE_NOOP("colx-core", "Warning"),
-QT_TRANSLATE_NOOP("colx-core", "Warning: This version is obsolete, upgrade required!"),
-QT_TRANSLATE_NOOP("colx-core", "Warning: Unsupported argument -benchmark ignored, use -debug=bench."),
-QT_TRANSLATE_NOOP("colx-core", "Warning: Unsupported argument -debugnet ignored, use -debug=net."),
-QT_TRANSLATE_NOOP("colx-core", "Will retry..."),
-QT_TRANSLATE_NOOP("colx-core", "You need to rebuild the database using -reindex to change -txindex"),
-QT_TRANSLATE_NOOP("colx-core", "Your entries added successfully."),
-QT_TRANSLATE_NOOP("colx-core", "Your transaction was accepted into the pool!"),
-QT_TRANSLATE_NOOP("colx-core", "Zapping all transactions from wallet..."),
-QT_TRANSLATE_NOOP("colx-core", "ZeroMQ notification options:"),
-QT_TRANSLATE_NOOP("colx-core", "on startup"),
-QT_TRANSLATE_NOOP("colx-core", "wallet.dat corrupt, salvage failed"),
+QT_TRANSLATE_NOOP("skin-core", "(51472 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("skin-core", "(default: %s)"),
+QT_TRANSLATE_NOOP("skin-core", "(default: 1)"),
+QT_TRANSLATE_NOOP("skin-core", "(must be 51472 for mainnet)"),
+QT_TRANSLATE_NOOP("skin-core", "<category> can be:"),
+QT_TRANSLATE_NOOP("skin-core", "Accept command line and JSON-RPC commands"),
+QT_TRANSLATE_NOOP("skin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
+QT_TRANSLATE_NOOP("skin-core", "Accept public REST requests (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Acceptable ciphers (default: %s)"),
+QT_TRANSLATE_NOOP("skin-core", "Add a node to connect to and attempt to keep the connection open"),
+QT_TRANSLATE_NOOP("skin-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
+QT_TRANSLATE_NOOP("skin-core", "Already have that input."),
+QT_TRANSLATE_NOOP("skin-core", "Always query for peer addresses via DNS lookup (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Attempt to force blockchain corruption recovery"),
+QT_TRANSLATE_NOOP("skin-core", "Attempt to recover private keys from a corrupt wallet.dat"),
+QT_TRANSLATE_NOOP("skin-core", "Block creation options:"),
+QT_TRANSLATE_NOOP("skin-core", "Can't denominate: no compatible inputs left."),
+QT_TRANSLATE_NOOP("skin-core", "Can't find random Masternode."),
+QT_TRANSLATE_NOOP("skin-core", "Can't mix while sync in progress."),
+QT_TRANSLATE_NOOP("skin-core", "Cannot downgrade wallet"),
+QT_TRANSLATE_NOOP("skin-core", "Cannot resolve -bind address: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Cannot resolve -externalip address: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Cannot resolve -whitebind address: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Cannot write default address"),
+QT_TRANSLATE_NOOP("skin-core", "Collateral not valid."),
+QT_TRANSLATE_NOOP("skin-core", "Connect only to the specified node(s)"),
+QT_TRANSLATE_NOOP("skin-core", "Connect through SOCKS5 proxy"),
+QT_TRANSLATE_NOOP("skin-core", "Connect to a node to retrieve peer addresses, and disconnect"),
+QT_TRANSLATE_NOOP("skin-core", "Connection options:"),
+QT_TRANSLATE_NOOP("skin-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
+QT_TRANSLATE_NOOP("skin-core", "Copyright (C) 2014-%i The Dash Core Developers"),
+QT_TRANSLATE_NOOP("skin-core", "Copyright (C) 2015-%i The skinxxx Core Developers"),
+QT_TRANSLATE_NOOP("skin-core", "Corrupted block database detected"),
+QT_TRANSLATE_NOOP("skin-core", "Could not parse -rpcbind value %s as network address"),
+QT_TRANSLATE_NOOP("skin-core", "Could not parse masternode.conf"),
+QT_TRANSLATE_NOOP("skin-core", "Debugging/Testing options:"),
+QT_TRANSLATE_NOOP("skin-core", "Disable safemode, override a real safe mode event (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Discover own IP address (default: 1 when listening and no -externalip)"),
+QT_TRANSLATE_NOOP("skin-core", "Display the stake modifier calculations in the debug.log file."),
+QT_TRANSLATE_NOOP("skin-core", "Display verbose coin stake messages in the debug.log file."),
+QT_TRANSLATE_NOOP("skin-core", "Do not load the wallet and disable wallet RPC calls"),
+QT_TRANSLATE_NOOP("skin-core", "Do you want to rebuild the block database now?"),
+QT_TRANSLATE_NOOP("skin-core", "Done loading"),
+QT_TRANSLATE_NOOP("skin-core", "Enable publish hash block in <address>"),
+QT_TRANSLATE_NOOP("skin-core", "Enable publish hash transaction (locked via SwiftTX) in <address>"),
+QT_TRANSLATE_NOOP("skin-core", "Enable publish hash transaction in <address>"),
+QT_TRANSLATE_NOOP("skin-core", "Enable publish raw block in <address>"),
+QT_TRANSLATE_NOOP("skin-core", "Enable publish raw transaction (locked via SwiftTX) in <address>"),
+QT_TRANSLATE_NOOP("skin-core", "Enable publish raw transaction in <address>"),
+QT_TRANSLATE_NOOP("skin-core", "Enable staking functionality (0-1, default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Enable the client to act as a masternode (0-1, default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Entries are full."),
+QT_TRANSLATE_NOOP("skin-core", "Error connecting to Masternode."),
+QT_TRANSLATE_NOOP("skin-core", "Error initializing block database"),
+QT_TRANSLATE_NOOP("skin-core", "Error initializing wallet database environment %s!"),
+QT_TRANSLATE_NOOP("skin-core", "Error loading block database"),
+QT_TRANSLATE_NOOP("skin-core", "Error loading wallet.dat"),
+QT_TRANSLATE_NOOP("skin-core", "Error loading wallet.dat: Wallet corrupted"),
+QT_TRANSLATE_NOOP("skin-core", "Error loading wallet.dat: Wallet requires newer version of skinxxx Core"),
+QT_TRANSLATE_NOOP("skin-core", "Error opening block database"),
+QT_TRANSLATE_NOOP("skin-core", "Error reading from database, shutting down."),
+QT_TRANSLATE_NOOP("skin-core", "Error recovering public key."),
+QT_TRANSLATE_NOOP("skin-core", "Error"),
+QT_TRANSLATE_NOOP("skin-core", "Error: A fatal internal error occured, see debug.log for details"),
+QT_TRANSLATE_NOOP("skin-core", "Error: Can't select current denominated inputs"),
+QT_TRANSLATE_NOOP("skin-core", "Error: Disk space is low!"),
+QT_TRANSLATE_NOOP("skin-core", "Error: Unsupported argument -tor found, use -onion."),
+QT_TRANSLATE_NOOP("skin-core", "Error: Wallet locked, unable to create transaction!"),
+QT_TRANSLATE_NOOP("skin-core", "Error: You already have pending entries in the Obfuscation pool"),
+QT_TRANSLATE_NOOP("skin-core", "Failed to listen on any port. Use -listen=0 if you want this."),
+QT_TRANSLATE_NOOP("skin-core", "Failed to read block"),
+QT_TRANSLATE_NOOP("skin-core", "Fee (in SKIN/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("skin-core", "Finalizing transaction."),
+QT_TRANSLATE_NOOP("skin-core", "Force safe mode (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Found enough users, signing ( waiting %s )"),
+QT_TRANSLATE_NOOP("skin-core", "Found enough users, signing ..."),
+QT_TRANSLATE_NOOP("skin-core", "Generate coins (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "How many blocks to check at startup (default: %u, 0 = all)"),
+QT_TRANSLATE_NOOP("skin-core", "If <category> is not supplied, output all debugging information."),
+QT_TRANSLATE_NOOP("skin-core", "Importing..."),
+QT_TRANSLATE_NOOP("skin-core", "Imports blocks from external blk000??.dat file"),
+QT_TRANSLATE_NOOP("skin-core", "Include IP addresses in debug output (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Incompatible mode."),
+QT_TRANSLATE_NOOP("skin-core", "Incompatible version."),
+QT_TRANSLATE_NOOP("skin-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
+QT_TRANSLATE_NOOP("skin-core", "Information"),
+QT_TRANSLATE_NOOP("skin-core", "Initialization sanity check failed. skinxxx Core is shutting down."),
+QT_TRANSLATE_NOOP("skin-core", "Input is not valid."),
+QT_TRANSLATE_NOOP("skin-core", "Insufficient funds."),
+QT_TRANSLATE_NOOP("skin-core", "Invalid -onion address: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Invalid -proxy address: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Invalid amount for -maxtxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Invalid amount for -minrelaytxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Invalid amount for -mintxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Invalid amount for -paytxfee=<amount>: '%s' (must be at least %s)"),
+QT_TRANSLATE_NOOP("skin-core", "Invalid amount for -paytxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Invalid amount for -reservebalance=<amount>"),
+QT_TRANSLATE_NOOP("skin-core", "Invalid masternodeprivkey. Please see documenation."),
+QT_TRANSLATE_NOOP("skin-core", "Invalid netmask specified in -whitelist: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Invalid port detected in masternode.conf"),
+QT_TRANSLATE_NOOP("skin-core", "Invalid private key."),
+QT_TRANSLATE_NOOP("skin-core", "Invalid script detected."),
+QT_TRANSLATE_NOOP("skin-core", "Keep N SKIN anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Last Obfuscation was too recent."),
+QT_TRANSLATE_NOOP("skin-core", "Last successful Obfuscation action was too recent."),
+QT_TRANSLATE_NOOP("skin-core", "Limit size of signature cache to <n> entries (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Line: %d"),
+QT_TRANSLATE_NOOP("skin-core", "Listen for JSON-RPC connections on <port> (default: %u or testnet: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Listen for connections on <port> (default: %u or testnet: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Loading addresses..."),
+QT_TRANSLATE_NOOP("skin-core", "Loading block index..."),
+QT_TRANSLATE_NOOP("skin-core", "Loading budget cache..."),
+QT_TRANSLATE_NOOP("skin-core", "Loading masternode cache..."),
+QT_TRANSLATE_NOOP("skin-core", "Loading masternode payment cache..."),
+QT_TRANSLATE_NOOP("skin-core", "Loading wallet... (%3.2f %%)"),
+QT_TRANSLATE_NOOP("skin-core", "Loading wallet..."),
+QT_TRANSLATE_NOOP("skin-core", "Lock is already in place."),
+QT_TRANSLATE_NOOP("skin-core", "Lock masternodes from masternode configuration file (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Maintain at most <n> connections to peers (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Masternode options:"),
+QT_TRANSLATE_NOOP("skin-core", "Masternode queue is full."),
+QT_TRANSLATE_NOOP("skin-core", "Masternode:"),
+QT_TRANSLATE_NOOP("skin-core", "Maximum per-connection receive buffer, <n>*1000 bytes (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Maximum per-connection send buffer, <n>*1000 bytes (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Missing input transaction information."),
+QT_TRANSLATE_NOOP("skin-core", "Mixing in progress..."),
+QT_TRANSLATE_NOOP("skin-core", "Need to specify a port with -whitebind: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "No Masternodes detected."),
+QT_TRANSLATE_NOOP("skin-core", "No compatible Masternode found."),
+QT_TRANSLATE_NOOP("skin-core", "No funds detected in need of denominating."),
+QT_TRANSLATE_NOOP("skin-core", "No matching denominations found for mixing."),
+QT_TRANSLATE_NOOP("skin-core", "Node relay options:"),
+QT_TRANSLATE_NOOP("skin-core", "Non-standard public key detected."),
+QT_TRANSLATE_NOOP("skin-core", "Not compatible with existing transactions."),
+QT_TRANSLATE_NOOP("skin-core", "Not enough file descriptors available."),
+QT_TRANSLATE_NOOP("skin-core", "Not in the Masternode list."),
+QT_TRANSLATE_NOOP("skin-core", "Number of automatic wallet backups (default: 10)"),
+QT_TRANSLATE_NOOP("skin-core", "Obfuscation is idle."),
+QT_TRANSLATE_NOOP("skin-core", "Obfuscation options:"),
+QT_TRANSLATE_NOOP("skin-core", "Obfuscation request complete:"),
+QT_TRANSLATE_NOOP("skin-core", "Obfuscation request incomplete:"),
+QT_TRANSLATE_NOOP("skin-core", "Only accept block chain matching built-in checkpoints (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Only connect to nodes in network <net> (ipv4, ipv6 or onion)"),
+QT_TRANSLATE_NOOP("skin-core", "Options:"),
+QT_TRANSLATE_NOOP("skin-core", "Password for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("skin-core", "Prepend debug output with timestamp (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Print version and exit"),
+QT_TRANSLATE_NOOP("skin-core", "RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
+QT_TRANSLATE_NOOP("skin-core", "RPC server options:"),
+QT_TRANSLATE_NOOP("skin-core", "RPC support for HTTP persistent connections (default: %d)"),
+QT_TRANSLATE_NOOP("skin-core", "Randomly drop 1 of every <n> network messages"),
+QT_TRANSLATE_NOOP("skin-core", "Randomly fuzz 1 of every <n> network messages"),
+QT_TRANSLATE_NOOP("skin-core", "Rebuild block chain index from current blk000??.dat files"),
+QT_TRANSLATE_NOOP("skin-core", "Receive and display P2P network alerts (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Relay and mine data carrier transactions (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Relay non-P2SH multisig (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Rescan the block chain for missing wallet transactions"),
+QT_TRANSLATE_NOOP("skin-core", "Rescanning..."),
+QT_TRANSLATE_NOOP("skin-core", "Run a thread to flush wallet periodically (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Run in the background as a daemon and accept commands"),
+QT_TRANSLATE_NOOP("skin-core", "Send transactions as zero-fee transactions if possible (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Server certificate file (default: %s)"),
+QT_TRANSLATE_NOOP("skin-core", "Server private key (default: %s)"),
+QT_TRANSLATE_NOOP("skin-core", "Session not complete!"),
+QT_TRANSLATE_NOOP("skin-core", "Session timed out."),
+QT_TRANSLATE_NOOP("skin-core", "Set database cache size in megabytes (%d to %d, default: %d)"),
+QT_TRANSLATE_NOOP("skin-core", "Set external address:port to get to this masternode (example: %s)"),
+QT_TRANSLATE_NOOP("skin-core", "Set key pool size to <n> (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Set maximum block size in bytes (default: %d)"),
+QT_TRANSLATE_NOOP("skin-core", "Set minimum block size in bytes (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Set the masternode private key"),
+QT_TRANSLATE_NOOP("skin-core", "Set the number of threads to service RPC calls (default: %d)"),
+QT_TRANSLATE_NOOP("skin-core", "Sets the DB_PRIVATE flag in the wallet db environment (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Show all debugging options (usage: --help -help-debug)"),
+QT_TRANSLATE_NOOP("skin-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
+QT_TRANSLATE_NOOP("skin-core", "Signing failed."),
+QT_TRANSLATE_NOOP("skin-core", "Signing timed out."),
+QT_TRANSLATE_NOOP("skin-core", "Signing transaction failed"),
+QT_TRANSLATE_NOOP("skin-core", "Specify configuration file (default: %s)"),
+QT_TRANSLATE_NOOP("skin-core", "Specify connection timeout in milliseconds (minimum: 1, default: %d)"),
+QT_TRANSLATE_NOOP("skin-core", "Specify data directory"),
+QT_TRANSLATE_NOOP("skin-core", "Specify masternode configuration file (default: %s)"),
+QT_TRANSLATE_NOOP("skin-core", "Specify pid file (default: %s)"),
+QT_TRANSLATE_NOOP("skin-core", "Specify wallet file (within data directory)"),
+QT_TRANSLATE_NOOP("skin-core", "Specify your own public address"),
+QT_TRANSLATE_NOOP("skin-core", "Spend unconfirmed change when sending transactions (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Staking options:"),
+QT_TRANSLATE_NOOP("skin-core", "Stop running after importing blocks from disk (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Submitted following entries to masternode: %u / %d"),
+QT_TRANSLATE_NOOP("skin-core", "Submitted to masternode, waiting for more entries ( %u / %d ) %s"),
+QT_TRANSLATE_NOOP("skin-core", "Submitted to masternode, waiting in queue %s"),
+QT_TRANSLATE_NOOP("skin-core", "SwiftTX options:"),
+QT_TRANSLATE_NOOP("skin-core", "Synchronization failed"),
+QT_TRANSLATE_NOOP("skin-core", "Synchronization finished"),
+QT_TRANSLATE_NOOP("skin-core", "Synchronization pending..."),
+QT_TRANSLATE_NOOP("skin-core", "Synchronizing budgets..."),
+QT_TRANSLATE_NOOP("skin-core", "Synchronizing masternode winners..."),
+QT_TRANSLATE_NOOP("skin-core", "Synchronizing masternodes..."),
+QT_TRANSLATE_NOOP("skin-core", "Synchronizing sporks..."),
+QT_TRANSLATE_NOOP("skin-core", "This help message"),
+QT_TRANSLATE_NOOP("skin-core", "This is experimental software."),
+QT_TRANSLATE_NOOP("skin-core", "This is intended for regression testing tools and app development."),
+QT_TRANSLATE_NOOP("skin-core", "This is not a Masternode."),
+QT_TRANSLATE_NOOP("skin-core", "Threshold for disconnecting misbehaving peers (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Transaction amount too small"),
+QT_TRANSLATE_NOOP("skin-core", "Transaction amounts must be positive"),
+QT_TRANSLATE_NOOP("skin-core", "Transaction created successfully."),
+QT_TRANSLATE_NOOP("skin-core", "Transaction fees are too high."),
+QT_TRANSLATE_NOOP("skin-core", "Transaction not valid."),
+QT_TRANSLATE_NOOP("skin-core", "Transaction too large for fee policy"),
+QT_TRANSLATE_NOOP("skin-core", "Transaction too large"),
+QT_TRANSLATE_NOOP("skin-core", "Transmitting final transaction."),
+QT_TRANSLATE_NOOP("skin-core", "Unable to bind to %s on this computer (bind returned error %s)"),
+QT_TRANSLATE_NOOP("skin-core", "Unable to sign spork message, wrong key?"),
+QT_TRANSLATE_NOOP("skin-core", "Unknown network specified in -onlynet: '%s'"),
+QT_TRANSLATE_NOOP("skin-core", "Unknown state: id = %u"),
+QT_TRANSLATE_NOOP("skin-core", "Upgrade wallet to latest format"),
+QT_TRANSLATE_NOOP("skin-core", "Use N separate masternodes to anonymize funds  (2-8, default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Use OpenSSL (https) for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("skin-core", "Use UPnP to map the listening port (default: %u)"),
+QT_TRANSLATE_NOOP("skin-core", "Use UPnP to map the listening port (default: 1 when listening)"),
+QT_TRANSLATE_NOOP("skin-core", "Use the test network"),
+QT_TRANSLATE_NOOP("skin-core", "Username for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("skin-core", "Value more than Obfuscation pool maximum allows."),
+QT_TRANSLATE_NOOP("skin-core", "Verifying blocks..."),
+QT_TRANSLATE_NOOP("skin-core", "Verifying wallet..."),
+QT_TRANSLATE_NOOP("skin-core", "Wallet %s resides outside data directory %s"),
+QT_TRANSLATE_NOOP("skin-core", "Wallet is locked."),
+QT_TRANSLATE_NOOP("skin-core", "Wallet needed to be rewritten: restart skinxxx Core to complete"),
+QT_TRANSLATE_NOOP("skin-core", "Wallet options:"),
+QT_TRANSLATE_NOOP("skin-core", "Wallet window title"),
+QT_TRANSLATE_NOOP("skin-core", "Warning"),
+QT_TRANSLATE_NOOP("skin-core", "Warning: This version is obsolete, upgrade required!"),
+QT_TRANSLATE_NOOP("skin-core", "Warning: Unsupported argument -benchmark ignored, use -debug=bench."),
+QT_TRANSLATE_NOOP("skin-core", "Warning: Unsupported argument -debugnet ignored, use -debug=net."),
+QT_TRANSLATE_NOOP("skin-core", "Will retry..."),
+QT_TRANSLATE_NOOP("skin-core", "You need to rebuild the database using -reindex to change -txindex"),
+QT_TRANSLATE_NOOP("skin-core", "Your entries added successfully."),
+QT_TRANSLATE_NOOP("skin-core", "Your transaction was accepted into the pool!"),
+QT_TRANSLATE_NOOP("skin-core", "Zapping all transactions from wallet..."),
+QT_TRANSLATE_NOOP("skin-core", "ZeroMQ notification options:"),
+QT_TRANSLATE_NOOP("skin-core", "on startup"),
+QT_TRANSLATE_NOOP("skin-core", "wallet.dat corrupt, salvage failed"),
 };

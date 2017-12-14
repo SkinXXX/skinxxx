@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços COLX para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your SKIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços SKIN para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços COLX para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your SKIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços SKIN para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>COLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your COLXs from being stolen by malware infecting your computer.</source>
-        <translation>COLX encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas COLXs contra roubo por malware infectando seu computador.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <translation>SKIN encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas SKINs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COLX&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA COLX&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKIN&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA SKIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -248,7 +248,7 @@
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>Um endereço COLX para assinar a mensagem</translation>
+        <translation>Um endereço SKIN para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço COLX.</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço SKIN.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,7 +300,7 @@
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>O endereço COLX que foi assinado com</translation>
+        <translation>O endereço SKIN que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -634,7 +634,7 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>Um endereço COLX para assinar a mensagem</translation>
+        <translation>Um endereço SKIN para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -665,12 +665,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço COLX.</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço SKIN.</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>O endereço COLX que foi assinado com</translation>
+        <translation>O endereço SKIN que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -868,14 +868,14 @@
     </message>
     </context>
 <context>
-    <name>colx-core</name>
+    <name>skin-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all COLX specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da COLX (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all SKIN specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da SKIN (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -1242,8 +1242,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart COLX Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o COLX Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart SKIN Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o SKIN Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

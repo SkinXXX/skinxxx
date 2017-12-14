@@ -1,4 +1,4 @@
-/* src/config/colx-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/skin-config.h.in.  Generated from configure.ac by autoheader.  */
 
 #ifndef SKINXXX_CONFIG_H
 
@@ -345,4 +345,4 @@
 /* Define for large files, on AIX-style hosts. */
 #undef _LARGE_FILES
 
-#endif //COLX_CONFIG_H
+#endif //SKIN_CONFIG_H

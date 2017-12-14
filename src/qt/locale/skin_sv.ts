@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina COLX adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your SKIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina SKIN adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina COLX adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your SKIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina SKIN adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>COLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your COLXs from being stolen by malware infecting your computer.</source>
-        <translation>COLX kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina COLXs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <translation>SKIN kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SKINs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COLX&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA COLX&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKIN&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA SKIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -233,7 +233,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>COLX adressen för signera meddelandet med</translation>
+        <translation>SKIN adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna COLX adress</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna SKIN adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -289,11 +289,11 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>COLX adressen meddelandet blev signerat med</translation>
+        <translation>SKIN adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified COLX address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika COLX adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified SKIN address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SKIN adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Kärna</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a COLX address</source>
-        <translation>Skicka mynt till en COLX adress</translation>
+        <source>Send coins to a SKIN address</source>
+        <translation>Skicka mynt till en SKIN adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and colx: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och colx: URls)</translation>
+        <source>Request payments (generates QR codes and skin: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och skin: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About COLX Core</source>
-        <translation>Om COLX Kärnan</translation>
+        <source>&amp;About SKIN Core</source>
+        <translation>Om SKIN Kärnan</translation>
     </message>
     <message>
-        <source>Show information about COLX Core</source>
-        <translation>Visa information om COLX Kärnan</translation>
+        <source>Show information about SKIN Core</source>
+        <translation>Visa information om SKIN Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for COLX</source>
-        <translation>Ändra konfigurationsval för COLX</translation>
+        <source>Modify configuration options for SKIN</source>
+        <translation>Ändra konfigurationsval för SKIN</translation>
     </message>
     <message>
-        <source>Sign messages with your COLX addresses to prove you own them</source>
-        <translation>Signera meddelanden med din COLX adress för att visa att du äger dem</translation>
+        <source>Sign messages with your SKIN addresses to prove you own them</source>
+        <translation>Signera meddelanden med din SKIN adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified COLX addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika COLX adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified SKIN addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SKIN adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>COLX Core client</source>
-        <translation>COLX kärn klient</translation>
+        <source>SKIN Core client</source>
+        <translation>SKIN kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -841,15 +841,15 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Kärna</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Kärna</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1107,7 +1107,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>COLX adressen för signera meddelandet med</translation>
+        <translation>SKIN adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna COLX adress</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna SKIN adress</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>COLX adressen meddelandet blev signerat med</translation>
+        <translation>SKIN adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified COLX address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika COLX adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified SKIN address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SKIN adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1181,8 +1181,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Kärna</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Kärna</translation>
     </message>
     </context>
 <context>
@@ -1365,7 +1365,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     </context>
 <context>
-    <name>colx-core</name>
+    <name>skin-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

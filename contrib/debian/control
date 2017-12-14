@@ -1,4 +1,4 @@
-Source: colx
+Source: skin
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk> ***TODO***
@@ -22,11 +22,11 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.colx.org
-Vcs-Git: git://github.com/COLX-Project/COLX.git
-Vcs-Browser: http://github.com/COLX-Project/COLX
+Homepage: http://www.skin.org
+Vcs-Git: git://github.com/SKIN-Project/SKIN.git
+Vcs-Browser: http://github.com/SKIN-Project/SKIN
 
-Package: colxd
+Package: skind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -39,10 +39,10 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides the daemon, colxd, and the CLI tool
- colx-cli to interact with the daemon.
+ This package provides the daemon, skind, and the CLI tool
+ skin-cli to interact with the daemon.
 
-Package: colx-qt
+Package: skin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI

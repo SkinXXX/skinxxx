@@ -49,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "skinxxx"
-#define QAPP_ORG_DOMAIN "colx.org"
+#define QAPP_ORG_DOMAIN "skin.org"
 #define QAPP_APP_NAME_DEFAULT "skinxxx-Qt"
 #define QAPP_APP_NAME_TESTNET "skinxxx-Qt-testnet"
 

@@ -394,7 +394,7 @@ on `(hostname || uname -n) 2>/dev/null | sed 1q`
 
 # Files that config.status was made for.
 config_files=" Makefile src/Makefile share/setup.nsi share/qt/Info.plist src/test/buildenv.py qa/pull-tester/run-bitcoind-for-test.sh qa/pull-tester/tests-config.sh contrib/devtools/split-debug.sh"
-config_headers=" src/config/colx-config.h"
+config_headers=" src/config/skin-config.h"
 config_commands=" depfiles libtool"
 
 ac_cs_usage="\
@@ -425,7 +425,7 @@ $config_headers
 Configuration commands:
 $config_commands
 
-Report bugs to <www.colx.org>."
+Report bugs to <www.skin.org>."
 
 ac_cs_config="--disable-shared --with-pic"
 ac_cs_version="\
@@ -787,7 +787,7 @@ if test -n "${ZSH_VERSION+set}"; then
 fi
 
 
-    PACKAGE='colx'
+    PACKAGE='skin'
     VERSION='1.0.0'
     RM='rm -f'
     ofile='libtool'
@@ -802,7 +802,7 @@ fi
 for ac_config_target in $ac_config_targets
 do
   case $ac_config_target in
-    "src/config/colx-config.h") CONFIG_HEADERS="$CONFIG_HEADERS src/config/colx-config.h" ;;
+    "src/config/skin-config.h") CONFIG_HEADERS="$CONFIG_HEADERS src/config/skin-config.h" ;;
     "depfiles") CONFIG_COMMANDS="$CONFIG_COMMANDS depfiles" ;;
     "libtool") CONFIG_COMMANDS="$CONFIG_COMMANDS libtool" ;;
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
@@ -1108,7 +1108,7 @@ S["AUTOMAKE"]="${SHELL} /home/loki/Source/skinxxx/SkinXXX/build-aux/missing auto
 S["AUTOCONF"]="${SHELL} /home/loki/Source/skinxxx/SkinXXX/build-aux/missing autoconf"
 S["ACLOCAL"]="${SHELL} /home/loki/Source/skinxxx/SkinXXX/build-aux/missing aclocal-1.15"
 S["VERSION"]="1.0.0"
-S["PACKAGE"]="colx"
+S["PACKAGE"]="skin"
 S["CYGPATH_W"]="echo"
 S["am__isrc"]=""
 S["INSTALL_DATA"]="${INSTALL} -m 644"
@@ -1154,10 +1154,10 @@ S["program_transform_name"]="s,x,x,"
 S["prefix"]="/usr/local"
 S["exec_prefix"]="${prefix}"
 S["PACKAGE_URL"]=""
-S["PACKAGE_BUGREPORT"]="www.colx.org"
+S["PACKAGE_BUGREPORT"]="www.skin.org"
 S["PACKAGE_STRING"]="Pivx Core 1.0.0"
 S["PACKAGE_VERSION"]="1.0.0"
-S["PACKAGE_TARNAME"]="colx"
+S["PACKAGE_TARNAME"]="skin"
 S["PACKAGE_NAME"]="Pivx Core"
 S["PATH_SEPARATOR"]=":"
 S["SHELL"]="/bin/bash"
@@ -1203,10 +1203,10 @@ if test -n "$CONFIG_HEADERS"; then
 cat >"$ac_tmp/defines.awk" <<\_ACAWK ||
 BEGIN {
 D["PACKAGE_NAME"]=" \"Pivx Core\""
-D["PACKAGE_TARNAME"]=" \"colx\""
+D["PACKAGE_TARNAME"]=" \"skin\""
 D["PACKAGE_VERSION"]=" \"1.0.0\""
 D["PACKAGE_STRING"]=" \"Pivx Core 1.0.0\""
-D["PACKAGE_BUGREPORT"]=" \"www.colx.org\""
+D["PACKAGE_BUGREPORT"]=" \"www.skin.org\""
 D["PACKAGE_URL"]=" \"\""
 D["HAVE_CXX11"]=" 1"
 D["STDC_HEADERS"]=" 1"

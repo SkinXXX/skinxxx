@@ -1,5 +1,5 @@
-/* src/config/colx-config.h.  Generated from colx-config.h.in by configure.  */
-/* src/config/colx-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/skin-config.h.  Generated from skin-config.h.in by configure.  */
+/* src/config/skin-config.h.in.  Generated from configure.ac by autoheader.  */
 
 #ifndef SKINXXX_CONFIG_H
 
@@ -274,7 +274,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "www.colx.org"
+#define PACKAGE_BUGREPORT "www.skin.org"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "Pivx Core"
@@ -283,7 +283,7 @@
 #define PACKAGE_STRING "Pivx Core 1.0.0"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "colx"
+#define PACKAGE_TARNAME "skin"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""
@@ -346,4 +346,4 @@
 /* Define for large files, on AIX-style hosts. */
 /* #undef _LARGE_FILES */
 
-#endif //COLX_CONFIG_H
+#endif //SKIN_CONFIG_H

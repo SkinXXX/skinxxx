@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package colxd/colx-qt
-for Debian-based Linux systems. If you compile colxd/colx-qt yourself, there are some useful files here.
+This directory contains files used to package skind/skin-qt
+for Debian-based Linux systems. If you compile skind/skin-qt yourself, there are some useful files here.
 
-## colx: URI support ##
+## skin: URI support ##
 
 
-colx-qt.desktop  (Gnome / Open Desktop)
+skin-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install colx-qt.desktop
+	sudo desktop-file-install skin-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your colxqt binary to `/usr/bin`
-and the `../../share/pixmaps/colx128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your skinqt binary to `/usr/bin`
+and the `../../share/pixmaps/skin128.png` to `/usr/share/pixmaps`
 
-colx-qt.protocol (KDE)
+skin-qt.protocol (KDE)
 

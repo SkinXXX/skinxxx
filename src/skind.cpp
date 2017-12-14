@@ -24,7 +24,7 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called skinxxx (http://www.colx.org),
+ * This is the developer documentation of the reference client for an experimental new digital currency called skinxxx (http://www.skin.org),
  * which enables instant payments to anyone, anywhere in the world. skinxxx uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
@@ -64,7 +64,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/colx.conf are parsed in qt/colx.cpp's main()
+    // If Qt is used, parameters/skin.conf are parsed in qt/skin.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
@@ -75,7 +75,7 @@ bool AppInit(int argc, char* argv[])
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  colxd [options]                     " + _("Start Pivx Core Daemon") + "\n";
+                        "  skind [options]                     " + _("Start Pivx Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -111,11 +111,11 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "colx:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "skin:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in colxd anymore. Use the colx-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in skind anymore. Use the skin-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
@@ -174,7 +174,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect colxd signal handlers
+    // Connect skind signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

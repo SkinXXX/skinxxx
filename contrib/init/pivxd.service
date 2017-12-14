@@ -1,19 +1,19 @@
 [Unit]
-Description=COLX's distributed currency daemon
+Description=SKIN's distributed currency daemon
 After=network.target
 
 [Service]
-User=colx
-Group=colx
+User=skin
+Group=skin
 
 Type=forking
-PIDFile=/var/lib/colxd/colxd.pid
+PIDFile=/var/lib/skind/skind.pid
 
-ExecStart=/usr/bin/colxd -daemon -pid=/var/lib/colxd/colxd.pid \
-          -conf=/etc/colx/colx.conf -datadir=/var/lib/colxd
+ExecStart=/usr/bin/skind -daemon -pid=/var/lib/skind/skind.pid \
+          -conf=/etc/skin/skin.conf -datadir=/var/lib/skind
 
-ExecStop=-/usr/bin/colx-cli -conf=/etc/colx/colx.conf \
-         -datadir=/var/lib/colxd stop
+ExecStop=-/usr/bin/skin-cli -conf=/etc/skin/skin.conf \
+         -datadir=/var/lib/skind stop
 
 Restart=always
 PrivateTmp=true

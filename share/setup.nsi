@@ -7,7 +7,7 @@ SetCompressor /SOLID lzma
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 1.0.0
 !define COMPANY "Pivx Core project"
-!define URL https://www.colx.org
+!define URL https://www.skin.org
 
 # MUI Symbol Definitions
 !define MUI_ICON "/home/loki/Source/skinxxx/SkinXXX/share/pixmaps/bitcoin.ico"
@@ -20,7 +20,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "Pivx Core"
-!define MUI_FINISHPAGE_RUN $INSTDIR\colx-qt.exe
+!define MUI_FINISHPAGE_RUN $INSTDIR\skin-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/loki/Source/skinxxx/SkinXXX/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/loki/Source/skinxxx/SkinXXX/colx-${VERSION}-win-setup.exe
+OutFile /home/loki/Source/skinxxx/SkinXXX/skin-${VERSION}-win-setup.exe
 !if "" == "64"
 InstallDir $PROGRAMFILES64\Pivx
 !else
@@ -73,19 +73,19 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/loki/Source/skinxxx/SkinXXX/release/colx-qt.exe
+    File /home/loki/Source/skinxxx/SkinXXX/release/skin-qt.exe
     File /oname=COPYING.txt /home/loki/Source/skinxxx/SkinXXX/COPYING
     File /oname=readme.txt /home/loki/Source/skinxxx/SkinXXX/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/loki/Source/skinxxx/SkinXXX/release/colxd.exe
-    File /home/loki/Source/skinxxx/SkinXXX/release/colx-cli.exe
+    File /home/loki/Source/skinxxx/SkinXXX/release/skind.exe
+    File /home/loki/Source/skinxxx/SkinXXX/release/skin-cli.exe
     SetOutPath $INSTDIR\doc
     File /r /home/loki/Source/skinxxx/SkinXXX/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
-    # Remove old wxwidgets-based-colx executable and locales:
-    Delete /REBOOTOK $INSTDIR\colx.exe
+    # Remove old wxwidgets-based-skin executable and locales:
+    Delete /REBOOTOK $INSTDIR\skin.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -95,7 +95,7 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\colx-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\skin-qt.exe
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "colx" "URL Protocol" ""
-    WriteRegStr HKCR "colx" "" "URL:Pivx"
-    WriteRegStr HKCR "colx\DefaultIcon" "" $INSTDIR\colx-qt.exe
-    WriteRegStr HKCR "colx\shell\open\command" "" '"$INSTDIR\colx-qt.exe" "%1"'
+    WriteRegStr HKCR "skin" "URL Protocol" ""
+    WriteRegStr HKCR "skin" "" "URL:Pivx"
+    WriteRegStr HKCR "skin\DefaultIcon" "" $INSTDIR\skin-qt.exe
+    WriteRegStr HKCR "skin\shell\open\command" "" '"$INSTDIR\skin-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -127,7 +127,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\colx-qt.exe
+    Delete /REBOOTOK $INSTDIR\skin-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "colx"
+    DeleteRegKey HKCR "skin"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

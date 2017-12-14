@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços COLX para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your SKIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços SKIN para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your COLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços COLX para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your SKIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços SKIN para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>COLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your COLXs from being stolen by malware infecting your computer.</source>
-        <translation>COLX vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas COLXs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <translation>SKIN vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas SKINs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COLX&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS COLX&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKIN&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS SKIN&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -244,7 +244,7 @@
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>O endereço COLX para assinar a mensagem</translation>
+        <translation>O endereço SKIN para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço COLX</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço SKIN</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -292,11 +292,11 @@
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>O endereço COLX que assinou a mensagem</translation>
+        <translation>O endereço SKIN que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified COLX address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço COLX especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified SKIN address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço SKIN especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,16 +586,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
-        <source>Send coins to a COLX address</source>
-        <translation>Enviar moedas para um endereço COLX</translation>
+        <source>Send coins to a SKIN address</source>
+        <translation>Enviar moedas para um endereço SKIN</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and colx: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e colx: URIs)</translation>
+        <source>Request payments (generates QR codes and skin: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e skin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About COLX Core</source>
-        <translation>&amp;Sobre o COLX Core</translation>
+        <source>&amp;About SKIN Core</source>
+        <translation>&amp;Sobre o SKIN Core</translation>
     </message>
     <message>
-        <source>Show information about COLX Core</source>
-        <translation>Mostra informação sobre o COLX Core</translation>
+        <source>Show information about SKIN Core</source>
+        <translation>Mostra informação sobre o SKIN Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for COLX</source>
-        <translation>Modificar opções de configuração para COLX</translation>
+        <source>Modify configuration options for SKIN</source>
+        <translation>Modificar opções de configuração para SKIN</translation>
     </message>
     <message>
-        <source>Sign messages with your COLX addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços COLX para provar que você os detém</translation>
+        <source>Sign messages with your SKIN addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços SKIN para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified COLX addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços COLX especificados</translation>
+        <source>Verify messages to ensure they were signed with specified SKIN addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços SKIN especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a COLX: URI or payment request</source>
-        <translation>Abrir um COLX: URI ou requisição de pagamento</translation>
+        <source>Open a SKIN: URI or payment request</source>
+        <translation>Abrir um SKIN: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the COLX Core help message to get a list with possible COLX command-line options</source>
-        <translation>Mostra a ajuda da COLX Core para receber uma lista com possíveis opções de linha de comando COLX</translation>
+        <source>Show the SKIN Core help message to get a list with possible SKIN command-line options</source>
+        <translation>Mostra a ajuda da SKIN Core para receber uma lista com possíveis opções de linha de comando SKIN</translation>
     </message>
     <message>
-        <source>COLX Core client</source>
-        <translation>Cliente Core COLX</translation>
+        <source>SKIN Core client</source>
+        <translation>Cliente Core SKIN</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -806,8 +806,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (colx.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (colx.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skin.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (skin.conf). </translation>
     </message>
 </context>
 <context>
@@ -1095,8 +1095,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid COLX address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de COLX</translation>
+        <source>The entered address "%1" is not a valid SKIN address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de SKIN</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1141,16 +1141,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About COLX Core</source>
-        <translation>Sobre o COLX Core</translation>
+        <source>About SKIN Core</source>
+        <translation>Sobre o SKIN Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1184,16 +1184,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to COLX Core.</source>
-        <translation>Bem-vindo ao COLX Core.</translation>
+        <source>Welcome to SKIN Core.</source>
+        <translation>Bem-vindo ao SKIN Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where COLX Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde COLX Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where SKIN Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde SKIN Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>COLX Core will download and store a copy of the COLX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>COLX Core vai baixar e armazenar uma cópia da blockchain COLX. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>SKIN Core will download and store a copy of the SKIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SKIN Core vai baixar e armazenar uma cópia da blockchain SKIN. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1204,8 +1204,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1460,48 +1460,48 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Favor selecionar o nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 COLX</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 COLX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SKIN</source>
+        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 SKIN</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 COLX</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 COLX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SKIN</source>
+        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 SKIN</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 COLX to anonymize 10000 COLX</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 COLX para anonimizar 10000 COLX</translation>
+        <source>This option is the quickest and will cost about ~0.025 SKIN to anonymize 10000 SKIN</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 SKIN para anonimizar 10000 SKIN</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 COLX to anonymize 10000 COLX</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 COLX para anonimizar 10000 COLX</translation>
+        <source>This option is moderately fast and will cost about 0.05 SKIN to anonymize 10000 SKIN</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 SKIN para anonimizar 10000 SKIN</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 COLX per 10000 COLX you anonymize.</source>
-        <translation>0.1 COLX por 10000 COLX que deixar anônima.</translation>
+        <source>0.1 SKIN per 10000 SKIN you anonymize.</source>
+        <translation>0.1 SKIN por 10000 SKIN que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening COLX's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela COLX's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SKIN's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SKIN's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening COLX's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela COLX's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SKIN's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SKIN's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening COLX's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela COLX's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SKIN's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SKIN's.</translation>
     </message>
 </context>
 <context>
@@ -1554,8 +1554,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the COLX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente COLX no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the SKIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente SKIN no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1574,12 +1574,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start COLX after logging in to the system.</source>
-        <translation>Iniciar automaticamente COLX depois de logar no sistema.</translation>
+        <source>Automatically start SKIN after logging in to the system.</source>
+        <translation>Iniciar automaticamente SKIN depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start COLX on system login</source>
-        <translation>&amp;Iniciar COLX ao logar no sistema</translation>
+        <source>&amp;Start SKIN on system login</source>
+        <translation>&amp;Iniciar SKIN ao logar no sistema</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1590,8 +1590,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Rodadas de ofuscação para usar</translation>
     </message>
     <message>
-        <source>Amount of COLX to keep anonymized</source>
-        <translation>Quantidade de COLX a manter anônima</translation>
+        <source>Amount of SKIN to keep anonymized</source>
+        <translation>Quantidade de SKIN a manter anônima</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1606,18 +1606,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting COLX.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do COLX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SKIN.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do SKIN.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/colx-project/colx-project-translations</source>
+https://www.transifex.com/skin-project/skin-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/colx-project/colx-project-translations</translation>
+https://www.transifex.com/skin-project/skin-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the COLX network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede COLX através de um proxy SOCKS5</translation>
+        <source>Connect to the SKIN network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede SKIN através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1755,8 +1755,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Fundos</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the COLX network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede COLX após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SKIN network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede SKIN após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1791,8 +1791,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Saldo ofuscado:</translation>
     </message>
     <message>
-        <source>0 COLX / 0 Rounds</source>
-        <translation>0 COLX / 0 Rodadas</translation>
+        <source>0 SKIN / 0 Rounds</source>
+        <translation>0 SKIN / 0 Rodadas</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1966,8 +1966,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a COLX address (e.g. %1)</source>
-        <translation>Insira um endereço COLX (e.g. %1)</translation>
+        <source>Enter a SKIN address (e.g. %1)</source>
+        <translation>Insira um endereço SKIN (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2216,8 +2216,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the COLX RPC console.</source>
-        <translation>Bem-vindo ao console da COLX RPC</translation>
+        <source>Welcome to the SKIN RPC console.</source>
+        <translation>Bem-vindo ao console da SKIN RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2472,8 +2472,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 COLX</source>
-        <translation>0 COLX</translation>
+        <source>0 SKIN</source>
+        <translation>0 SKIN</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2516,12 +2516,12 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCOLXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCOLXs in fee,&lt;br /&gt;while "at least" pays 1000 uCOLXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uCOLXs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uCOLXs em taxa,&lt;br /&gt; pagará pelo menos 1000 uCOLXs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSKINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSKINs in fee,&lt;br /&gt;while "at least" pays 1000 uSKINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uSKINs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uSKINs em taxa,&lt;br /&gt; pagará pelo menos 1000 uSKINs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for COLX transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de COLX do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SKIN transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de SKIN do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2608,8 +2608,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid COLX address</source>
-        <translation>Aviso: endereço COLX inválido</translation>
+        <source>Warning: Invalid SKIN address</source>
+        <translation>Aviso: endereço SKIN inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2704,7 +2704,7 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
     </message>
     <message>
         <source>The PIVX address to send the payment to</source>
-        <translation>O endereço COLX para enviar o pagamento</translation>
+        <translation>O endereço SKIN para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2766,8 +2766,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>COLX Core is shutting down...</source>
-        <translation>COLX Core está desligando...</translation>
+        <source>SKIN Core is shutting down...</source>
+        <translation>SKIN Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2786,7 +2786,7 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>O endereço COLX para assinar a mensagem</translation>
+        <translation>O endereço SKIN para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2817,16 +2817,16 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this COLX address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço COLX</translation>
+        <source>Sign the message to prove you own this SKIN address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço SKIN</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>O endereço COLX que assinou a mensagem</translation>
+        <translation>O endereço SKIN que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified COLX address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço COLX especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified SKIN address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço SKIN especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2908,8 +2908,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>COLX Core</source>
-        <translation>COLX Core</translation>
+        <source>SKIN Core</source>
+        <translation>SKIN Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2925,7 +2925,7 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
     </message>
     <message>
         <source>The PIVX Core developers</source>
-        <translation>Os desenvolvedores do COLX Core</translation>
+        <translation>Os desenvolvedores do SKIN Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3408,8 +3408,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 COLX.</source>
-        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 COLX.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SKIN.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 SKIN.</translation>
     </message>
 </context>
 <context>
@@ -3452,14 +3452,14 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>colx-core</name>
+    <name>skin-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all COLX specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas COLX (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all SKIN specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas SKIN (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Enable use of automated obfuscation for funds stored in this wallet (0-1, default: %u)</source>
@@ -3478,12 +3478,12 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in COLX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em COLX/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in SKIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em SKIN/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in COLX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em COLX/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in SKIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em SKIN/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3506,8 +3506,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 COLX.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 COLX.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 SKIN.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 SKIN.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3522,8 +3522,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong COLX Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core COLX não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SKIN Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core SKIN não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3603,7 +3603,7 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do COLX Core</translation>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do SKIN Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3654,8 +3654,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of COLX Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da COLX Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SKIN Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da SKIN Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3694,8 +3694,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in COLX/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em COLX/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in SKIN/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em SKIN/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3802,8 +3802,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Script inválido detectado.</translation>
     </message>
     <message>
-        <source>Keep N COLX anonymized (default: %u)</source>
-        <translation>Manter N COLX anônimo (padrão: %u)</translation>
+        <source>Keep N SKIN anonymized (default: %u)</source>
+        <translation>Manter N SKIN anônimo (padrão: %u)</translation>
     </message>
     <message>
         <source>Last Obfuscation was too recent.</source>
@@ -4142,8 +4142,8 @@ https://www.transifex.com/colx-project/colx-project-translations</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart COLX Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o COLX Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart SKIN Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o SKIN Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>
