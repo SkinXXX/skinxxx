@@ -747,14 +747,14 @@ colxd_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) \
 	$(CXXFLAGS) $(colxd_LDFLAGS) $(LDFLAGS) -o $@
 am__qt_colx_qt_SOURCES_DIST = qt/colx.cpp qt/macdockiconhandler.mm \
-	qt/macnotificationhandler.mm qt/res/ColossusCoinXT-qt-res.rc
+	qt/macnotificationhandler.mm qt/res/skinxxx-qt-res.rc
 @ENABLE_QT_TRUE@am__objects_12 =  \
 @ENABLE_QT_TRUE@	qt/qt_colx_qt-macdockiconhandler.$(OBJEXT) \
 @ENABLE_QT_TRUE@	qt/qt_colx_qt-macnotificationhandler.$(OBJEXT)
 @ENABLE_QT_TRUE@@TARGET_DARWIN_TRUE@am__objects_13 =  \
 @ENABLE_QT_TRUE@@TARGET_DARWIN_TRUE@	$(am__objects_12)
 @ENABLE_QT_TRUE@am__objects_14 =  \
-@ENABLE_QT_TRUE@	qt/res/ColossusCoinXT-qt-res.$(OBJEXT)
+@ENABLE_QT_TRUE@	qt/res/skinxxx-qt-res.$(OBJEXT)
 @ENABLE_QT_TRUE@@TARGET_WINDOWS_TRUE@am__objects_15 =  \
 @ENABLE_QT_TRUE@@TARGET_WINDOWS_TRUE@	$(am__objects_14)
 @ENABLE_QT_TRUE@am_qt_colx_qt_OBJECTS = qt/qt_colx_qt-colx.$(OBJEXT) \
@@ -2161,7 +2161,7 @@ EXTRA_DIST = leveldb $(am__append_18)
 @ENABLE_QT_TRUE@  qt/res/css/default.css
 
 @ENABLE_QT_TRUE@RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
-@ENABLE_QT_TRUE@BITCOIN_RC = qt/res/ColossusCoinXT-qt-res.rc
+@ENABLE_QT_TRUE@BITCOIN_RC = qt/res/skinxxx-qt-res.rc
 @ENABLE_QT_TRUE@BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
 @ENABLE_QT_TRUE@  -I$(builddir)/qt/forms
 
@@ -2761,7 +2761,7 @@ qt/res/$(am__dirstamp):
 qt/res/$(DEPDIR)/$(am__dirstamp):
 	@$(MKDIR_P) qt/res/$(DEPDIR)
 	@: > qt/res/$(DEPDIR)/$(am__dirstamp)
-qt/res/ColossusCoinXT-qt-res.$(OBJEXT): qt/res/$(am__dirstamp) \
+qt/res/skinxxx-qt-res.$(OBJEXT): qt/res/$(am__dirstamp) \
 	qt/res/$(DEPDIR)/$(am__dirstamp)
 
 qt/colx-qt$(EXEEXT): $(qt_colx_qt_OBJECTS) $(qt_colx_qt_DEPENDENCIES) $(EXTRA_qt_colx_qt_DEPENDENCIES) qt/$(am__dirstamp)

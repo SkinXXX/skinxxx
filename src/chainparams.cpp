@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The ColossusCoinXT developers
+// Copyright (c) 2017 The skinxxx developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -100,15 +100,15 @@ public:
         pchMessageStart[3] = 0xea;
         vAlertPubKey = ParseHex("0000098d3ba6ba6e7423fa5cbd6a89e0a9a5300f88d33000005cb1a8b7ed2c1000335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511ffffffffffffff");
         nDefaultPort = 51572;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // ColossusCoinXT starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // skinxxx starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 30;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 120; // ColossusCoinXT: 2 minute
-        nTargetSpacing = 1 * 120;  // ColossusCoinXT: 2 minute
+        nTargetTimespan = 1 * 120; // skinxxx: 2 minute
+        nTargetSpacing = 1 * 120;  // skinxxx: 2 minute
         nLastPOWBlock = 10080;
         nMaturity = 90;
         nMasternodeCountDrift = 20;
@@ -206,8 +206,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // ColossusCoinXT: 1 day
-        nTargetSpacing = 1 * 60;  // ColossusCoinXT: 1 minute
+        nTargetTimespan = 1 * 60; // skinxxx: 1 day
+        nTargetSpacing = 1 * 60;  // skinxxx: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;

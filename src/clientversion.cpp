@@ -13,7 +13,7 @@
  * for both colxd and colx-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("ColossusCoinXT Core");
+const std::string CLIENT_NAME("skinxxx Core");
 
 /**
  * Client version number

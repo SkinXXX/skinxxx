@@ -67,10 +67,10 @@ static bool AppInitRPC(int argc, char* argv[])
     //
     ParseParameters(argc, argv);
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("ColossusCoinXT Core RPC client version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("skinxxx Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  colx-cli [options] <command> [params]  " + _("Send command to ColossusCoinXT Core") + "\n" +
+                        "  colx-cli [options] <command> [params]  " + _("Send command to skinxxx Core") + "\n" +
                         "  colx-cli [options] help                " + _("List commands") + "\n" +
                         "  colx-cli [options] help <command>      " + _("Get help for a command") + "\n";
 

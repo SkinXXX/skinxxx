@@ -231,7 +231,7 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "colx" is a composite category enabling all ColossusCoinXT-related debug output
+            // "colx" is a composite category enabling all skinxxx-related debug output
             if (ptrCategory->count(string("colx"))) {
                 ptrCategory->insert(string("obfuscation"));
                 ptrCategory->insert(string("swifttx"));
@@ -417,13 +417,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\ColossusCoinXT
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\ColossusCoinXT
-// Mac: ~/Library/Application Support/ColossusCoinXT
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\skinxxx
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\skinxxx
+// Mac: ~/Library/Application Support/skinxxx
 // Unix: ~/.colx
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "ColossusCoinXT";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "skinxxx";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -435,10 +435,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "ColossusCoinXT";
+    return pathRet / "skinxxx";
 #else
     // Unix
-    return pathRet / ".ColossusCoinXT";
+    return pathRet / ".skinxxx";
 #endif
 #endif
 }
@@ -485,7 +485,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "ColossusCoinXT.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "skinxxx.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 

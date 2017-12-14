@@ -48,9 +48,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "ColossusCoinXT"
+#define QAPP_ORG_NAME "skinxxx"
 #define QAPP_ORG_DOMAIN "colx.org"
-#define QAPP_APP_NAME_DEFAULT "ColossusCoinXT-Qt"
-#define QAPP_APP_NAME_TESTNET "ColossusCoinXT-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "skinxxx-Qt"
+#define QAPP_APP_NAME_TESTNET "skinxxx-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

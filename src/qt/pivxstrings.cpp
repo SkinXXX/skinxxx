@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("colx-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("colx-core", ""
-"Cannot obtain a lock on data directory %s. ColossusCoinXT Core is probably already "
+"Cannot obtain a lock on data directory %s. skinxxx Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("colx-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -45,7 +45,7 @@ QT_TRANSLATE_NOOP("colx-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("colx-core", ""
-"Disable all ColossusCoinXT specific functionality (Masternodes, Obfuscation, SwiftTX, "
+"Disable all skinxxx specific functionality (Masternodes, Obfuscation, SwiftTX, "
 "Budgeting) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("colx-core", ""
 "Distributed under the MIT software license, see the accompanying file "
@@ -164,9 +164,9 @@ QT_TRANSLATE_NOOP("colx-core", ""
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"ColossusCoinXT Alert\" admin@foo.com\n"),
+"for example: alertnotify=echo %%s | mail -s \"skinxxx Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("colx-core", ""
-"Unable to bind to %s on this computer. ColossusCoinXT Core is probably already running."),
+"Unable to bind to %s on this computer. skinxxx Core is probably already running."),
 QT_TRANSLATE_NOOP("colx-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("colx-core", ""
@@ -186,7 +186,7 @@ QT_TRANSLATE_NOOP("colx-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("colx-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong ColossusCoinXT Core will not work properly."),
+"your clock is wrong skinxxx Core will not work properly."),
 QT_TRANSLATE_NOOP("colx-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -240,7 +240,7 @@ QT_TRANSLATE_NOOP("colx-core", "Connect to a node to retrieve peer addresses, an
 QT_TRANSLATE_NOOP("colx-core", "Connection options:"),
 QT_TRANSLATE_NOOP("colx-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("colx-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("colx-core", "Copyright (C) 2015-%i The ColossusCoinXT Core Developers"),
+QT_TRANSLATE_NOOP("colx-core", "Copyright (C) 2015-%i The skinxxx Core Developers"),
 QT_TRANSLATE_NOOP("colx-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("colx-core", "Could not parse -rpcbind value %s as network address"),
 QT_TRANSLATE_NOOP("colx-core", "Could not parse masternode.conf"),
@@ -267,7 +267,7 @@ QT_TRANSLATE_NOOP("colx-core", "Error initializing wallet database environment %
 QT_TRANSLATE_NOOP("colx-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("colx-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("colx-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("colx-core", "Error loading wallet.dat: Wallet requires newer version of ColossusCoinXT Core"),
+QT_TRANSLATE_NOOP("colx-core", "Error loading wallet.dat: Wallet requires newer version of skinxxx Core"),
 QT_TRANSLATE_NOOP("colx-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("colx-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("colx-core", "Error recovering public key."),
@@ -295,7 +295,7 @@ QT_TRANSLATE_NOOP("colx-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("colx-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("colx-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("colx-core", "Information"),
-QT_TRANSLATE_NOOP("colx-core", "Initialization sanity check failed. ColossusCoinXT Core is shutting down."),
+QT_TRANSLATE_NOOP("colx-core", "Initialization sanity check failed. skinxxx Core is shutting down."),
 QT_TRANSLATE_NOOP("colx-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("colx-core", "Insufficient funds."),
 QT_TRANSLATE_NOOP("colx-core", "Invalid -onion address: '%s'"),
@@ -438,7 +438,7 @@ QT_TRANSLATE_NOOP("colx-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("colx-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("colx-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("colx-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("colx-core", "Wallet needed to be rewritten: restart ColossusCoinXT Core to complete"),
+QT_TRANSLATE_NOOP("colx-core", "Wallet needed to be rewritten: restart skinxxx Core to complete"),
 QT_TRANSLATE_NOOP("colx-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("colx-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("colx-core", "Warning"),
