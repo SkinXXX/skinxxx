@@ -1620,8 +1620,8 @@ int64_t GetBlockValue(int nHeight, CAmount nFees, bool fBudgetBlock)
     if (nHeight == 1)
         return CAmount(669669669) * COIN;
     else if (nHeight > 1 && nHeight <= Params().LAST_POW_BLOCK())
-        return nFees; // No block reward for setting up the network!
-    
+        return CAmount(1000) * COIN; // Anti-Entropy Blocks
+        
     return nSubsidy + nFees;
 }
 
