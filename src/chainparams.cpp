@@ -55,11 +55,11 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
 boost::assign::map_list_of
-( 0, uint256("000006533a058bf35e6b1116f0da8a2dd60c4de747ffc1a69408ebeb4415dd3f"));
+( 0, uint256("0x001"));
 
 static const Checkpoints::CCheckpointData data = {
 &mapCheckpoints,
-1509477776, // * UNIX timestamp of last checkpoint block
+1513389723, // * UNIX timestamp of last checkpoint block
 0,    // * total number of transactions between genesis and last checkpoint
             //   (the tx=... number in the SetBestChain debug.log lines)
 2000        // * estimated number of transactions per day after checkpoint
@@ -67,21 +67,21 @@ static const Checkpoints::CCheckpointData data = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
 boost::assign::map_list_of
-(0, uint256("000009703dc0066b3814277f3bad8dd9abad64d8e888568c38f0abe6065c9345"));
+( 0, uint256("0x001"));
 
 static const Checkpoints::CCheckpointData dataTestnet = {
 &mapCheckpointsTestnet,
-1509477776,
+1513389723,
 0,
 250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
 boost::assign::map_list_of
-(0, uint256("70f44200f59496375d78b35748349f03890384d4e1c6df10cab0da32bbec9d8e"));
+( 0, uint256("0x001"));
 
 static const Checkpoints::CCheckpointData dataRegtest = {
 &mapCheckpointsRegtest,
-1509477776,
+1513389723,
 0,
 100};
 
@@ -97,11 +97,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x17;
-        pchMessageStart[1] = 0x76;
-        pchMessageStart[2] = 0x56;
-        pchMessageStart[3] = 0x54;
-        vAlertPubKey = ParseHex("042431e0a4d477dea9d50a2b8f05c5cfaca38a27a24335e1161b8584092e7475ea2a9809ed4c062e611a19389f69a7c72b20d49e29b49bf1e0e4b8457666e696c1");
+        pchMessageStart[0] = 0x53;
+        pchMessageStart[1] = 0x4b;
+        pchMessageStart[2] = 0x49;
+        pchMessageStart[3] = 0x4e;
+        vAlertPubKey = ParseHex("04989235e6c1513366081f275522cba97a2a2703ee9af9ad30228132a553f3aa04dcbf0f2697a1b265f266a04398247ddcf733bde22805bec1f3719064037c925e");
         nDefaultPort = 7546;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Skin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
@@ -134,23 +134,23 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "31 October 2017 South Africa in pole position to host 2023 Rugby World Cup";
+        const char* pszTimestamp = "2017-12-15 Soweto man overcomes depression to get engineering degree";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 5654 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04fbc0c407fb2e6d3b18f686f49f19fc58a3790b1770188d6512b2cf8cd534ba194dddbecd52e582abb8a119638aad6ca1ae31f4646a0ef2715119ab70320d4c13") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04e899addc55804061f2941e21fc6ffda9052d03b0dda80005fe9dccffc08dbeefbbbb5dee75318ded2f2869de0e0b0b3e71200e4cb06ef8719e97d7d5880491cf") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1509477776;
+        genesis.nTime = 1513389723;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 5703288;
 
         hashGenesisBlock = uint256("000006533a058bf35e6b1116f0da8a2dd60c4de747ffc1a69408ebeb4415dd3f");
-        if (false && genesis.GetHash() != hashGenesisBlock)
+        if (true && genesis.GetHash() != hashGenesisBlock)
         {
             printf("Searching for main net genesis block...\n");
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -190,11 +190,11 @@ public:
         vSeeds.push_back(CDNSSeedData("104.131.30.157", "104.131.30.157")); 
         //vSeeds.push_back(CDNSSeedData("67.199.118.93", "67.199.118.93")); 
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0x17);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 0x76);
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 0xff);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(17)(76)(58)(103).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(17)(7)(6)(26).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0x53);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 0x4b);
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 0x56);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(83)(75)(73)(78).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(83)(69)(88)(89).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
 
@@ -234,11 +234,11 @@ public:
     {
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
-        pchMessageStart[0] = 17;
-        pchMessageStart[1] = 76;
-        pchMessageStart[2] = 56;
-        pchMessageStart[3] = 54;
-        vAlertPubKey = ParseHex("04cd195b65e689d6b3d68b921c62c1f6cac549c82926236f57faa60b3dfbd714f7b378c5eb8e2ae1ed89e6e81eba4af4232703e26af8b275449ec00fbba0a1201b");
+        pchMessageStart[0] = 0x73;
+        pchMessageStart[1] = 0x6b;
+        pchMessageStart[2] = 0x69;
+        pchMessageStart[3] = 0x6e;
+        vAlertPubKey = ParseHex("04bd62aa79235c0549f8e139aea728c0cc3f2ad19e2daecca9847870b21012b3d7e88190f63f557e5215559533b9e92980964e96d330f8feffeb615a2505081ec4");
         nDefaultPort = 17546;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
@@ -253,11 +253,11 @@ public:
         nMaxMoneyOut = 1200000000 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1509477776;
+        genesis.nTime = 1513389723;
         genesis.nNonce = 8363956;
 
         hashGenesisBlock = uint256("000009703dc0066b3814277f3bad8dd9abad64d8e888568c38f0abe6065c9345");
-        if (false && genesis.GetHash() != hashGenesisBlock)
+        if (true && genesis.GetHash() != hashGenesisBlock)
         {
             printf("Searching for test net genesis block...\n");
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -337,10 +337,10 @@ public:
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
         strNetworkID = "regtest";
-        pchMessageStart[0] = 0x17;
-        pchMessageStart[1] = 0x76;
-        pchMessageStart[2] = 0x17;
-        pchMessageStart[3] = 0x76;
+        pchMessageStart[0] = 0x53;
+        pchMessageStart[1] = 0x45;
+        pchMessageStart[2] = 0x58;
+        pchMessageStart[3] = 0x59;
         nSubsidyHalvingInterval = 150;
         nDefaultPort = 27546;
         nEnforceBlockUpgradeMajority = 750;
@@ -350,12 +350,12 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Pivx: 1 day
         nTargetSpacing = 1 * 60;        // Pivx: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1509477776;
+        genesis.nTime = 1513389723;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 12350;
 
         hashGenesisBlock = uint256("70f44200f59496375d78b35748349f03890384d4e1c6df10cab0da32bbec9d8e");
-        if (false && genesis.GetHash() != hashGenesisBlock)
+        if (true && genesis.GetHash() != hashGenesisBlock)
         {
             printf("Searching for reg test net genesis block...\n");
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
