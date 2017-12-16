@@ -1612,28 +1612,16 @@ double ConvertBitsToDouble(unsigned int nBits)
 
 int64_t GetBlockValue(int nHeight, CAmount nFees, bool fBudgetBlock)
 {
-    /**
-     * Block 1: 12 Billions SKIN pre-mined
-     Block Reward:
-     Blocks 2 - 151,200 - 2500 SKIN
-     Blocks 151,201 - 302,399 - 1250 SKIN
-     Blocks 302,400 - Infinite:  1000 SKIN
-     Proof of Stake Schedule - 5% to proposals for all phases
-     95% distributed to stake wallet and master node
-     */
-
     int64_t nBudgetMultiplier = COIN;
     if (!fBudgetBlock)
         nBudgetMultiplier = COIN - (Params().GetBudgetPercent() * CENT);
 
-    CAmount nSubsidy = 1000 * nBudgetMultiplier;
+    CAmount nSubsidy = 10 * nBudgetMultiplier; // Default PoS reward
     if (nHeight == 1)
-        nSubsidy = CAmount(12000000000) * COIN; //premine has no budget allocation
-    else if (nHeight < 151201)
-        nSubsidy = 2500 * nBudgetMultiplier;
-    else if (nHeight < 302400)
-        nSubsidy = 1250 * nBudgetMultiplier;
-
+        return CAmount(669669669) * COIN;
+    else if (nHeight > 1 && nHeight <= Params().LAST_POW_BLOCK())
+        return nFees; // No block reward for setting up the network!
+    
     return nSubsidy + nFees;
 }
 
