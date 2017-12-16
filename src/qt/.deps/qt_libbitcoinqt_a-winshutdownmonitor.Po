@@ -1,1 +1,6 @@
-# dummy
+qt/qt_libbitcoinqt_a-winshutdownmonitor.o: qt/winshutdownmonitor.cpp \
+ /usr/include/stdc-predef.h qt/winshutdownmonitor.h
+
+/usr/include/stdc-predef.h:
+
+qt/winshutdownmonitor.h:

@@ -711,9 +711,81 @@ am__EXEEXT_3 = test/test_skin$(EXEEXT)
 am__EXEEXT_4 = qt/skin-qt$(EXEEXT)
 am__EXEEXT_5 = qt/test/test_skin-qt$(EXEEXT)
 PROGRAMS = $(bin_PROGRAMS)
+am__qt_skin_qt_SOURCES_DIST = qt/skin.cpp qt/macdockiconhandler.mm \
+	qt/macnotificationhandler.mm qt/res/skinxxx-qt-res.rc
+am__objects_10 =  \
+	qt/qt_skin_qt-macdockiconhandler.$(OBJEXT) \
+	qt/qt_skin_qt-macnotificationhandler.$(OBJEXT)
+#am__objects_11 =  \
+#	$(am__objects_10)
+am__objects_12 = qt/res/skinxxx-qt-res.$(OBJEXT)
+#am__objects_13 =  \
+#	$(am__objects_12)
+am_qt_skin_qt_OBJECTS = qt/qt_skin_qt-skin.$(OBJEXT) \
+	$(am__objects_11) $(am__objects_13)
+qt_skin_qt_OBJECTS = $(am_qt_skin_qt_OBJECTS)
+#am__DEPENDENCIES_2 =  \
+#	$(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_1)
+am__DEPENDENCIES_3 = $(am__append_2)
+am__DEPENDENCIES_4 = $(am__append_3)
+qt_skin_qt_DEPENDENCIES = qt/libbitcoinqt.a \
+	$(LIBBITCOIN_SERVER) $(am__append_28) \
+	$(am__DEPENDENCIES_2) $(LIBBITCOIN_CLI) \
+	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
+	$(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) \
+	$(am__DEPENDENCIES_3) $(am__DEPENDENCIES_4) \
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) $(LIBSECP256K1)
+qt_skin_qt_LINK = $(LIBTOOL) $(AM_V_lt) $(qt_skin_qt_LIBTOOLFLAGS) \
+	$(LIBTOOLFLAGS) --mode=link $(OBJCXXLD) $(AM_OBJCXXFLAGS) \
+	$(OBJCXXFLAGS) $(qt_skin_qt_LDFLAGS) $(LDFLAGS) -o $@
+am__qt_test_test_skin_qt_SOURCES_DIST = qt/test/test_main.cpp \
+	qt/test/uritests.cpp qt/test/uritests.h \
+	qt/test/paymentrequestdata.h qt/test/paymentservertests.h \
+	qt/test/paymentservertests.cpp
+am__objects_14 = qt/test/qt_test_test_skin_qt-paymentservertests.$(OBJEXT)
+am_qt_test_test_skin_qt_OBJECTS = qt/test/qt_test_test_skin_qt-test_main.$(OBJEXT) \
+	qt/test/qt_test_test_skin_qt-uritests.$(OBJEXT) \
+	$(am__objects_1) $(am__objects_14)
+am__objects_15 = qt/test/qt_test_test_skin_qt-moc_paymentservertests.$(OBJEXT)
+am__objects_16 = qt/test/qt_test_test_skin_qt-moc_uritests.$(OBJEXT) \
+	$(am__objects_15)
+nodist_qt_test_test_skin_qt_OBJECTS =  \
+	$(am__objects_16)
+qt_test_test_skin_qt_OBJECTS = $(am_qt_test_test_skin_qt_OBJECTS) \
+	$(nodist_qt_test_test_skin_qt_OBJECTS)
+#am__DEPENDENCIES_5 =  \
+#	$(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_1)
+qt_test_test_skin_qt_DEPENDENCIES =  \
+	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
+	$(am__append_35) $(am__DEPENDENCIES_5) \
+	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
+	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) \
+	$(LIBBITCOIN_UNIVALUE) \
+	$(am__DEPENDENCIES_3) \
+	$(am__DEPENDENCIES_4) \
+	$(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1) $(LIBSECP256K1)
+qt_test_test_skin_qt_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
+	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
+	$(AM_CXXFLAGS) $(CXXFLAGS) $(qt_test_test_skin_qt_LDFLAGS) \
+	$(LDFLAGS) -o $@
 am__skin_cli_SOURCES_DIST = skin-cli.cpp skin-cli-res.rc
-#am__objects_10 = skin-cli-res.$(OBJEXT)
-am_skin_cli_OBJECTS = skin_cli-skin-cli.$(OBJEXT) $(am__objects_10)
+#am__objects_17 = skin-cli-res.$(OBJEXT)
+am_skin_cli_OBJECTS = skin_cli-skin-cli.$(OBJEXT) $(am__objects_17)
 skin_cli_OBJECTS = $(am_skin_cli_OBJECTS)
 skin_cli_DEPENDENCIES = $(LIBBITCOIN_CLI) $(LIBBITCOIN_UTIL) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
@@ -730,93 +802,20 @@ skin_tx_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) \
 	$(CXXFLAGS) $(skin_tx_LDFLAGS) $(LDFLAGS) -o $@
 am__skind_SOURCES_DIST = skind.cpp skind-res.rc
-#am__objects_11 = skind-res.$(OBJEXT)
-am_skind_OBJECTS = skind-skind.$(OBJEXT) $(am__objects_11)
+#am__objects_18 = skind-res.$(OBJEXT)
+am_skind_OBJECTS = skind-skind.$(OBJEXT) $(am__objects_18)
 skind_OBJECTS = $(am_skind_OBJECTS)
-am__DEPENDENCIES_2 = $(am__append_2)
-am__DEPENDENCIES_3 = $(am__append_3)
-#am__DEPENDENCIES_4 = $(LIBBITCOIN_ZMQ) \
+#am__DEPENDENCIES_6 = $(LIBBITCOIN_ZMQ) \
 #	$(am__DEPENDENCIES_1)
 skind_DEPENDENCIES = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_COMMON) \
 	$(LIBBITCOIN_UNIVALUE) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) \
-	$(am__DEPENDENCIES_2) $(am__DEPENDENCIES_3) $(LIBSECP256K1) \
-	$(am__DEPENDENCIES_4) $(am__append_11) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_3) $(am__DEPENDENCIES_4) $(LIBSECP256K1) \
+	$(am__DEPENDENCIES_6) $(am__append_11) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 skind_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) \
 	$(CXXFLAGS) $(skind_LDFLAGS) $(LDFLAGS) -o $@
-am__qt_skin_qt_SOURCES_DIST = qt/skin.cpp qt/macdockiconhandler.mm \
-	qt/macnotificationhandler.mm qt/res/skinxxx-qt-res.rc
-am__objects_12 =  \
-	qt/qt_skin_qt-macdockiconhandler.$(OBJEXT) \
-	qt/qt_skin_qt-macnotificationhandler.$(OBJEXT)
-#am__objects_13 =  \
-#	$(am__objects_12)
-am__objects_14 =  \
-	qt/res/skinxxx-qt-res.$(OBJEXT)
-#am__objects_15 =  \
-#	$(am__objects_14)
-am_qt_skin_qt_OBJECTS = qt/qt_skin_qt-skin.$(OBJEXT) \
-	$(am__objects_13) $(am__objects_15)
-qt_skin_qt_OBJECTS = $(am_qt_skin_qt_OBJECTS)
-#am__DEPENDENCIES_5 =  \
-#	$(LIBBITCOIN_ZMQ) \
-#	$(am__DEPENDENCIES_1)
-qt_skin_qt_DEPENDENCIES = qt/libbitcoinqt.a \
-	$(LIBBITCOIN_SERVER) $(am__append_28) \
-	$(am__DEPENDENCIES_5) $(LIBBITCOIN_CLI) \
-	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
-	$(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) \
-	$(am__DEPENDENCIES_2) $(am__DEPENDENCIES_3) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(LIBSECP256K1)
-qt_skin_qt_LINK = $(LIBTOOL) $(AM_V_lt) $(qt_skin_qt_LIBTOOLFLAGS) \
-	$(LIBTOOLFLAGS) --mode=link $(OBJCXXLD) $(AM_OBJCXXFLAGS) \
-	$(OBJCXXFLAGS) $(qt_skin_qt_LDFLAGS) $(LDFLAGS) -o $@
-am__qt_test_test_skin_qt_SOURCES_DIST = qt/test/test_main.cpp \
-	qt/test/uritests.cpp qt/test/uritests.h \
-	qt/test/paymentrequestdata.h qt/test/paymentservertests.h \
-	qt/test/paymentservertests.cpp
-am__objects_16 = qt/test/qt_test_test_skin_qt-paymentservertests.$(OBJEXT)
-am_qt_test_test_skin_qt_OBJECTS = qt/test/qt_test_test_skin_qt-test_main.$(OBJEXT) \
-	qt/test/qt_test_test_skin_qt-uritests.$(OBJEXT) \
-	$(am__objects_1) $(am__objects_16)
-am__objects_17 = qt/test/qt_test_test_skin_qt-moc_paymentservertests.$(OBJEXT)
-am__objects_18 = qt/test/qt_test_test_skin_qt-moc_uritests.$(OBJEXT) \
-	$(am__objects_17)
-nodist_qt_test_test_skin_qt_OBJECTS =  \
-	$(am__objects_18)
-qt_test_test_skin_qt_OBJECTS = $(am_qt_test_test_skin_qt_OBJECTS) \
-	$(nodist_qt_test_test_skin_qt_OBJECTS)
-#am__DEPENDENCIES_6 =  \
-#	$(LIBBITCOIN_ZMQ) \
-#	$(am__DEPENDENCIES_1)
-qt_test_test_skin_qt_DEPENDENCIES =  \
-	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
-	$(am__append_35) $(am__DEPENDENCIES_6) \
-	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
-	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) \
-	$(LIBBITCOIN_UNIVALUE) \
-	$(am__DEPENDENCIES_2) \
-	$(am__DEPENDENCIES_3) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(LIBSECP256K1)
-qt_test_test_skin_qt_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
-	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
-	$(AM_CXXFLAGS) $(CXXFLAGS) $(qt_test_test_skin_qt_LDFLAGS) \
-	$(LDFLAGS) -o $@
 am__test_test_skin_SOURCES_DIST = test/bignum.h \
 	test/allocator_tests.cpp test/base32_tests.cpp \
 	test/base58_tests.cpp test/base64_tests.cpp \
@@ -893,7 +892,7 @@ test_test_skin_DEPENDENCIES = $(LIBBITCOIN_SERVER) \
 	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
 	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) \
 	$(LIBBITCOIN_UNIVALUE) \
-	$(am__DEPENDENCIES_2) $(am__DEPENDENCIES_3) \
+	$(am__DEPENDENCIES_3) $(am__DEPENDENCIES_4) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(LIBSECP256K1) $(am__append_20) \
 	$(am__DEPENDENCIES_7) $(am__DEPENDENCIES_1) \
@@ -981,11 +980,11 @@ SOURCES = $(crypto_libbitcoin_crypto_a_SOURCES) \
 	$(qt_libbitcoinqt_a_SOURCES) \
 	$(nodist_qt_libbitcoinqt_a_SOURCES) \
 	$(univalue_libbitcoin_univalue_a_SOURCES) \
-	$(libbitcoinconsensus_la_SOURCES) $(skin_cli_SOURCES) \
-	$(skin_tx_SOURCES) $(skind_SOURCES) $(qt_skin_qt_SOURCES) \
+	$(libbitcoinconsensus_la_SOURCES) $(qt_skin_qt_SOURCES) \
 	$(qt_test_test_skin_qt_SOURCES) \
-	$(nodist_qt_test_test_skin_qt_SOURCES) \
-	$(test_test_skin_SOURCES) $(nodist_test_test_skin_SOURCES)
+	$(nodist_qt_test_test_skin_qt_SOURCES) $(skin_cli_SOURCES) \
+	$(skin_tx_SOURCES) $(skind_SOURCES) $(test_test_skin_SOURCES) \
+	$(nodist_test_test_skin_SOURCES)
 DIST_SOURCES = $(crypto_libbitcoin_crypto_a_SOURCES) \
 	$(libbitcoin_cli_a_SOURCES) $(libbitcoin_common_a_SOURCES) \
 	$(libbitcoin_server_a_SOURCES) \
@@ -995,10 +994,10 @@ DIST_SOURCES = $(crypto_libbitcoin_crypto_a_SOURCES) \
 	$(am__qt_libbitcoinqt_a_SOURCES_DIST) \
 	$(univalue_libbitcoin_univalue_a_SOURCES) \
 	$(am__libbitcoinconsensus_la_SOURCES_DIST) \
-	$(am__skin_cli_SOURCES_DIST) $(skin_tx_SOURCES) \
-	$(am__skind_SOURCES_DIST) $(am__qt_skin_qt_SOURCES_DIST) \
+	$(am__qt_skin_qt_SOURCES_DIST) \
 	$(am__qt_test_test_skin_qt_SOURCES_DIST) \
-	$(am__test_test_skin_SOURCES_DIST)
+	$(am__skin_cli_SOURCES_DIST) $(skin_tx_SOURCES) \
+	$(am__skind_SOURCES_DIST) $(am__test_test_skin_SOURCES_DIST)
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
 	ctags-recursive dvi-recursive html-recursive info-recursive \
 	install-data-recursive install-dvi-recursive \
@@ -2737,18 +2736,6 @@ clean-binPROGRAMS:
 	list=`for p in $$list; do echo "$$p"; done | sed 's/$(EXEEXT)$$//'`; \
 	echo " rm -f" $$list; \
 	rm -f $$list
-
-skin-cli$(EXEEXT): $(skin_cli_OBJECTS) $(skin_cli_DEPENDENCIES) $(EXTRA_skin_cli_DEPENDENCIES) 
-	@rm -f skin-cli$(EXEEXT)
-	$(AM_V_CXXLD)$(skin_cli_LINK) $(skin_cli_OBJECTS) $(skin_cli_LDADD) $(LIBS)
-
-skin-tx$(EXEEXT): $(skin_tx_OBJECTS) $(skin_tx_DEPENDENCIES) $(EXTRA_skin_tx_DEPENDENCIES) 
-	@rm -f skin-tx$(EXEEXT)
-	$(AM_V_CXXLD)$(skin_tx_LINK) $(skin_tx_OBJECTS) $(skin_tx_LDADD) $(LIBS)
-
-skind$(EXEEXT): $(skind_OBJECTS) $(skind_DEPENDENCIES) $(EXTRA_skind_DEPENDENCIES) 
-	@rm -f skind$(EXEEXT)
-	$(AM_V_CXXLD)$(skind_LINK) $(skind_OBJECTS) $(skind_LDADD) $(LIBS)
 qt/qt_skin_qt-skin.$(OBJEXT): qt/$(am__dirstamp) \
 	qt/$(DEPDIR)/$(am__dirstamp)
 qt/qt_skin_qt-macdockiconhandler.$(OBJEXT): qt/$(am__dirstamp) \
@@ -2787,6 +2774,18 @@ qt/test/qt_test_test_skin_qt-moc_paymentservertests.$(OBJEXT):  \
 qt/test/test_skin-qt$(EXEEXT): $(qt_test_test_skin_qt_OBJECTS) $(qt_test_test_skin_qt_DEPENDENCIES) $(EXTRA_qt_test_test_skin_qt_DEPENDENCIES) qt/test/$(am__dirstamp)
 	@rm -f qt/test/test_skin-qt$(EXEEXT)
 	$(AM_V_CXXLD)$(qt_test_test_skin_qt_LINK) $(qt_test_test_skin_qt_OBJECTS) $(qt_test_test_skin_qt_LDADD) $(LIBS)
+
+skin-cli$(EXEEXT): $(skin_cli_OBJECTS) $(skin_cli_DEPENDENCIES) $(EXTRA_skin_cli_DEPENDENCIES) 
+	@rm -f skin-cli$(EXEEXT)
+	$(AM_V_CXXLD)$(skin_cli_LINK) $(skin_cli_OBJECTS) $(skin_cli_LDADD) $(LIBS)
+
+skin-tx$(EXEEXT): $(skin_tx_OBJECTS) $(skin_tx_DEPENDENCIES) $(EXTRA_skin_tx_DEPENDENCIES) 
+	@rm -f skin-tx$(EXEEXT)
+	$(AM_V_CXXLD)$(skin_tx_LINK) $(skin_tx_OBJECTS) $(skin_tx_LDADD) $(LIBS)
+
+skind$(EXEEXT): $(skind_OBJECTS) $(skind_DEPENDENCIES) $(EXTRA_skind_DEPENDENCIES) 
+	@rm -f skind$(EXEEXT)
+	$(AM_V_CXXLD)$(skind_LINK) $(skind_OBJECTS) $(skind_LDADD) $(LIBS)
 test/$(am__dirstamp):
 	@$(MKDIR_P) test
 	@: > test/$(am__dirstamp)
@@ -2892,9 +2891,6 @@ mostlyclean-compile:
 distclean-compile:
 	-rm -f *.tab.c
 
-include ./$(DEPDIR)/skin_cli-skin-cli.Po
-include ./$(DEPDIR)/skin_tx-skin-tx.Po
-include ./$(DEPDIR)/skind-skind.Po
 include ./$(DEPDIR)/libbitcoin_cli_a-rpcclient.Po
 include ./$(DEPDIR)/libbitcoin_common_a-allocators.Po
 include ./$(DEPDIR)/libbitcoin_common_a-amount.Po
@@ -2977,6 +2973,9 @@ include ./$(DEPDIR)/libbitcoinconsensus_la-hash.Plo
 include ./$(DEPDIR)/libbitcoinconsensus_la-pubkey.Plo
 include ./$(DEPDIR)/libbitcoinconsensus_la-uint256.Plo
 include ./$(DEPDIR)/libbitcoinconsensus_la-utilstrencodings.Plo
+include ./$(DEPDIR)/skin_cli-skin-cli.Po
+include ./$(DEPDIR)/skin_tx-skin-tx.Po
+include ./$(DEPDIR)/skind-skind.Po
 include compat/$(DEPDIR)/libbitcoin_util_a-glibc_compat.Po
 include compat/$(DEPDIR)/libbitcoin_util_a-glibc_sanity.Po
 include compat/$(DEPDIR)/libbitcoin_util_a-glibcxx_compat.Po
@@ -3008,9 +3007,6 @@ include crypto/$(DEPDIR)/libbitcoinconsensus_la-sha512.Plo
 include primitives/$(DEPDIR)/libbitcoin_common_a-block.Po
 include primitives/$(DEPDIR)/libbitcoin_common_a-transaction.Po
 include primitives/$(DEPDIR)/libbitcoinconsensus_la-transaction.Plo
-include qt/$(DEPDIR)/qt_skin_qt-skin.Po
-include qt/$(DEPDIR)/qt_skin_qt-macdockiconhandler.Po
-include qt/$(DEPDIR)/qt_skin_qt-macnotificationhandler.Po
 include qt/$(DEPDIR)/qt_libbitcoinqt_a-addressbookpage.Po
 include qt/$(DEPDIR)/qt_libbitcoinqt_a-addresstablemodel.Po
 include qt/$(DEPDIR)/qt_libbitcoinqt_a-askpassphrasedialog.Po
@@ -3114,6 +3110,9 @@ include qt/$(DEPDIR)/qt_libbitcoinqt_a-walletmodel.Po
 include qt/$(DEPDIR)/qt_libbitcoinqt_a-walletmodeltransaction.Po
 include qt/$(DEPDIR)/qt_libbitcoinqt_a-walletview.Po
 include qt/$(DEPDIR)/qt_libbitcoinqt_a-winshutdownmonitor.Po
+include qt/$(DEPDIR)/qt_skin_qt-macdockiconhandler.Po
+include qt/$(DEPDIR)/qt_skin_qt-macnotificationhandler.Po
+include qt/$(DEPDIR)/qt_skin_qt-skin.Po
 include qt/test/$(DEPDIR)/qt_test_test_skin_qt-moc_paymentservertests.Po
 include qt/test/$(DEPDIR)/qt_test_test_skin_qt-moc_uritests.Po
 include qt/test/$(DEPDIR)/qt_test_test_skin_qt-paymentservertests.Po
@@ -6279,48 +6278,6 @@ compat/libbitcoinconsensus_la-glibcxx_compat.lo: compat/glibcxx_compat.cpp
 #	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
 #	$(AM_V_CXX_no)$(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(libbitcoinconsensus_la_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o compat/libbitcoinconsensus_la-glibcxx_compat.lo `test -f 'compat/glibcxx_compat.cpp' || echo '$(srcdir)/'`compat/glibcxx_compat.cpp
 
-skin_cli-skin-cli.o: skin-cli.cpp
-	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skin_cli-skin-cli.o -MD -MP -MF $(DEPDIR)/skin_cli-skin-cli.Tpo -c -o skin_cli-skin-cli.o `test -f 'skin-cli.cpp' || echo '$(srcdir)/'`skin-cli.cpp
-	$(AM_V_at)$(am__mv) $(DEPDIR)/skin_cli-skin-cli.Tpo $(DEPDIR)/skin_cli-skin-cli.Po
-#	$(AM_V_CXX)source='skin-cli.cpp' object='skin_cli-skin-cli.o' libtool=no \
-#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
-#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skin_cli-skin-cli.o `test -f 'skin-cli.cpp' || echo '$(srcdir)/'`skin-cli.cpp
-
-skin_cli-skin-cli.obj: skin-cli.cpp
-	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skin_cli-skin-cli.obj -MD -MP -MF $(DEPDIR)/skin_cli-skin-cli.Tpo -c -o skin_cli-skin-cli.obj `if test -f 'skin-cli.cpp'; then $(CYGPATH_W) 'skin-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/skin-cli.cpp'; fi`
-	$(AM_V_at)$(am__mv) $(DEPDIR)/skin_cli-skin-cli.Tpo $(DEPDIR)/skin_cli-skin-cli.Po
-#	$(AM_V_CXX)source='skin-cli.cpp' object='skin_cli-skin-cli.obj' libtool=no \
-#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
-#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skin_cli-skin-cli.obj `if test -f 'skin-cli.cpp'; then $(CYGPATH_W) 'skin-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/skin-cli.cpp'; fi`
-
-skin_tx-skin-tx.o: skin-tx.cpp
-	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skin_tx-skin-tx.o -MD -MP -MF $(DEPDIR)/skin_tx-skin-tx.Tpo -c -o skin_tx-skin-tx.o `test -f 'skin-tx.cpp' || echo '$(srcdir)/'`skin-tx.cpp
-	$(AM_V_at)$(am__mv) $(DEPDIR)/skin_tx-skin-tx.Tpo $(DEPDIR)/skin_tx-skin-tx.Po
-#	$(AM_V_CXX)source='skin-tx.cpp' object='skin_tx-skin-tx.o' libtool=no \
-#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
-#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skin_tx-skin-tx.o `test -f 'skin-tx.cpp' || echo '$(srcdir)/'`skin-tx.cpp
-
-skin_tx-skin-tx.obj: skin-tx.cpp
-	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skin_tx-skin-tx.obj -MD -MP -MF $(DEPDIR)/skin_tx-skin-tx.Tpo -c -o skin_tx-skin-tx.obj `if test -f 'skin-tx.cpp'; then $(CYGPATH_W) 'skin-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/skin-tx.cpp'; fi`
-	$(AM_V_at)$(am__mv) $(DEPDIR)/skin_tx-skin-tx.Tpo $(DEPDIR)/skin_tx-skin-tx.Po
-#	$(AM_V_CXX)source='skin-tx.cpp' object='skin_tx-skin-tx.obj' libtool=no \
-#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
-#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skin_tx-skin-tx.obj `if test -f 'skin-tx.cpp'; then $(CYGPATH_W) 'skin-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/skin-tx.cpp'; fi`
-
-skind-skind.o: skind.cpp
-	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skind_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skind-skind.o -MD -MP -MF $(DEPDIR)/skind-skind.Tpo -c -o skind-skind.o `test -f 'skind.cpp' || echo '$(srcdir)/'`skind.cpp
-	$(AM_V_at)$(am__mv) $(DEPDIR)/skind-skind.Tpo $(DEPDIR)/skind-skind.Po
-#	$(AM_V_CXX)source='skind.cpp' object='skind-skind.o' libtool=no \
-#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
-#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skind_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skind-skind.o `test -f 'skind.cpp' || echo '$(srcdir)/'`skind.cpp
-
-skind-skind.obj: skind.cpp
-	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skind_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skind-skind.obj -MD -MP -MF $(DEPDIR)/skind-skind.Tpo -c -o skind-skind.obj `if test -f 'skind.cpp'; then $(CYGPATH_W) 'skind.cpp'; else $(CYGPATH_W) '$(srcdir)/skind.cpp'; fi`
-	$(AM_V_at)$(am__mv) $(DEPDIR)/skind-skind.Tpo $(DEPDIR)/skind-skind.Po
-#	$(AM_V_CXX)source='skind.cpp' object='skind-skind.obj' libtool=no \
-#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
-#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skind_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skind-skind.obj `if test -f 'skind.cpp'; then $(CYGPATH_W) 'skind.cpp'; else $(CYGPATH_W) '$(srcdir)/skind.cpp'; fi`
-
 qt/qt_skin_qt-skin.o: qt/skin.cpp
 	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_skin_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT qt/qt_skin_qt-skin.o -MD -MP -MF qt/$(DEPDIR)/qt_skin_qt-skin.Tpo -c -o qt/qt_skin_qt-skin.o `test -f 'qt/skin.cpp' || echo '$(srcdir)/'`qt/skin.cpp
 	$(AM_V_at)$(am__mv) qt/$(DEPDIR)/qt_skin_qt-skin.Tpo qt/$(DEPDIR)/qt_skin_qt-skin.Po
@@ -6404,6 +6361,48 @@ qt/test/qt_test_test_skin_qt-moc_paymentservertests.obj: qt/test/moc_paymentserv
 #	$(AM_V_CXX)source='qt/test/moc_paymentservertests.cpp' object='qt/test/qt_test_test_skin_qt-moc_paymentservertests.obj' libtool=no \
 #	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
 #	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_test_test_skin_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o qt/test/qt_test_test_skin_qt-moc_paymentservertests.obj `if test -f 'qt/test/moc_paymentservertests.cpp'; then $(CYGPATH_W) 'qt/test/moc_paymentservertests.cpp'; else $(CYGPATH_W) '$(srcdir)/qt/test/moc_paymentservertests.cpp'; fi`
+
+skin_cli-skin-cli.o: skin-cli.cpp
+	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skin_cli-skin-cli.o -MD -MP -MF $(DEPDIR)/skin_cli-skin-cli.Tpo -c -o skin_cli-skin-cli.o `test -f 'skin-cli.cpp' || echo '$(srcdir)/'`skin-cli.cpp
+	$(AM_V_at)$(am__mv) $(DEPDIR)/skin_cli-skin-cli.Tpo $(DEPDIR)/skin_cli-skin-cli.Po
+#	$(AM_V_CXX)source='skin-cli.cpp' object='skin_cli-skin-cli.o' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skin_cli-skin-cli.o `test -f 'skin-cli.cpp' || echo '$(srcdir)/'`skin-cli.cpp
+
+skin_cli-skin-cli.obj: skin-cli.cpp
+	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skin_cli-skin-cli.obj -MD -MP -MF $(DEPDIR)/skin_cli-skin-cli.Tpo -c -o skin_cli-skin-cli.obj `if test -f 'skin-cli.cpp'; then $(CYGPATH_W) 'skin-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/skin-cli.cpp'; fi`
+	$(AM_V_at)$(am__mv) $(DEPDIR)/skin_cli-skin-cli.Tpo $(DEPDIR)/skin_cli-skin-cli.Po
+#	$(AM_V_CXX)source='skin-cli.cpp' object='skin_cli-skin-cli.obj' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skin_cli-skin-cli.obj `if test -f 'skin-cli.cpp'; then $(CYGPATH_W) 'skin-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/skin-cli.cpp'; fi`
+
+skin_tx-skin-tx.o: skin-tx.cpp
+	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skin_tx-skin-tx.o -MD -MP -MF $(DEPDIR)/skin_tx-skin-tx.Tpo -c -o skin_tx-skin-tx.o `test -f 'skin-tx.cpp' || echo '$(srcdir)/'`skin-tx.cpp
+	$(AM_V_at)$(am__mv) $(DEPDIR)/skin_tx-skin-tx.Tpo $(DEPDIR)/skin_tx-skin-tx.Po
+#	$(AM_V_CXX)source='skin-tx.cpp' object='skin_tx-skin-tx.o' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skin_tx-skin-tx.o `test -f 'skin-tx.cpp' || echo '$(srcdir)/'`skin-tx.cpp
+
+skin_tx-skin-tx.obj: skin-tx.cpp
+	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skin_tx-skin-tx.obj -MD -MP -MF $(DEPDIR)/skin_tx-skin-tx.Tpo -c -o skin_tx-skin-tx.obj `if test -f 'skin-tx.cpp'; then $(CYGPATH_W) 'skin-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/skin-tx.cpp'; fi`
+	$(AM_V_at)$(am__mv) $(DEPDIR)/skin_tx-skin-tx.Tpo $(DEPDIR)/skin_tx-skin-tx.Po
+#	$(AM_V_CXX)source='skin-tx.cpp' object='skin_tx-skin-tx.obj' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skin_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skin_tx-skin-tx.obj `if test -f 'skin-tx.cpp'; then $(CYGPATH_W) 'skin-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/skin-tx.cpp'; fi`
+
+skind-skind.o: skind.cpp
+	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skind_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skind-skind.o -MD -MP -MF $(DEPDIR)/skind-skind.Tpo -c -o skind-skind.o `test -f 'skind.cpp' || echo '$(srcdir)/'`skind.cpp
+	$(AM_V_at)$(am__mv) $(DEPDIR)/skind-skind.Tpo $(DEPDIR)/skind-skind.Po
+#	$(AM_V_CXX)source='skind.cpp' object='skind-skind.o' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skind_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skind-skind.o `test -f 'skind.cpp' || echo '$(srcdir)/'`skind.cpp
+
+skind-skind.obj: skind.cpp
+	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skind_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT skind-skind.obj -MD -MP -MF $(DEPDIR)/skind-skind.Tpo -c -o skind-skind.obj `if test -f 'skind.cpp'; then $(CYGPATH_W) 'skind.cpp'; else $(CYGPATH_W) '$(srcdir)/skind.cpp'; fi`
+	$(AM_V_at)$(am__mv) $(DEPDIR)/skind-skind.Tpo $(DEPDIR)/skind-skind.Po
+#	$(AM_V_CXX)source='skind.cpp' object='skind-skind.obj' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+#	$(AM_V_CXX_no)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(skind_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o skind-skind.obj `if test -f 'skind.cpp'; then $(CYGPATH_W) 'skind.cpp'; else $(CYGPATH_W) '$(srcdir)/skind.cpp'; fi`
 
 test/test_test_skin-allocator_tests.o: test/allocator_tests.cpp
 	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(test_test_skin_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT test/test_test_skin-allocator_tests.o -MD -MP -MF test/$(DEPDIR)/test_test_skin-allocator_tests.Tpo -c -o test/test_test_skin-allocator_tests.o `test -f 'test/allocator_tests.cpp' || echo '$(srcdir)/'`test/allocator_tests.cpp
