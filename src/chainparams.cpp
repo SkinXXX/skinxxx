@@ -147,9 +147,9 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1513389723;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 5703288;
+        genesis.nNonce = 6013941;
 
-        hashGenesisBlock = uint256("000006533a058bf35e6b1116f0da8a2dd60c4de747ffc1a69408ebeb4415dd3f");
+        hashGenesisBlock = uint256("0000004903bce55e27c02b21b83d11dc9dddf2fca983793a8b8eaa9ba61f42e6");
         if (true && genesis.GetHash() != hashGenesisBlock)
         {
             printf("Searching for main net genesis block...\n");
@@ -181,8 +181,8 @@ public:
         }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("000006533a058bf35e6b1116f0da8a2dd60c4de747ffc1a69408ebeb4415dd3f"));
-        assert(genesis.hashMerkleRoot == uint256("e874a2a2faa556e6d9808723233dad49becc217fcb1c6e182e6c62118aeb5101"));
+        assert(hashGenesisBlock == uint256("0000004903bce55e27c02b21b83d11dc9dddf2fca983793a8b8eaa9ba61f42e6"));
+        assert(genesis.hashMerkleRoot == uint256("969e88fc67fc3a800a048ba0fd01d9e966684d544c28d52f08bb9121e691a243"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -254,9 +254,9 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1513389723;
-        genesis.nNonce = 8363956;
+        genesis.nNonce = 8543586;
 
-        hashGenesisBlock = uint256("000009703dc0066b3814277f3bad8dd9abad64d8e888568c38f0abe6065c9345");
+        hashGenesisBlock = uint256("000000a631d7449c4bdca6208b5f2f2b2ce2b9eb2db2f459589b121d1f26038d");
         if (true && genesis.GetHash() != hashGenesisBlock)
         {
             printf("Searching for test net genesis block...\n");
@@ -288,8 +288,8 @@ public:
         }
 
         //hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("000009703dc0066b3814277f3bad8dd9abad64d8e888568c38f0abe6065c9345"));
-        assert(genesis.hashMerkleRoot == uint256("e874a2a2faa556e6d9808723233dad49becc217fcb1c6e182e6c62118aeb5101"));
+        assert(hashGenesisBlock == uint256("000000a631d7449c4bdca6208b5f2f2b2ce2b9eb2db2f459589b121d1f26038d"));
+        assert(genesis.hashMerkleRoot == uint256("969e88fc67fc3a800a048ba0fd01d9e966684d544c28d52f08bb9121e691a243"));
         
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -354,7 +354,7 @@ public:
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 12350;
 
-        hashGenesisBlock = uint256("70f44200f59496375d78b35748349f03890384d4e1c6df10cab0da32bbec9d8e");
+        hashGenesisBlock = uint256("30614f105e300e231da3adea85b090861ab451eb51210352f016081bfd5e270b");
         if (true && genesis.GetHash() != hashGenesisBlock)
         {
             printf("Searching for reg test net genesis block...\n");
@@ -385,8 +385,8 @@ public:
 
         }
 
-        assert(hashGenesisBlock == uint256("70f44200f59496375d78b35748349f03890384d4e1c6df10cab0da32bbec9d8e"));
-        assert(genesis.hashMerkleRoot == uint256("e874a2a2faa556e6d9808723233dad49becc217fcb1c6e182e6c62118aeb5101"));
+        assert(hashGenesisBlock == uint256("30614f105e300e231da3adea85b090861ab451eb51210352f016081bfd5e270b"));
+        assert(genesis.hashMerkleRoot == uint256("969e88fc67fc3a800a048ba0fd01d9e966684d544c28d52f08bb9121e691a243"));
         
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
