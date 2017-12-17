@@ -75,7 +75,7 @@ int64_t nReserveBalance = 0;
  * We are ~100 times smaller then bitcoin now (2015-06-23), set minRelayTxFee only 10 times higher
  * so it's still 10 times lower comparing to bitcoin.
  */
-CFeeRate minRelayTxFee = CFeeRate(10 * COIN);
+CFeeRate minRelayTxFee = CFeeRate(0.0001 * COIN);
 
 CTxMemPool mempool(::minRelayTxFee);
 

@@ -150,7 +150,7 @@ public:
         genesis.nNonce = 6013941;
 
         hashGenesisBlock = uint256("0000004903bce55e27c02b21b83d11dc9dddf2fca983793a8b8eaa9ba61f42e6");
-        if (true && genesis.GetHash() != hashGenesisBlock)
+        if (false && genesis.GetHash() != hashGenesisBlock)
         {
             printf("Searching for main net genesis block...\n");
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -186,8 +186,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("104.131.23.88", "104.131.23.88")); 
-        //vSeeds.push_back(CDNSSeedData("104.131.30.157", "104.131.30.157")); 
+        vSeeds.push_back(CDNSSeedData("104.131.23.88", "104.131.23.88")); 
+        vSeeds.push_back(CDNSSeedData("104.131.30.157", "104.131.30.157")); 
         //vSeeds.push_back(CDNSSeedData("67.199.118.93", "67.199.118.93")); 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0x53);
@@ -257,7 +257,7 @@ public:
         genesis.nNonce = 8543586;
 
         hashGenesisBlock = uint256("000000a631d7449c4bdca6208b5f2f2b2ce2b9eb2db2f459589b121d1f26038d");
-        if (true && genesis.GetHash() != hashGenesisBlock)
+        if (false && genesis.GetHash() != hashGenesisBlock)
         {
             printf("Searching for test net genesis block...\n");
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -355,7 +355,7 @@ public:
         genesis.nNonce = 12350;
 
         hashGenesisBlock = uint256("30614f105e300e231da3adea85b090861ab451eb51210352f016081bfd5e270b");
-        if (true && genesis.GetHash() != hashGenesisBlock)
+        if (false && genesis.GetHash() != hashGenesisBlock)
         {
             printf("Searching for reg test net genesis block...\n");
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
