@@ -488,6 +488,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             }
         }
 
+
         //
         // Create new block
         //
