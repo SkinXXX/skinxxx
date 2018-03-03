@@ -3,7 +3,7 @@ SKIN Core integration/staging repository
 
 [![Build Status](https://travis-ci.org/SKIN-Project/SKIN.svg?branch=master)](https://travis-ci.org/SKIN-Project/SKIN) [![GitHub version](https://badge.fury.io/gh/SKIN-Project%2FSKIN.svg)](https://badge.fury.io/gh/SKIN-Project%2FSKIN)
 
-SKIN is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
+SkinXXX is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using coin mixing technology, we call it _Obfuscation_.
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftTX_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
