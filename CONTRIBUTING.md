@@ -1,4 +1,4 @@
-Contributing to SKIN Core
+Contributing to SkinXXX
 ============================
 
 The PIVX Core project operates an open contributor model where anyone is
