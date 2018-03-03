@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: skind.service
-Upstart: skind.conf
-OpenRC:  skind.openrc
-         skind.openrcconf
-CentOS:  skind.init
+SystemD: skinxxxd.service
+Upstart: skinxxxd.conf
+OpenRC:  skinxxxd.openrc
+         skinxxxd.openrcconf
+CentOS:  skinxxxd.init
 
 have been made available to assist packagers in creating node packages here.
 

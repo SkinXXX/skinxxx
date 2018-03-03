@@ -11,7 +11,7 @@ the same, tested dependencies are used and statically built into the executable.
 Multiple developers build the source code by following a specific descriptor
 ("recipe"), cryptographically sign the result, and upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
-to skin-crypto.com.
+to skinxxx-crypto.com.
 
 More independent gitian builders are needed, which is why I wrote this
 guide. It is preferred to follow these steps yourself instead of using someone else's
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing gitian](#installing-gitian)
 - [Setting up gitian images](#setting-up-gitian-images)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building SKIN](#building-skin)
+- [Building SKIN](#building-skinxxx)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -281,7 +281,7 @@ Clone the git repositories for skin and gitian and then checkout the skin versio
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/skin-crypto/skin.git
+git clone https://github.com/skinxxx-crypto/skin.git
 cd skin
 git checkout v${VERSION}
 cd ..
@@ -345,12 +345,12 @@ tail -f var/build.log
 Output from `gbuild` will look something like
 
 ```bash
-    Initialized empty Git repository in /home/debian/gitian-builder/inputs/skin/.git/
+    Initialized empty Git repository in /home/debian/gitian-builder/inputs/skinxxx/.git/
     remote: Reusing existing pack: 35606, done.
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
     Resolving deltas: 100% (25724/25724), done.
-    From https://github.com/skin-crypto/skin
+    From https://github.com/skinxxx-crypto/skin
     ... (new tags, new branch etc)
     --- Building for precise x86_64 ---
     Stopping target if it is up
@@ -379,9 +379,9 @@ For example:
 ```bash
 URL=https://github.com/crowning-/skin.git
 COMMIT=b616fb8ef0d49a919b72b0388b091aaec5849b96
-./bin/gbuild --commit skin=${COMMIT} --url skin=${URL} ../skin/contrib/gitian-descriptors/gitian-linux.yml
-./bin/gbuild --commit skin=${COMMIT} --url skin=${URL} ../skin/contrib/gitian-descriptors/gitian-win.yml
-./bin/gbuild --commit skin=${COMMIT} --url skin=${URL} ../skin/contrib/gitian-descriptors/gitian-osx.yml
+./bin/gbuild --commit skinxxx=${COMMIT} --url skinxxx=${URL} ../skinxxx/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit skinxxx=${COMMIT} --url skinxxx=${URL} ../skinxxx/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit skinxxx=${COMMIT} --url skinxxx=${URL} ../skinxxx/contrib/gitian-descriptors/gitian-osx.yml
 ```
 
 Signing externally
@@ -396,9 +396,9 @@ When you execute `gsign` you will get an error from GPG, which can be ignored. C
 in `gitian.sigs` to your signing machine and do
 
 ```bash
-    gpg --detach-sign ${VERSION}-linux/${SIGNER}/skin-build.assert
-    gpg --detach-sign ${VERSION}-win/${SIGNER}/skin-build.assert
-    gpg --detach-sign ${VERSION}-osx/${SIGNER}/skin-build.assert
+    gpg --detach-sign ${VERSION}-linux/${SIGNER}/skinxxx-build.assert
+    gpg --detach-sign ${VERSION}-win/${SIGNER}/skinxxx-build.assert
+    gpg --detach-sign ${VERSION}-osx/${SIGNER}/skinxxx-build.assert
 ```
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your
@@ -408,6 +408,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[skin/gitian.sigs](https://github.com/skin-crypto/gitian.sigs/) repository, or if that's not possible to create a pull
+[skin/gitian.sigs](https://github.com/skinxxx-crypto/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.

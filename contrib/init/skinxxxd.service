@@ -1,0 +1,26 @@
+[Unit]
+Description=SKINXXX's distributed currency daemon
+After=network.target
+
+[Service]
+User=skinxxx
+Group=skinxxx
+
+Type=forking
+PIDFile=/var/lib/skinxxxd/skinxxxd.pid
+
+ExecStart=/usr/bin/skinxxxd -daemon -pid=/var/lib/skinxxxd/skinxxxd.pid \
+          -conf=/etc/skinxxx/skinxxx.conf -datadir=/var/lib/skinxxxd
+
+ExecStop=-/usr/bin/skinxxx-cli -conf=/etc/skinxxx/skinxxx.conf \
+         -datadir=/var/lib/skinxxxd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

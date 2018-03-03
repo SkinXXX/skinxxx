@@ -1,14 +1,14 @@
 Translations
 ============
 
-The PIVX Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, SKIN Core makes use of the Transifex online translation management tool.
+The Skinxxx Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, SKINXXX Core makes use of the Transifex online translation management tool.
 
 ### Helping to translate (using Transifex)
 Transifex is setup to monitor the GitHub repo for updates, and when code containing new translations is found, Transifex will process any changes. It may take several hours after a pull-request has been merged, to appear in the Transifex web interface.
 
-Multiple language support is critical in assisting SKIN's global adoption, and growth. One of SKIN's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
+Multiple language support is critical in assisting SKINXXX's global adoption, and growth. One of SKINXXX's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
 
-See the [Transifex SKIN project](https://www.transifex.com/skin-project/skin-project-translations/) to assist in translations.
+See the [Transifex SKIN project](https://www.transifex.com/skinxxx-project/skinxxx-project-translations/) to assist in translations.
 
 ### Writing code with translations
 We use automated scripts to help extract translations in both Qt, and non-Qt source files. It is rarely necessary to manually edit the files in `src/qt/locale/`. The translation source files must adhere to the following format:
@@ -22,7 +22,7 @@ cd src/
 make translate
 ```
 
-`contrib/skin-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
+`contrib/skinxxx-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
 
 **Example Qt translation**
 ```cpp
@@ -36,14 +36,14 @@ When an updated source file is merged into the GitHub repo, Transifex will autom
 
 To create the pull-request, use the following commands:
 ```
-git add src/qt/skinstrings.cpp src/qt/locale/skin_en.ts
+git add src/qt/skinxxxstrings.cpp src/qt/locale/skin_en.ts
 git commit
 ```
 
 ### Creating a Transifex account
 Visit the [Transifex Signup](https://www.transifex.com/signup/) page to create an account. Take note of your username and password, as they will be required to configure the command-line tool.
 
-You can find the SKIN translation project at [https://www.transifex.com/skin-project/skin-project-translations/](https://www.transifex.com/skin-project/skin-project-translations/).
+You can find the SKIN translation project at [https://www.transifex.com/skinxxx-project/skinxxx-project-translations/](https://www.transifex.com/skinxxx-project/skinxxx-project-translations/).
 
 ### Installing the Transifex client command-line tool
 The client it used to fetch updated translations. If you are having problems, or need more details, see [http://docs.transifex.com/developer/client/setup](http://docs.transifex.com/developer/client/setup)
@@ -74,7 +74,7 @@ The Transifex SKIN project config file is included as part of the repo. It can b
 To assist in updating translations, we have created a script to help.
 
 1. `python contrib/devtools/update-translations.py`
-2. Update `src/qt/skin_locale.qrc` manually or via
+2. Update `src/qt/skinxxx_locale.qrc` manually or via
    `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(skin_\(.*\)\).ts/<file alias="\2">locale\/\1.qm<\/file>/'`
 3. Update `src/Makefile.qt.include` manually or via
    `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(skin_\(.*\)\).ts/  qt\/locale\/\1.ts \\/'`
@@ -94,7 +94,7 @@ When new plurals are added to the source file, it's important to do the followin
 7. Save the source file
 
 ### Translating a new language
-To create a new language template, you will need to edit the languages manifest file `src/qt/skin_locale.qrc` and add a new entry. Below is an example of the English language entry.
+To create a new language template, you will need to edit the languages manifest file `src/qt/skinxxx_locale.qrc` and add a new entry. Below is an example of the English language entry.
 
 ```xml
 <qresource prefix="/translations">
@@ -106,6 +106,6 @@ To create a new language template, you will need to edit the languages manifest 
 **Note:** that the language translation file **must end in `.qm`** (the compiled extension), and not `.ts`.
 
 ### Questions and general assistance
-The PIVX Core translation maintainers include *Fuzzbawls and s3v3nh4cks*. You can find them, and others, in the [SKIN Slack](https://skin.slack.com).
+The Skinxxx Core translation maintainers include *Fuzzbawls and s3v3nh4cks*. You can find them, and others, in the [SKIN Slack](https://skin.slack.com).
 
 Announcements will be posted during application pre-releases to notify translators to check for updates.

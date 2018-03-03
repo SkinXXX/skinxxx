@@ -1,6 +1,6 @@
 [Protocol]
-exec=skin-qt '%u'
-protocol=skin
+exec=skinxxx-qt '%u'
+protocol=skinxxx
 input=none
 output=none
 helper=true

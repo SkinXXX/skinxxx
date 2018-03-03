@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/SKIN-Project/SKIN/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/Skinxxx/SkinXXXCore/skinxxx/blob/master/doc/translation_process.md#synchronising-translations).
 
 Before every minor and major release:
 
@@ -24,10 +24,10 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/skin-project/gitian.sigs.git
-    git clone https://github.com/skin-project/skin-detached-sigs.git
+    git clone https://github.com/Skinxxx/SkinXXXCore/gitian.sigs.git
+    git clone https://github.com/Skinxxx/SkinXXXCore/skinxxx-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/skin-project/skin.git
+    git clone https://github.com/Skinxxx/SkinXXXCore/skin.git
 
 ### SKIN maintainers/release engineers, suggestion for writing release notes
 
@@ -84,7 +84,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../skin/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../skinxxx/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -97,30 +97,30 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign SKIN Core for Linux, Windows, and OS X:
+### Build and sign SKINXXX Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit skin=v${VERSION} ../skin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../skin/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/skin-*.tar.gz build/out/src/skin-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit skin=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../skinxxx/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/skinxxx-*.tar.gz build/out/src/skinxxx-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit skin=v${VERSION} ../skin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../skin/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/skin-*-win-unsigned.tar.gz inputs/skin-win-unsigned.tar.gz
-    mv build/out/skin-*.zip build/out/skin-*.exe ../
+    ./bin/gbuild --memory 3000 --commit skin=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../skinxxx/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/skinxxx-*-win-unsigned.tar.gz inputs/skinxxx-win-unsigned.tar.gz
+    mv build/out/skinxxx-*.zip build/out/skinxxx-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit skin=v${VERSION} ../skin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../skin/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/skin-*-osx-unsigned.tar.gz inputs/skin-osx-unsigned.tar.gz
-    mv build/out/skin-*.tar.gz build/out/skin-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit skin=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../skinxxx/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/skinxxx-*-osx-unsigned.tar.gz inputs/skinxxx-osx-unsigned.tar.gz
+    mv build/out/skinxxx-*.tar.gz build/out/skinxxx-*.dmg ../
     popd
 
 Build output expected:
 
-  1. source tarball (`skin-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`skin-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`skin-${VERSION}-win[32|64]-setup-unsigned.exe`, `skin-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`skin-${VERSION}-osx-unsigned.dmg`, `skin-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`skinxxx-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`skinxxx-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`skinxxx-${VERSION}-win[32|64]-setup-unsigned.exe`, `skinxxx-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`skinxxx-${VERSION}-osx-unsigned.dmg`, `skinxxx-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
@@ -133,9 +133,9 @@ Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../skin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../skin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../skin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../skinxxx/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../skinxxx/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../skinxxx/contrib/gitian-descriptors/gitian-osx.yml
     popd
 
 ### Next steps:
@@ -156,22 +156,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer skin-osx-unsigned.tar.gz to osx for signing
-    tar xf skin-osx-unsigned.tar.gz
+    transfer skinxxx-osx-unsigned.tar.gz to osx for signing
+    tar xf skinxxx-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf skin-win-unsigned.tar.gz
+    tar xf skinxxx-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/skin-detached-sigs
+    cd ~/skinxxx-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -184,25 +184,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [skin-detached-sigs](https://github.com/SKIN-Project/skin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [skinxxx-detached-sigs](https://github.com/Skinxxx/SkinXXXCore/skinxxx-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../skin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../skin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../skin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/skin-osx-signed.dmg ../skin-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../skinxxx/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../skinxxx/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/skinxxx-osx-signed.dmg ../skinxxx-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../skin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../skin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../skin/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/skin-*win64-setup.exe ../skin-${VERSION}-win64-setup.exe
-    mv build/out/skin-*win32-setup.exe ../skin-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../skinxxx/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../skinxxx/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/skinxxx-*win64-setup.exe ../skinxxx-${VERSION}-win64-setup.exe
+    mv build/out/skinxxx-*win32-setup.exe ../skinxxx-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -224,23 +224,23 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-skin-${VERSION}-aarch64-linux-gnu.tar.gz
-skin-${VERSION}-arm-linux-gnueabihf.tar.gz
-skin-${VERSION}-i686-pc-linux-gnu.tar.gz
-skin-${VERSION}-x86_64-linux-gnu.tar.gz
-skin-${VERSION}-osx64.tar.gz
-skin-${VERSION}-osx.dmg
-skin-${VERSION}.tar.gz
-skin-${VERSION}-win32-setup.exe
-skin-${VERSION}-win32.zip
-skin-${VERSION}-win64-setup.exe
-skin-${VERSION}-win64.zip
+skinxxx-${VERSION}-aarch64-linux-gnu.tar.gz
+skinxxx-${VERSION}-arm-linux-gnueabihf.tar.gz
+skinxxx-${VERSION}-i686-pc-linux-gnu.tar.gz
+skinxxx-${VERSION}-x86_64-linux-gnu.tar.gz
+skinxxx-${VERSION}-osx64.tar.gz
+skinxxx-${VERSION}-osx.dmg
+skinxxx-${VERSION}.tar.gz
+skinxxx-${VERSION}-win32-setup.exe
+skinxxx-${VERSION}-win32.zip
+skinxxx-${VERSION}-win64-setup.exe
+skinxxx-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the skin.org server*.
+space *do not upload these to the www.skin.xxx server*.
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -260,6 +260,6 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/SKIN-Project/SKIN/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/Skinxxx/SkinXXXCore/skinxxx/releases/new) with a link to the archived release notes.
 
   - Celebrate

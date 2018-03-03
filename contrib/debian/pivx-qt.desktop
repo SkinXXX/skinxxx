@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Pivx
-Comment=Pivx P2P Cryptocurrency
-Comment[fr]=Pivx, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Pivx, eşten eşe kriptografik sanal para birimi
-Exec=skin-qt %u
+Name=Skinxxx
+Comment=Skinxxx P2P Cryptocurrency
+Comment[fr]=Skinxxx, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Skinxxx, eşten eşe kriptografik sanal para birimi
+Exec=skinxxx-qt %u
 Terminal=false
 Type=Application
-Icon=skin128
-MimeType=x-scheme-handler/skin;
+Icon=skinxxx128
+MimeType=x-scheme-handler/skinxxx;
 Categories=Office;Finance;

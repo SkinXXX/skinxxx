@@ -1,6 +1,6 @@
-usr/local/bin/skin-qt usr/bin
+usr/local/bin/skinxxx-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/skin-qt.desktop usr/share/applications
-debian/skin-qt.protocol usr/share/kde4/services/
+debian/skinxxx-qt.desktop usr/share/applications
+debian/skinxxx-qt.protocol usr/share/kde4/services/

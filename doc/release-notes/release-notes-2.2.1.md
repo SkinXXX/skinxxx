@@ -1,18 +1,18 @@
-SKIN Core version 2.2.1 is now available from:
+SKINXXX Core version 2.2.1 is now available from:
 
-  <https://github.com/skin-project/skin/releases>
+  <https://github.com/Skinxxx/SkinXXXCore/skinxxx/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/skin-project/skin/issues>
+  <https://github.com/Skinxxx/SkinXXXCore/skinxxx/issues>
 
 Compatibility
 ==============
 
-SKIN Core is extensively tested on multiple operating systems using
+SKINXXX Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
@@ -20,7 +20,7 @@ No attempt is made to prevent installing or running the software on Windows XP, 
 can still do so at your own risk but be aware that there are known instabilities and issues.
 Please do not report issues about Windows XP to the issue tracker.
 
-SKIN Core should also work on most other Unix-like systems but is not
+SKINXXX Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable Changes
@@ -118,4 +118,4 @@ Thanks to everyone who directly contributed to this release:
 - Spock
 - presstab
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/skin-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/skinxxx-project-translations/).

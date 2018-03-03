@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Pivx Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Skinxxx Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>SKIN-Qt</string>
+  <string>skinxxx-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.skin.Pivx-Qt</string>
+  <string>io.skinxxx.Skinxxx-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.skin.PivxPayment</string>
+      <string>io.skinxxx.SkinxxxPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>skin</string>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.skin.paymentrequest</string>
+      <string>fio.skinxxx.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Pivx payment request</string>
+      <string>Skinxxx payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,7 +62,7 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-skin-payment-request</string>
+        <string>application/x-skinxxx-payment-request</string>
         <key>public.filename-extension</key>
         <array>
           <string>skinpaymentrequest</string>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.skin.paymentrequest</string>
+        <string>io.skinxxx.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

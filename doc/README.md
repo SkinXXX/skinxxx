@@ -1,9 +1,9 @@
-SKIN Core
+SKINXXX Core
 =====================
 
 Setup
 ---------------------
-[SKIN Core](http://skin.org/wallet) is the original SKIN client and it builds the backbone of the network. However, it downloads and stores the entire history of SKIN transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[SKINXXX Core](http://www.skin.xxx/wallet) is the original SKIN client and it builds the backbone of the network. However, it downloads and stores the entire history of SKIN transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -13,23 +13,23 @@ The following are some helpful notes on how to run SKIN on your native platform.
 
 Unpack the files into a directory and run:
 
-- bin/32/skin-qt (GUI, 32-bit) or bin/32/skind (headless, 32-bit)
-- bin/64/skin-qt (GUI, 64-bit) or bin/64/skind (headless, 64-bit)
+- bin/32/skinxxx-qt (GUI, 32-bit) or bin/32/skinxxxd (headless, 32-bit)
+- bin/64/skinxxx-qt (GUI, 64-bit) or bin/64/skinxxxd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run skin-qt.exe.
+Unpack the files into a directory, and then run skinxxx-qt.exe.
 
 ### OSX
 
-Drag SKIN-Qt to your applications folder, and then run SKIN-Qt.
+Drag skinxxx-Qt to your applications folder, and then run skinxxx-Qt.
 
 ### Need Help?
 
 * See the documentation at the [SKIN Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [SKIN Forum](http://forum.skin.org/).
-* Join one of our Slack groups [SKIN Slack Groups](https://skin.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [SKIN Forum](http://forum.www.skin.xxx/).
+* Join one of our Slack groups [SKIN Slack Groups](https://www.skin.xxx/slack-logins/).
 
 Building
 ---------------------
@@ -41,7 +41,7 @@ The following are developer notes on how to build SKIN on your native platform. 
 
 Development
 ---------------------
-The Pivx repo's [root README](https://github.com/SKIN-Project/SKIN/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Skinxxx repo's [root README](https://github.com/Skinxxx/SkinXXXCore/skinxxx/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The Pivx repo's [root README](https://github.com/SKIN-Project/SKIN/blob/master/R
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [SKIN](http://forum.skin.org/) forum.
-* Join the [SKIN-Dev](https://skin-dev.slack.com/) Slack group ([Sign-Up](https://skin-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [SKIN](http://forum.www.skin.xxx/) forum.
+* Join the [skinxxx-Dev](https://skinxxx-dev.slack.com/) Slack group ([Sign-Up](https://skinxxx-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
