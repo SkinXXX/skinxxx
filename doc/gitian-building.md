@@ -281,8 +281,8 @@ Clone the git repositories for skin and gitian and then checkout the skin versio
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/skinxxx-crypto/skin.git
-cd skin
+git clone https://github.com/Skinxxx/SkinXXXCore skinxxx
+cd skinxxx
 git checkout v${VERSION}
 cd ..
 ```
@@ -350,7 +350,7 @@ Output from `gbuild` will look something like
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
     Resolving deltas: 100% (25724/25724), done.
-    From https://github.com/skinxxx-crypto/skin
+    From https://github.com/Skinxxx/SkinXXXCore
     ... (new tags, new branch etc)
     --- Building for precise x86_64 ---
     Stopping target if it is up
@@ -408,6 +408,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[skin/gitian.sigs](https://github.com/skinxxx-crypto/gitian.sigs/) repository, or if that's not possible to create a pull
+[skin/gitian.sigs](https://github.com/Skinxxx/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.
