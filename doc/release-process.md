@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/Skinxxx/SkinXXXCore/skinxxx/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/Skinxxx/SkinXXXCore/blob/master/doc/translation_process.md#synchronising-translations).
 
 Before every minor and major release:
 
@@ -27,7 +27,7 @@ Check out the source code in the following directory hierarchy.
     git clone https://github.com/Skinxxx/SkinXXXCore/gitian.sigs.git
     git clone https://github.com/Skinxxx/SkinXXXCore/skinxxx-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/Skinxxx/SkinXXXCore/skin.git
+    git clone https://github.com/Skinxxx/SkinXXXCore skinxxx
 
 ### SKIN maintainers/release engineers, suggestion for writing release notes
 
@@ -100,16 +100,16 @@ The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 ### Build and sign SKINXXX Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit skin=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gbuild --memory 3000 --commit skinxxx=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-linux.yml
     ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../skinxxx/contrib/gitian-descriptors/gitian-linux.yml
     mv build/out/skinxxx-*.tar.gz build/out/src/skinxxx-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit skin=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gbuild --memory 3000 --commit skinxxx=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-win.yml
     ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../skinxxx/contrib/gitian-descriptors/gitian-win.yml
     mv build/out/skinxxx-*-win-unsigned.tar.gz inputs/skinxxx-win-unsigned.tar.gz
     mv build/out/skinxxx-*.zip build/out/skinxxx-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit skin=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gbuild --memory 3000 --commit skinxxx=v${VERSION} ../skinxxx/contrib/gitian-descriptors/gitian-osx.yml
     ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../skinxxx/contrib/gitian-descriptors/gitian-osx.yml
     mv build/out/skinxxx-*-osx-unsigned.tar.gz inputs/skinxxx-osx-unsigned.tar.gz
     mv build/out/skinxxx-*.tar.gz build/out/skinxxx-*.dmg ../
@@ -260,6 +260,6 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/Skinxxx/SkinXXXCore/skinxxx/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/Skinxxx/SkinXXXCore/releases/new) with a link to the archived release notes.
 
   - Celebrate
