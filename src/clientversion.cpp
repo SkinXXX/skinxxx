@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both skind and skin-qt, to make it harder for attackers to
+ * for both skinxxxd and skinxxx-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("skinxxx Core");
+const std::string CLIENT_NAME("SkinXXX");
 
 /**
  * Client version number

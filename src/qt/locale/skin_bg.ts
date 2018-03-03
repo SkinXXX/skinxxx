@@ -168,7 +168,7 @@
         <translation>Потвърдете криптирането на портфейла</translation>
     </message>
     <message>
-        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINXXXs from being stolen by malware infecting your computer.</source>
         <translation>SKIN сега ще се затвори, за да довърши процеса на криптиране. Запомнете, че криптирането на вашия портфейл не може напълно да защити вашия SKIN от това, да бъде откраднат от злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
@@ -231,15 +231,15 @@
         <translation>&amp;BIP 38 криптиране</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Pivx адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания частен ключ.</translation>
+        <source>Enter a Skinxxx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете Skinxxx адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания частен ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>SKIN адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
@@ -401,7 +401,7 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>SKIN адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
@@ -480,6 +480,6 @@
     </message>
     </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     </context>
 </TS>

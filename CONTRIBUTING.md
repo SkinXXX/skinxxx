@@ -1,7 +1,7 @@
-Contributing to SkinXXX
+Contributing to SKINXXX Core
 ============================
 
-The PIVX Core project operates an open contributor model where anyone is
+The Skinxxx Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
@@ -57,7 +57,7 @@ the pull request affects. Valid areas as:
 
   - *Consensus* for changes to consensus critical code
   - *Docs* for changes to the documentation
-  - *Qt* for changes to skin-qt
+  - *Qt* for changes to skinxxx-qt
   - *Minting* for changes to the minting code
   - *Net* or *P2P* for changes to the peer-to-peer network code
   - *RPC/REST* for changes to the RPC or REST APIs
@@ -157,10 +157,10 @@ where possible keep them short, un-complex and easy to verify.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the SKIN Core project, and is not to be
-confused with overall SKIN Network Protocol consensus changes.
+The following applies to code changes to the SKINXXX Core project, and is not to be
+confused with overall SKINXXX Network Protocol consensus changes.
 
-Whether a pull request is merged into SKIN Core rests with the project merge
+Whether a pull request is merged into SKINXXX Core rests with the project merge
 maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -254,7 +254,7 @@ about:
 Release Policy
 --------------
 
-The project leader is the release manager for each SKIN Core release.
+The project leader is the release manager for each SKINXXX Core release.
 
 Copyright
 ---------

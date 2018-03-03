@@ -176,7 +176,7 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINXXXs from being stolen by malware infecting your computer.</source>
         <translation>SKIN se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše SKINy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Skinxxx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Zadejte SKIN adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
@@ -247,7 +247,7 @@
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>SKIN adresa pro podepsání zprávy</translation>
     </message>
     <message>
@@ -303,7 +303,7 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>SKIN adresa zprávy byla podpsána</translation>
     </message>
     <message>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     <message>
         <source>Send coins to a SKIN address</source>
         <translation>Odeslat platbuna SKIN adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and skin: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a skin: URIs)</translation>
+        <source>Request payments (generates QR codes and skinxxx: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a skinxxx: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,12 +618,12 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About SKIN Core</source>
-        <translation>&amp;O SKIN Core</translation>
+        <source>&amp;About SKINXXX Core</source>
+        <translation>&amp;O SKINXXX Core</translation>
     </message>
     <message>
-        <source>Show information about SKIN Core</source>
-        <translation>Zobraz informace o SKIN Core</translation>
+        <source>Show information about SKINXXX Core</source>
+        <translation>Zobraz informace o SKINXXX Core</translation>
     </message>
     <message>
         <source>Modify configuration options for SKIN</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a SKIN: URI or payment request</source>
-        <translation>Otevřít SKIN: URI nebo platební žádost</translation>
+        <source>Open a skinxxx: URI or payment request</source>
+        <translation>Otevřít skinxxx: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the SKIN Core help message to get a list with possible SKIN command-line options</source>
-        <translation>Zobrazit SKIN Core pomocnou zpráv pro získání seznamu možných parametrů SKIN pro příkazy do příkazové řádky</translation>
+        <source>Show the SKINXXX Core help message to get a list with possible SKIN command-line options</source>
+        <translation>Zobrazit SKINXXX Core pomocnou zpráv pro získání seznamu možných parametrů SKIN pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>SKIN Core client</source>
-        <translation>SKIN Core klient</translation>
+        <source>SKINXXX Core client</source>
+        <translation>SKINXXX Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skin.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (skin.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skinxxx.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (skinxxx.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1116,12 +1116,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     <message>
-        <source>About SKIN Core</source>
-        <translation>O SKIN Core</translation>
+        <source>About SKINXXX Core</source>
+        <translation>O SKINXXX Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1155,16 +1155,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to SKIN Core.</source>
-        <translation>Vítejte v SKIN Core.</translation>
+        <source>Welcome to SKINXXX Core.</source>
+        <translation>Vítejte v SKINXXX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where SKIN Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude SKIN Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where SKINXXX Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude SKINXXX Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>SKIN Core will download and store a copy of the SKIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>SKIN Core stáhne a uloží kopii SKIN blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>SKINXXX Core will download and store a copy of the SKIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SKINXXX Core stáhne a uloží kopii SKIN blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1175,8 +1175,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2199,7 +2199,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>SKIN adresa pro podepsání zprávy</translation>
     </message>
     <message>
@@ -2231,7 +2231,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Podepsat zprávu k prokázání, že vlastníte tuto SKIN adresu</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>SKIN adresa zprávy byla podpsána</translation>
     </message>
     <message>
@@ -2278,8 +2278,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     </context>
 <context>
@@ -2382,7 +2382,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

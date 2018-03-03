@@ -260,6 +260,6 @@
     </message>
     </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     </context>
 </TS>

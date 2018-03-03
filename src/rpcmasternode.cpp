@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The Skinxxx developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,7 +36,7 @@ void SendMoney(const CTxDestination& address, CAmount nValue, CWalletTx& wtxNew,
         throw JSONRPCError(RPC_WALLET_ERROR, strError);
     }
 
-    // Parse Pivx address
+    // Parse Skinxxx address
     CScript scriptPubKey = GetScriptForDestination(address);
 
     // Create and send the transaction
@@ -85,7 +85,7 @@ Value obfuscation(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Pivx address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Skinxxx address");
 
     // Amount
     CAmount nAmount = AmountFromValue(params[1]);
@@ -141,7 +141,7 @@ Value masternode(const Array& params, bool fHelp)
             "  genkey       - Generate new masternodeprivkey\n"
             "  enforce      - Enforce masternode payments\n"
             "  outputs      - Print masternode compatible outputs\n"
-            "  start        - Start masternode configured in skin.conf\n"
+            "  start        - Start masternode configured in skinxxx.conf\n"
             "  start-alias  - Start single masternode by assigned alias configured in masternode.conf\n"
             "  start-<mode> - Start masternodes configured in masternode.conf (<mode>: 'all', 'missing', 'disabled')\n"
             "  status       - Print masternode status information\n"

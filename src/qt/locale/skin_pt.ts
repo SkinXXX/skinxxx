@@ -176,8 +176,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
-        <translation>SKIN encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas SKINs contra roubo por malware infectando seu computador.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINXXXs from being stolen by malware infecting your computer.</source>
+        <translation>SKIN encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas SKINXXXs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,15 +239,15 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Digite um endereço Pivx que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+        <source>Enter a Skinxxx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço Skinxxx que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>Um endereço SKIN para assinar a mensagem</translation>
     </message>
     <message>
@@ -299,7 +299,7 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>O endereço SKIN que foi assinado com</translation>
     </message>
     <message>
@@ -633,7 +633,7 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>Um endereço SKIN para assinar a mensagem</translation>
     </message>
     <message>
@@ -669,7 +669,7 @@
         <translation>Assinar a Mensagem para provar que você e dono desse endereço SKIN.</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>O endereço SKIN que foi assinado com</translation>
     </message>
     <message>
@@ -868,7 +868,7 @@
     </message>
     </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
@@ -1242,8 +1242,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart SKIN Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o SKIN Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart SKINXXX Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o SKINXXX Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

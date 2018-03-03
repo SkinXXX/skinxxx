@@ -1,11 +1,11 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The Skinxxx developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/skin-config.h"
+#include "config/skinxxx-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -61,7 +61,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::SKIN);
+        settings.setValue("nDisplayUnit", BitcoinUnits::SKINXXX);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -75,11 +75,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizePivxAmount"))
-        settings.setValue("nAnonymizePivxAmount", 1000);
+    if (!settings.contains("nAnonymizeSkinxxxAmount"))
+        settings.setValue("nAnonymizeSkinxxxAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizePivxAmount = settings.value("nAnonymizePivxAmount").toLongLong();
+    nAnonymizeSkinxxxAmount = settings.value("nAnonymizeSkinxxxAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -146,8 +146,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizePivxAmount"))
-        SoftSetArg("-anonymizeskinamount", settings.value("nAnonymizePivxAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeSkinxxxAmount"))
+        SoftSetArg("-anonymizeskinamount", settings.value("nAnonymizeSkinxxxAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -158,7 +158,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in skin.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in skinxxx.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -227,8 +227,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizePivxAmount:
-            return QVariant(nAnonymizePivxAmount);
+        case AnonymizeSkinxxxAmount:
+            return QVariant(nAnonymizeSkinxxxAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -337,10 +337,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizePivxAmount:
-            nAnonymizePivxAmount = value.toInt();
-            settings.setValue("nAnonymizePivxAmount", nAnonymizePivxAmount);
-            emit anonymizePivxAmountChanged(nAnonymizePivxAmount);
+        case AnonymizeSkinxxxAmount:
+            nAnonymizeSkinxxxAmount = value.toInt();
+            settings.setValue("nAnonymizeSkinxxxAmount", nAnonymizeSkinxxxAmount);
+            emit anonymizeSkinxxxAmountChanged(nAnonymizeSkinxxxAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

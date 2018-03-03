@@ -160,8 +160,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
-        <translation>SKIN kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SKINs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINXXXs from being stolen by malware infecting your computer.</source>
+        <translation>SKIN kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SKINXXXs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Skriv in en Pivx adress som du vill kryptera med BIP 38.
+        <source>Enter a Skinxxx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Skriv in en Skinxxx adress som du vill kryptera med BIP 38.
 Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,7 +232,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>SKIN adressen för signera meddelandet med</translation>
     </message>
     <message>
@@ -288,7 +288,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Ange</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>SKIN adressen meddelandet blev signerat med</translation>
     </message>
     <message>
@@ -583,7 +583,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Kärna</translation>
     </message>
     <message>
@@ -591,8 +591,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Skicka mynt till en SKIN adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and skin: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och skin: URls)</translation>
+        <source>Request payments (generates QR codes and skinxxx: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och skinxxx: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,11 +603,11 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About SKIN Core</source>
+        <source>&amp;About SKINXXX Core</source>
         <translation>Om SKIN Kärnan</translation>
     </message>
     <message>
-        <source>Show information about SKIN Core</source>
+        <source>Show information about SKINXXX Core</source>
         <translation>Visa information om SKIN Kärnan</translation>
     </message>
     <message>
@@ -631,7 +631,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>SKIN Core client</source>
+        <source>SKINXXX Core client</source>
         <translation>SKIN kärn klient</translation>
     </message>
     <message>
@@ -841,14 +841,14 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Kärna</translation>
     </message>
     <message>
@@ -1106,7 +1106,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>SKIN adressen för signera meddelandet med</translation>
     </message>
     <message>
@@ -1134,7 +1134,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Signera meddelandet för att bevisa att du äger denna SKIN adress</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>SKIN adressen meddelandet blev signerat med</translation>
     </message>
     <message>
@@ -1181,7 +1181,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Kärna</translation>
     </message>
     </context>
@@ -1365,7 +1365,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

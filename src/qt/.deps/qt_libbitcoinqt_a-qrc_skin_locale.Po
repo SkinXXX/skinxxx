@@ -1,4 +1,0 @@
-qt/qt_libbitcoinqt_a-qrc_skin_locale.o: qt/qrc_skin_locale.cpp \
- /usr/include/stdc-predef.h
-
-/usr/include/stdc-predef.h:

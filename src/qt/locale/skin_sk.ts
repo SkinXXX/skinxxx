@@ -176,7 +176,7 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINXXXs from being stolen by malware infecting your computer.</source>
         <translation>SKIN sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše SKIN pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
@@ -239,15 +239,15 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu Pivx, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a Skinxxx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu Skinxxx, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>Adresa SKIN, ktorou chcete správu podpísať</translation>
     </message>
     <message>
@@ -303,7 +303,7 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>SKIN adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
@@ -598,16 +598,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     <message>
         <source>Send coins to a SKIN address</source>
         <translation>Odoslať mince na adresu SKIN</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and skin: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a skin: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and skinxxx: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a skinxxx: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,12 +618,12 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About SKIN Core</source>
-        <translation>O SKIN Core</translation>
+        <source>&amp;About SKINXXX Core</source>
+        <translation>O SKINXXX Core</translation>
     </message>
     <message>
-        <source>Show information about SKIN Core</source>
-        <translation>Zobraziť informácie o SKIN Core</translation>
+        <source>Show information about SKINXXX Core</source>
+        <translation>Zobraziť informácie o SKINXXX Core</translation>
     </message>
     <message>
         <source>Modify configuration options for SKIN</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a SKIN: URI or payment request</source>
-        <translation>Otvorte SKIN: URI alebo žiadosť o platbu</translation>
+        <source>Open a skinxxx: URI or payment request</source>
+        <translation>Otvorte skinxxx: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the SKIN Core help message to get a list with possible SKIN command-line options</source>
-        <translation>Zobraziť pomocnú správu programu SKIN Core a získajte zoznam možností príkazového riadka SKIN</translation>
+        <source>Show the SKINXXX Core help message to get a list with possible SKIN command-line options</source>
+        <translation>Zobraziť pomocnú správu programu SKINXXX Core a získajte zoznam možností príkazového riadka SKIN</translation>
     </message>
     <message>
-        <source>SKIN Core client</source>
-        <translation>SKIN Core klient</translation>
+        <source>SKINXXX Core client</source>
+        <translation>SKINXXX Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -813,8 +813,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skin.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (skin.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skinxxx.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (skinxxx.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -908,15 +908,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1093,7 +1093,7 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>Adresa SKIN, ktorou chcete správu podpísať</translation>
     </message>
     <message>
@@ -1121,7 +1121,7 @@ MultiSend: %1</translation>
         <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto SKIN adresy</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>SKIN adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
@@ -1164,8 +1164,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     </context>
 <context>
@@ -1260,7 +1260,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

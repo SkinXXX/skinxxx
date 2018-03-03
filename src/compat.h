@@ -7,7 +7,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/skin-config.h"
+#include "config/skinxxx-config.h"
 #endif
 
 #ifdef WIN32

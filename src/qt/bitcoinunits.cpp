@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The Skinxxx developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,18 +19,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(SKIN);
-    unitlist.append(mSKIN);
-    unitlist.append(uSKIN);
+    unitlist.append(SKINXXX);
+    unitlist.append(mSKINXXX);
+    unitlist.append(uSKINXXX);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case SKIN:
-    case mSKIN:
-    case uSKIN:
+    case SKINXXX:
+    case mSKINXXX:
+    case uSKINXXX:
         return true;
     default:
         return false;
@@ -40,12 +40,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case SKIN:
-        return QString("skin");
-    case mSKIN:
-        return QString("mskin");
-    case uSKIN:
-        return QString::fromUtf8("uskin");
+    case SKINXXX:
+        return QString("skinxxx");
+    case mSKINXXX:
+        return QString("mskinxxx");
+    case uSKINXXX:
+        return QString::fromUtf8("uskinxxx");
     default:
         return QString("???");
     }
@@ -55,23 +55,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case SKIN:
-            return QString("SKIN");
-        case mSKIN:
-            return QString("mSKIN");
-        case uSKIN:
-            return QString::fromUtf8("μSKIN");
+        case SKINXXX:
+            return QString("SKINXXX");
+        case mSKINXXX:
+            return QString("mSKINXXX");
+        case uSKINXXX:
+            return QString::fromUtf8("μSKINXXX");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case SKIN:
-            return QString("tSKIN");
-        case mSKIN:
-            return QString("mtSKIN");
-        case uSKIN:
-            return QString::fromUtf8("μtSKIN");
+        case SKINXXX:
+            return QString("tSKINXXX");
+        case mSKINXXX:
+            return QString("mtSKINXXX");
+        case uSKINXXX:
+            return QString::fromUtf8("μtSKINXXX");
         default:
             return QString("???");
         }
@@ -82,23 +82,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case SKIN:
-            return QString("SKIN");
-        case mSKIN:
-            return QString("Milli-SKIN (1 / 1" THIN_SP_UTF8 "000)");
-        case uSKIN:
-            return QString("Micro-SKIN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case SKINXXX:
+            return QString("skinxxx");
+        case mSKINXXX:
+            return QString("Milli-skinxxx (1 / 1" THIN_SP_UTF8 "000)");
+        case uSKINXXX:
+            return QString("Micro-skinxxx (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case SKIN:
-            return QString("TestSKINs");
-        case mSKIN:
-            return QString("Milli-TestSKIN (1 / 1" THIN_SP_UTF8 "000)");
-        case uSKIN:
-            return QString("Micro-TestSKIN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case SKINXXX:
+            return QString("TestSKINXXXs");
+        case mSKINXXX:
+            return QString("Milli-TestSKINXXX (1 / 1" THIN_SP_UTF8 "000)");
+        case uSKINXXX:
+            return QString("Micro-TestSKINXXX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +108,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case SKIN:
+    case SKINXXX:
         return 100000000;
-    case mSKIN:
+    case mSKINXXX:
         return 100000;
-    case uSKIN:
+    case uSKINXXX:
         return 100;
     default:
         return 100000000;
@@ -122,11 +122,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case SKIN:
+    case SKINXXX:
         return 8;
-    case mSKIN:
+    case mSKINXXX:
         return 5;
-    case uSKIN:
+    case uSKINXXX:
         return 2;
     default:
         return 0;

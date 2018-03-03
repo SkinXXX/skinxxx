@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your SKIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre SKIN-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie SKIN überweisen.</translation>
+        <translation>Dies sind ihre skinxxx-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie SKIN überweisen.</translation>
     </message>
     <message>
         <source>These are your SKIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre SKIN-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <translation>Dies sind ihre skinxxx-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer SKINs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINXXXs from being stolen by malware infecting your computer.</source>
+        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer SKINXXXs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKIN&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre SKINs verlieren&lt;/b&gt;!</translation>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre SKINXXXs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,7 +239,7 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Skinxxx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Gib eine SKIN Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
@@ -247,7 +247,7 @@
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>SKIN Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
@@ -538,16 +538,16 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     <message>
         <source>Send coins to a SKIN address</source>
-        <translation>An eine SKIN-Adresse überweisen</translation>
+        <translation>An eine skinxxx-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and skin: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und skin: URIs)</translation>
+        <source>Request payments (generates QR codes and skinxxx: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und skinxxx: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -558,12 +558,12 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About SKIN Core</source>
-        <translation>Über.SKIN Core</translation>
+        <source>&amp;About SKINXXX Core</source>
+        <translation>Über.SKINXXX Core</translation>
     </message>
     <message>
-        <source>Show information about SKIN Core</source>
-        <translation>Zeigt Informationen über SKIN Core</translation>
+        <source>Show information about SKINXXX Core</source>
+        <translation>Zeigt Informationen über SKINXXX Core</translation>
     </message>
     <message>
         <source>Modify configuration options for SKIN</source>
@@ -571,11 +571,11 @@
     </message>
     <message>
         <source>Sign messages with your SKIN addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer SKIN-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <translation>Unterschreibt eine Nachricht mit Ihrer skinxxx-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified SKIN addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten SKIN-Adresse signiert wurde</translation>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten skinxxx-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -586,8 +586,8 @@
         <translation>MultiSend Einstellungen</translation>
     </message>
     <message>
-        <source>SKIN Core client</source>
-        <translation>SKIN Core Client</translation>
+        <source>SKINXXX Core client</source>
+        <translation>SKINXXX Core Client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -700,8 +700,8 @@ Adresse: %4</translation>
         <translation>Suche</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skin.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "skin.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skinxxx.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "skinxxx.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -882,7 +882,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid SKIN address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige SKIN-Adresse.</translation>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige skinxxx-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -927,16 +927,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About SKIN Core</source>
-        <translation>Über SKIN Core</translation>
+        <source>About SKINXXX Core</source>
+        <translation>Über SKINXXX Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -970,16 +970,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to SKIN Core.</source>
-        <translation>Willkommen zu SKIN Core.</translation>
+        <source>Welcome to SKINXXX Core.</source>
+        <translation>Willkommen zu SKINXXX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where SKIN Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie SKIN Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where SKINXXX Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie SKINXXX Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>SKIN Core will download and store a copy of the SKIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>SKIN Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>SKINXXX Core will download and store a copy of the SKIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SKINXXX Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -990,8 +990,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1362,7 +1362,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Enter a SKIN address (e.g. %1)</source>
-        <translation>SKIN-Adresse eingeben (z.B. %1)</translation>
+        <translation>skinxxx-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1548,7 +1548,7 @@ Adresse: %4</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>SKINs überweisen</translation>
+        <translation>SKINXXXs überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1734,8 +1734,8 @@ Adresse: %4</translation>
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to</source>
-        <translation>SKIN-Adresse, an die überwiesen werden soll</translation>
+        <source>The Skinxxx address to send the payment to</source>
+        <translation>skinxxx-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1774,8 +1774,8 @@ Adresse: %4</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the SKIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SKIN network.</source>
-        <translation>Eine an die SKIN-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das SKIN-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the skinxxx: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SKIN network.</source>
+        <translation>Eine an die skinxxx-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das skinxxx-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1801,8 +1801,8 @@ Adresse: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>SKIN Core is shutting down...</source>
-        <translation>SKIN Core wird beendet...</translation>
+        <source>SKINXXX Core is shutting down...</source>
+        <translation>SKINXXX Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1816,7 +1816,7 @@ Adresse: %4</translation>
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>SKIN Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
@@ -1875,8 +1875,8 @@ Adresse: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SKIN Core</source>
-        <translation>SKIN Core</translation>
+        <source>SKINXXX Core</source>
+        <translation>SKINXXX Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1891,8 +1891,8 @@ Adresse: %4</translation>
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>Die SKIN Core Entwickler</translation>
+        <source>The Skinxxx Core developers</source>
+        <translation>Die SKINXXX Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2050,7 +2050,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte SKINs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine SKINs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte SKINXXXs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine SKINXXXs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2412,7 +2412,7 @@ Adresse: %4</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>SKINs überweisen</translation>
+        <translation>SKINXXXs überweisen</translation>
     </message>
     <message>
         <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SKIN.</source>
@@ -2459,7 +2459,7 @@ Adresse: %4</translation>
     </message>
 </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>
@@ -2609,8 +2609,8 @@ Adresse: %4</translation>
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart SKIN Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte SKIN Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart SKINXXX Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte SKINXXX Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

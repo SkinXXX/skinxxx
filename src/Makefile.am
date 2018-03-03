@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += skind
+  bin_PROGRAMS += skinxxxd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += skin-cli skin-tx
+  bin_PROGRAMS += skinxxx-cli skinxxx-tx
 endif
 
 .PHONY: FORCE
-# skin core #
+# SKINXXX Core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -82,6 +82,7 @@ BITCOIN_CORE_H = \
   base58.h \
   bip38.h \
   bloom.h \
+  bignum.h \
   chain.h \
   chainparams.h \
   chainparamsbase.h \
@@ -180,7 +181,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between skind and skin-qt
+# server: shared between skinxxxd and skinxxx-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +225,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between skind and skin-qt, but only linked
+# wallet: shared between skinxxxd and skinxxx-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +296,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between skind, and skin-qt and non-server tools
+# common: shared between skinxxxd, and skinxxx-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +352,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between skin-cli and skin-qt
+# cli: shared between skinxxx-cli and skinxxx-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +362,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-skind_LDADD = \
+skinxxxd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +373,40 @@ skind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-skind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+skinxxxd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-skind_LDADD += libbitcoin_wallet.a
+skinxxxd_LDADD += libbitcoin_wallet.a
 endif
-skind_SOURCES = skind.cpp
+skinxxxd_SOURCES = skinxxxd.cpp
 #
 
 if TARGET_WINDOWS
-skind_SOURCES += skind-res.rc
+skinxxxd_SOURCES += skinxxxd-res.rc
 endif
 
-skind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-skind_CPPFLAGS = $(BITCOIN_INCLUDES)
-skind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+skinxxxd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+skinxxxd_CPPFLAGS = $(BITCOIN_INCLUDES)
+skinxxxd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# skin-cli binary #
-skin_cli_LDADD = \
+# skinxxx-cli binary #
+skinxxx_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-skin_cli_SOURCES = \
-  skin-cli.cpp
+skinxxx_cli_SOURCES = \
+  skinxxx-cli.cpp
 
-skin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+skinxxx_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# skin-tx binary #
-skin_tx_LDADD = \
+# skinxxx-tx binary #
+skinxxx_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +415,15 @@ skin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-skin_tx_SOURCES = skin-tx.cpp
-skin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+skinxxx_tx_SOURCES = skinxxx-tx.cpp
+skinxxx_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-skin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+skinxxx_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-skin_cli_SOURCES += skin-cli-res.rc
+skinxxx_cli_SOURCES += skinxxx-cli-res.rc
 endif
-skin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+skinxxx_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

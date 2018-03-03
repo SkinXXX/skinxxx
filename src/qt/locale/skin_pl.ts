@@ -518,7 +518,7 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
@@ -526,8 +526,8 @@
         <translation>Wyślij monety do adresu SKIN</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and skin: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i skin:URI)</translation>
+        <source>Request payments (generates QR codes and skinxxx: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i skinxxx:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,11 +538,11 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About SKIN Core</source>
+        <source>&amp;About SKINXXX Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about SKIN Core</source>
+        <source>Show information about SKINXXX Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a SKIN: URI or payment request</source>
-        <translation>Otwórz SKIN: URI i żądanie zapłaty</translation>
+        <source>Open a skinxxx: URI or payment request</source>
+        <translation>Otwórz skinxxx: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,11 +594,11 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the SKIN Core help message to get a list with possible SKIN command-line options</source>
+        <source>Show the SKINXXX Core help message to get a list with possible SKIN command-line options</source>
         <translation>Pokaż wiadomość pomocy rdzenia SKIN, aby dostać listę możliwych opcji SKIN command-line</translation>
     </message>
     <message>
-        <source>SKIN Core client</source>
+        <source>SKINXXX Core client</source>
         <translation>Rdzeń SKIN klient</translation>
     </message>
     <message>
@@ -916,7 +916,7 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -931,7 +931,7 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
@@ -1225,9 +1225,9 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/skin-project/skin-project-translations</source>
+https://www.transifex.com/skinxxx-project/skinxxx-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/skin-project/skin-project-translations </translation>
+https://www.transifex.com/skinxxx-project/skinxxx-project-translations </translation>
     </message>
     <message>
         <source>Connect to the SKIN network through a SOCKS5 proxy.</source>
@@ -1932,7 +1932,7 @@ https://www.transifex.com/skin-project/skin-project-translations </translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/skin-project/skin-project-translations </translation>
     </message>
     </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

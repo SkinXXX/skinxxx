@@ -164,7 +164,7 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINXXXs from being stolen by malware infecting your computer.</source>
         <translation>SKIN sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SKINien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
@@ -227,8 +227,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä Pivx osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a Skinxxx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä Skinxxx osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -236,7 +236,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>SKIN osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
@@ -288,7 +288,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;BIP 38 salauksen avaus</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>SKIN osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
@@ -575,7 +575,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Ydin</translation>
     </message>
     <message>
@@ -583,8 +583,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lähetä kolikkoja SKIN osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and skin: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja skin: URIja)</translation>
+        <source>Request payments (generates QR codes and skinxxx: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja skinxxx: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -595,16 +595,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About SKIN Core</source>
-        <translation>SKIN Core &amp;ytimestä</translation>
+        <source>&amp;About SKINXXX Core</source>
+        <translation>SKINXXX Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about SKIN Core</source>
+        <source>Show information about SKINXXX Core</source>
         <translation>Näytä tietoja SKIN Ytimestä</translation>
     </message>
     <message>
         <source>Modify configuration options for SKIN</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja SKIN:lle</translation>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja skinxxx:lle</translation>
     </message>
     <message>
         <source>Sign messages with your SKIN addresses to prove you own them</source>
@@ -643,8 +643,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a SKIN: URI or payment request</source>
-        <translation>Avaa SKIN: URI tai pyydä maksua</translation>
+        <source>Open a skinxxx: URI or payment request</source>
+        <translation>Avaa skinxxx: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -655,11 +655,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the SKIN Core help message to get a list with possible SKIN command-line options</source>
+        <source>Show the SKINXXX Core help message to get a list with possible SKIN command-line options</source>
         <translation>Näytä SKIN Ydin apuviesti saadaksesi lista mahdollisista SKIN komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>SKIN Core client</source>
+        <source>SKINXXX Core client</source>
         <translation>SKIN Ydin asiakasohjelma</translation>
     </message>
     <message>
@@ -894,7 +894,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Ydin</translation>
     </message>
     <message>
@@ -913,11 +913,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to SKIN Core.</source>
+        <source>Welcome to SKINXXX Core.</source>
         <translation>Tervetuloa SKIN Ytimeen.</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Ydin</translation>
     </message>
     <message>
@@ -1608,7 +1608,7 @@ Please check the address and try again.</source>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>SKIN osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
@@ -1636,7 +1636,7 @@ Please check the address and try again.</source>
         <translation>Allekirjoita viesti todistaaksesi, että omistat tämän SKIN osoitteen</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>SKIN osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
@@ -1675,7 +1675,7 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Ydin</translation>
     </message>
     </context>
@@ -1887,7 +1887,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     <message>
         <source>Error</source>
         <translation>Virhe</translation>

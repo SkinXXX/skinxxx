@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The Skinxxx developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -299,16 +299,16 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Pivx features */
-        {"skin", "masternode", &masternode, true, true, false},
-        {"skin", "masternodelist", &masternodelist, true, true, false},
-        {"skin", "mnbudget", &mnbudget, true, true, false},
-        {"skin", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
-        {"skin", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"skin", "mnsync", &mnsync, true, true, false},
-        {"skin", "spork", &spork, true, true, false},
+        /* Skinxxx features */
+        {"skinxxx", "masternode", &masternode, true, true, false},
+        {"skinxxx", "masternodelist", &masternodelist, true, true, false},
+        {"skinxxx", "mnbudget", &mnbudget, true, true, false},
+        {"skinxxx", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
+        {"skinxxx", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"skinxxx", "mnsync", &mnsync, true, true, false},
+        {"skinxxx", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
-        {"skin", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"skinxxx", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -573,7 +573,7 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use skind, or the -server option to skin-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use skinxxxd, or the -server option to skinxxx-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
                                                "rpcuser=skinrpc\n"
@@ -1033,7 +1033,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> skin-cli " + methodname + " " + args + "\n";
+    return "> skinxxx-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

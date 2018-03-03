@@ -176,8 +176,8 @@
         <translation>Confirmar la encriptación de la Wallet</translation>
     </message>
     <message>
-        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
-        <translation>SKIN se cerrará ahora para finalizar el proceso de encriptación. Recuerde que encriptar su Wallet no previene completamente que tus SKINs sean robados mediante malware infectando su ordenador.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINXXXs from being stolen by malware infecting your computer.</source>
+        <translation>SKIN se cerrará ahora para finalizar el proceso de encriptación. Recuerde que encriptar su Wallet no previene completamente que tus SKINXXXs sean robados mediante malware infectando su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,7 +239,7 @@
         <translation>&amp;Encriptación BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Skinxxx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Introduzca la dirección SKIN que querría encriptar usando BIP 38. Introduzca una contraseña en la caja central. Clickee en encriptar para computar la clave privada encriptada.</translation>
     </message>
     <message>
@@ -247,7 +247,7 @@
         <translation>Dirección:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>La dirección SKIN con la que firmar el mensaje</translation>
     </message>
     <message>
@@ -303,7 +303,7 @@
         <translation>Introducir la clave encriptada privada BIP 38. Introducir la contraseña en la caja central. Pulsar en Desencriptar Clave para computar la clave privada. Después de que la clave sea desencriptada, pulsando en 'Importar Dirección' añadirá esta clave privada a la wallet.</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>La dirección SKIN con la que el mensaje fue firmado</translation>
     </message>
     <message>
@@ -602,7 +602,7 @@
         <translation>Herramienta de pestañas</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>Núcleo SKIN</translation>
     </message>
     <message>
@@ -610,7 +610,7 @@
         <translation>Enviar coins a una dirección SKIN</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and skin: URIs)</source>
+        <source>Request payments (generates QR codes and skinxxx: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -622,11 +622,11 @@
         <translation>Explorar nodos maestros</translation>
     </message>
     <message>
-        <source>&amp;About SKIN Core</source>
+        <source>&amp;About SKINXXX Core</source>
         <translation>&amp;Sobre el núcleo de SKIN</translation>
     </message>
     <message>
-        <source>Show information about SKIN Core</source>
+        <source>Show information about SKINXXX Core</source>
         <translation>Mostrar información sobre el núcleo de SKIN</translation>
     </message>
     <message>
@@ -670,8 +670,8 @@
         <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
-        <source>Open a SKIN: URI or payment request</source>
-        <translation>Abrir un SKIN: URI o solicitud de pago</translation>
+        <source>Open a skinxxx: URI or payment request</source>
+        <translation>Abrir un skinxxx: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,12 +682,12 @@
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
-        <source>Show the SKIN Core help message to get a list with possible SKIN command-line options</source>
-        <translation>Mostrar la ayuda de SKIN Core para obtener una lista de posibles opciones en línea de comandos</translation>
+        <source>Show the SKINXXX Core help message to get a list with possible SKIN command-line options</source>
+        <translation>Mostrar la ayuda de SKINXXX Core para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
-        <source>SKIN Core client</source>
-        <translation>Cliente SKIN Core</translation>
+        <source>SKINXXX Core client</source>
+        <translation>Cliente SKINXXX Core</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to SKIN network</source>
@@ -837,8 +837,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skin.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (skin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skinxxx.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (skinxxx.conf).</translation>
     </message>
 </context>
 <context>
@@ -1184,7 +1184,7 @@ MultiEnvío: %1</translation>
         <translation>versión</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>Núcleo SKIN</translation>
     </message>
     <message>
@@ -1192,8 +1192,8 @@ MultiEnvío: %1</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About SKIN Core</source>
-        <translation>Acerca de SKIN Core</translation>
+        <source>About SKINXXX Core</source>
+        <translation>Acerca de SKINXXX Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ MultiEnvío: %1</translation>
         <translation>Bienvenido/a</translation>
     </message>
     <message>
-        <source>Welcome to SKIN Core.</source>
-        <translation>Bienvenido/a a SKIN Core.</translation>
+        <source>Welcome to SKINXXX Core.</source>
+        <translation>Bienvenido/a a SKINXXX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where SKIN Core will store its data.</source>
-        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará SKIN Core sus datos.</translation>
+        <source>As this is the first time the program is launched, you can choose where SKINXXX Core will store its data.</source>
+        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará SKINXXX Core sus datos.</translation>
     </message>
     <message>
-        <source>SKIN Core will download and store a copy of the SKIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>SKIN Core descargará y guardará una copia de la cadena de bloques SKIN. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+        <source>SKINXXX Core will download and store a copy of the SKIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SKINXXX Core descargará y guardará una copia de la cadena de bloques SKIN. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,7 +1259,7 @@ MultiEnvío: %1</translation>
         <translation>Usar una carpeta de datos personalizada:</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>Núcleo SKIN</translation>
     </message>
     <message>
@@ -1576,15 +1576,15 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Configuración de Ofuscación</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SKIN's configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SKINXXX's configuration screen.</source>
         <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de SKIN.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SKIN's configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SKINXXX's configuration screen.</source>
         <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de SKIN.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SKIN's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SKINXXX's configuration screen.</source>
         <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de SKIN.</translation>
     </message>
 </context>
@@ -1719,9 +1719,9 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/skin-project/skin-project-translations</source>
+https://www.transifex.com/skinxxx-project/skinxxx-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/skin-project/skin-project-translations</translation>
+https://www.transifex.com/skinxxx-project/skinxxx-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2093,8 +2093,8 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start skin: click-to-pay handler</source>
-        <translation>No se puede iniciar skin: módulo click-to-pay</translation>
+        <source>Cannot start skinxxx: click-to-pay handler</source>
+        <translation>No se puede iniciar skinxxx: módulo click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid SKIN address or malformed URI parameters.</source>
@@ -2841,12 +2841,12 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
         <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSKINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSKINs in fee,&lt;br /&gt;while "at least" pays 1000 uSKINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uSKINs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSKINs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSKINs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSKINXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSKINXXXs in fee,&lt;br /&gt;while "at least" pays 1000 uSKINXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uSKINXXXs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSKINXXXs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSKINXXXs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSKINs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSKINs in fee,&lt;br /&gt;while "total at least" pays 1000 uSKINs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uSKINs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSKINs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSKINs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSKINXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSKINXXXs in fee,&lt;br /&gt;while "total at least" pays 1000 uSKINXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uSKINXXXs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSKINXXXs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSKINXXXs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SKIN transactions than the network can process.</source>
@@ -3060,7 +3060,7 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to</source>
+        <source>The Skinxxx address to send the payment to</source>
         <translation>La dirección SKIN a la cual enviar el pago</translation>
     </message>
     <message>
@@ -3100,8 +3100,8 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the SKIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SKIN network.</source>
-        <translation>Un mensaje adjunto al SKIN: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red SKIN.</translation>
+        <source>A message that was attached to the skinxxx: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SKIN network.</source>
+        <translation>Un mensaje adjunto al skinxxx: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red SKIN.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3127,7 +3127,7 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>SKIN Core is shutting down...</source>
+        <source>SKINXXX Core is shutting down...</source>
         <translation>El programa SKIN se está cerrando...</translation>
     </message>
     <message>
@@ -3150,7 +3150,7 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
         <translation>Usted puede firmar mensajes con su dirección para probar que son auténticos. Tenga cuidado con firmar algo corto o vago como "hola", pues los ataques de phising pueden engañarle para que firme su identidad para ellos. Sólo firme textos detallados con los que esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>La dirección SKIN con la que firmar el mensaje</translation>
     </message>
     <message>
@@ -3186,7 +3186,7 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
         <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección SKIN</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>La dirección SKIN con la que el mensaje fue firmado</translation>
     </message>
     <message>
@@ -3277,7 +3277,7 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>Núcleo SKIN</translation>
     </message>
     <message>
@@ -3293,8 +3293,8 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
         <translation>Los desarrolladores de Dash Core</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>Los desarrolladores de SKIN Core</translation>
+        <source>The Skinxxx Core developers</source>
+        <translation>Los desarrolladores de SKINXXX Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3885,7 +3885,7 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -3911,8 +3911,8 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
         <translation>Escuchar únicamente a la tarjeta de red indicada para conexiones JSON-RPC. Use la notación [host]:puerto para IPv6. Esta opción puede ser especificada varias veces (por defecto: escuchar en todas las tarjetas de red)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. SKIN Core is probably already running.</source>
-        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. SKIN Core esta probablemente en ejecución.</translation>
+        <source>Cannot obtain a lock on data directory %s. SKINXXX Core is probably already running.</source>
+        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. SKINXXX Core esta probablemente en ejecución.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4083,7 +4083,7 @@ https://www.transifex.com/skin-project/skin-project-translations</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use skind, or the -server option to skin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use skinxxxd, or the -server option to skinxxx-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=skinrpc
@@ -4094,7 +4094,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "SKIN Alert" admin@foo.com
 </source>
-        <translation>Para usar skind, o la opción -server de skin-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar skinxxxd, o la opción -server de skinxxx-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
 rpcuser=skin
@@ -4107,8 +4107,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "SKIN Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. SKIN Core is probably already running.</source>
-        <translation>Imposible conectar a %s en esta computadora. Es probable que SKIN Core ya este corriendo.</translation>
+        <source>Unable to bind to %s on this computer. SKINXXX Core is probably already running.</source>
+        <translation>Imposible conectar a %s en esta computadora. Es probable que SKINXXX Core ya este corriendo.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4135,8 +4135,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "SKIN Alert" admin@foo.com
         <translation>Advertencia: -paytxfee esta muy alta! Esta es la comisión de transacción que pagarás si envías una transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SKIN Core will not work properly.</source>
-        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora SKIN Core no funcionará adecuadamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SKINXXX Core will not work properly.</source>
+        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora SKINXXX Core no funcionará adecuadamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4283,8 +4283,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "SKIN Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Skinxxx Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Skinxxx Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4355,7 +4355,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "SKIN Alert" admin@foo.com
         <translation>Error al cargar wallet.dat: Billetera dañada</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of SKIN Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of SKINXXX Core</source>
         <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo SKIN</translation>
     </message>
     <message>
@@ -4467,8 +4467,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "SKIN Alert" admin@foo.com
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. SKIN Core is shutting down.</source>
-        <translation>La prueba de salud de inicialización ha fallado. SKIN Core se cerrará.</translation>
+        <source>Initialization sanity check failed. SKINXXX Core is shutting down.</source>
+        <translation>La prueba de salud de inicialización ha fallado. SKINXXX Core se cerrará.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5087,8 +5087,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "SKIN Alert" admin@foo.com
         <translation>Monedero bloqueado.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart SKIN Core to complete</source>
-        <translation>Monedero necesita ser reescrito: reinicie SKIN Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart SKINXXX Core to complete</source>
+        <translation>Monedero necesita ser reescrito: reinicie SKINXXX Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

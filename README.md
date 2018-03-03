@@ -1,7 +1,7 @@
-SKIN Core integration/staging repository
+SKINXXX Core integration/staging repository
 =====================================
 
-[![Build Status](https://travis-ci.org/SKIN-Project/SKIN.svg?branch=master)](https://travis-ci.org/SKIN-Project/SKIN) [![GitHub version](https://badge.fury.io/gh/SKIN-Project%2FSKIN.svg)](https://badge.fury.io/gh/SKIN-Project%2FSKIN)
+[![Build Status](https://travis-ci.org/SKINXXX-Project/SKINXXX.svg?branch=master)](https://travis-ci.org/SKINXXX-Project/SKINXXX) [![GitHub version](https://badge.fury.io/gh/skinxxx-Project%2FSKIN.svg)](https://badge.fury.io/gh/skinxxx-Project%2FSKIN)
 
 SkinXXX is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using coin mixing technology, we call it _Obfuscation_.

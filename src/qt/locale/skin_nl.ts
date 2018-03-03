@@ -168,8 +168,8 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
-        <translation>SKIN zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw SKINs stelen.</translation>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINXXXs from being stolen by malware infecting your computer.</source>
+        <translation>SKIN zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw SKINXXXs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -231,7 +231,7 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Skinxxx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Voer een SKIN adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>Het SKIN adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
@@ -295,7 +295,7 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>Het SKIN adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
@@ -590,7 +590,7 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Kern</translation>
     </message>
     <message>
@@ -598,8 +598,8 @@
         <translation>Verstuur munten naar een SKIN adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and skin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en SKIN: URI's)</translation>
+        <source>Request payments (generates QR codes and skinxxx: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en skinxxx: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,11 +610,11 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About SKIN Core</source>
+        <source>&amp;About SKINXXX Core</source>
         <translation>&amp;Over SKIN Kern</translation>
     </message>
     <message>
-        <source>Show information about SKIN Core</source>
+        <source>Show information about SKINXXX Core</source>
         <translation>Toon informatie over SKIN Kern</translation>
     </message>
     <message>
@@ -757,8 +757,8 @@
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skin.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (skin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skinxxx.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (skinxxx.conf).</translation>
     </message>
 </context>
 <context>
@@ -964,7 +964,7 @@
         <translation>versie</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Kern</translation>
     </message>
     <message>
@@ -979,7 +979,7 @@
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Kern</translation>
     </message>
     <message>
@@ -1426,14 +1426,14 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>SKIN Core is shutting down...</source>
-        <translation>SKIN Core is aan het afsluiten...</translation>
+        <source>SKINXXX Core is shutting down...</source>
+        <translation>SKINXXX Core is aan het afsluiten...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The Skinxxx address to sign the message with</source>
         <translation>Het SKIN adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
@@ -1469,7 +1469,7 @@
         <translation>Onderteken het bericht om te bewijzen dat u het SKIN adres bezit</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The Skinxxx address the message was signed with</source>
         <translation>Het SKIN adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
@@ -1512,7 +1512,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SKIN Core</source>
+        <source>SKINXXX Core</source>
         <translation>SKIN Kern</translation>
     </message>
     <message>
@@ -1660,7 +1660,7 @@
     </message>
     </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>These are your SKIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Це ваша SKIN-адреса для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
+        <translation>Це ваша skinxxx-адреса для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
     </message>
     <message>
         <source>These are your SKIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -176,7 +176,7 @@
         <translation>Підтвердження шифрування гаманця</translation>
     </message>
     <message>
-        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINs from being stolen by malware infecting your computer.</source>
+        <source>SKIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKINXXXs from being stolen by malware infecting your computer.</source>
         <translation>SKIN зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші SKIN'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
     </message>
     <message>
@@ -364,6 +364,6 @@
     </message>
     </context>
 <context>
-    <name>skin-core</name>
+    <name>skinxxx-core</name>
     </context>
 </TS>

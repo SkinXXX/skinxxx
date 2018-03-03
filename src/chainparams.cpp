@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The Skinxxx developers
 // Copyright (c) 2017 The ColossusCoinXT developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -55,8 +55,8 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
 boost::assign::map_list_of
-( 0, uint256("0000004903bce55e27c02b21b83d11dc9dddf2fca983793a8b8eaa9ba61f42e6"));
-
+		( 0, uint256("0000004903bce55e27c02b21b83d11dc9dddf2fca983793a8b8eaa9ba61f42e6"))
+        (1000, uint256("f5e9e5532e37d150e1f66cb1dce4c41aa1fd4fd95cbc79f425325b04181c693d"));
 static const Checkpoints::CCheckpointData data = {
 &mapCheckpoints,
 1513389723, // * UNIX timestamp of last checkpoint block
@@ -110,8 +110,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 120; // Skin: 2 minute
-        nTargetSpacing = 1 * 120;  // Skin: 2 minute
+        nTargetTimespan = 1 * 120; // skinxxx: 2 minute
+        nTargetSpacing = 1 * 120;  // skinxxx: 2 minute
         nLastPOWBlock = 350;
         nMaturity = 50;
         nMasternodeCountDrift = 20;
@@ -184,11 +184,10 @@ public:
         assert(hashGenesisBlock == uint256("0000004903bce55e27c02b21b83d11dc9dddf2fca983793a8b8eaa9ba61f42e6"));
         assert(genesis.hashMerkleRoot == uint256("969e88fc67fc3a800a048ba0fd01d9e966684d544c28d52f08bb9121e691a243"));
 
-        vFixedSeeds.clear();
-        vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("104.131.23.88", "104.131.23.88")); 
-        vSeeds.push_back(CDNSSeedData("104.131.30.157", "104.131.30.157")); 
-        //vSeeds.push_back(CDNSSeedData("67.199.118.93", "67.199.118.93")); 
+        //vFixedSeeds.clear();
+        //vSeeds.clear();
+        vSeeds.push_back(CDNSSeedData("144.202.68.217", "144.202.68.217")); 
+		vSeeds.push_back(CDNSSeedData("207.148.14.152", "207.148.14.152"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0x53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 0x4b);
@@ -244,8 +243,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Skin: 1 day
-        nTargetSpacing = 1 * 60;  // Skin: 1 minute
+        nTargetTimespan = 1 * 60; // skinxxx: 1 day
+        nTargetSpacing = 1 * 60;  // skinxxx: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -294,12 +293,12 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 8); // Testnet pivx addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 133);  // Testnet pivx script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 8); // Testnet Skinxxx addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 133);  // Testnet Skinxxx script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 127);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-         // Testnet pivx BIP32 pubkeys start with 'DRKV'
+         // Testnet Skinxxx BIP32 pubkeys start with 'DRKV'
          base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(177)(60)(206)(172).convert_to_container<std::vector<unsigned char> >();
-         // Testnet pivx BIP32 prvkeys start with 'DRKP'
+         // Testnet Skinxxx BIP32 prvkeys start with 'DRKP'
          base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(177)(61)(214)(147).convert_to_container<std::vector<unsigned char> >();
          // Testnet Skin BIP44 coin type is '1' (All coin's testnet default)
          base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
@@ -347,8 +346,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Pivx: 1 day
-        nTargetSpacing = 1 * 60;        // Pivx: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Skinxxx: 1 day
+        nTargetSpacing = 1 * 60;        // Skinxxx: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1513389723;
         genesis.nBits = 0x207fffff;

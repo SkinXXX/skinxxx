@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between skin-cli and skind)
- * of a given instance of the Pivx system.
+ * CBaseChainParams defines the base parameters (shared between skinxxx-cli and skinxxxd)
+ * of a given instance of the Skinxxx system.
  */
 class CBaseChainParams
 {
