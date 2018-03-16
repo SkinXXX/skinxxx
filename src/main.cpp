@@ -1619,8 +1619,10 @@ int64_t GetBlockValue(int nHeight, CAmount nFees, bool fBudgetBlock)
     CAmount nSubsidy = 10 * nBudgetMultiplier; // Default PoS reward
     if (nHeight == 1)
         return CAmount(669669669) * COIN;
-    else if (nHeight > 1 && nHeight <= Params().LAST_POW_BLOCK())
+    else if (nHeight > 1 && nHeight <= 350)
         return CAmount(1000) * COIN; // Anti-Entropy Blocks
+	else if (nHeight > 350 && nHeight <= Params().LAST_POW_BLOCK())
+         return CAmount(10) * COIN; // Low PoW block reward to help up the network	
         
     return nSubsidy + nFees;
 }
@@ -4566,6 +4568,14 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             pfrom->fDisconnect = true;
             return true;
         }
+
+		// enforce minimum protocol version on network
+		if (pfrom->nVersion < MIN_PROTOCOL_VERSION) {
+			LogPrintf("Diconnect old protocol version wallet, Peer protocol version: \n");
+            pfrom->fDisconnect = true;
+		}
+
+
 
         pfrom->addrLocal = addrMe;
         if (pfrom->fInbound && addrMe.IsRoutable()) {

@@ -56,7 +56,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 static Checkpoints::MapCheckpoints mapCheckpoints =
 boost::assign::map_list_of
 		( 0, uint256("0000004903bce55e27c02b21b83d11dc9dddf2fca983793a8b8eaa9ba61f42e6"))
-        (1000, uint256("f5e9e5532e37d150e1f66cb1dce4c41aa1fd4fd95cbc79f425325b04181c693d"));
+        (950, uint256("000000edb0f4d1590755c56fd41b9d8e161d7e286d90e66c98e00ccc7643ad80"));
 static const Checkpoints::CCheckpointData data = {
 &mapCheckpoints,
 1513389723, // * UNIX timestamp of last checkpoint block
@@ -103,7 +103,7 @@ public:
         pchMessageStart[3] = 0x4e;
         vAlertPubKey = ParseHex("04989235e6c1513366081f275522cba97a2a2703ee9af9ad30228132a553f3aa04dcbf0f2697a1b265f266a04398247ddcf733bde22805bec1f3719064037c925e");
         nDefaultPort = 7546;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // Skin starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // skinxxx starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 30;
         nEnforceBlockUpgradeMajority = 750;
@@ -112,7 +112,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 120; // skinxxx: 2 minute
         nTargetSpacing = 1 * 120;  // skinxxx: 2 minute
-        nLastPOWBlock = 350;
+        nLastPOWBlock = 5000; // Extended PoW phase to help set up the network
         nMaturity = 50;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 0;

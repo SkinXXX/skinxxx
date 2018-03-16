@@ -11,12 +11,12 @@ src/zmq/.deps/*
 *.tar.gz
 
 *.exe
-src/skin
-src/skind
-src/skin-cli
-src/skin-tx
-src/test/test_skin
-src/qt/test/test_skin-qt
+src/skinxxx
+src/skinxxxd
+src/skinxxx-cli
+src/skinxxx-tx
+src/test/test_skinxxx
+src/qt/test/test_skinxxx-qt
 
 # autoreconf
 Makefile.in
@@ -39,8 +39,8 @@ config.log
 config.status
 configure
 libtool
-src/config/skin-config.h
-src/config/skin-config.h.in
+src/config/skinxxx-config.h
+src/config/skinxxx-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -65,8 +65,8 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-*.patch
-.skin
+#*.patch
+.skinxxx
 *.a
 *.pb.cc
 *.pb.h
@@ -84,13 +84,13 @@ src/qt/test/moc*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
-Makefile
-skin-qt
-skin-Qt.app
+#Makefile
+skinxxx-qt
+skinxxx-Qt.app
 
 # Unit-tests
 Makefile.test
-skin-qt_test
+skinxxx-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -106,7 +106,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_skin.coverage/
+test_skinxxx.coverage/
 total.coverage/
 coverage_percent.txt
 
