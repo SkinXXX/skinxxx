@@ -11,10 +11,10 @@
  * network protocol versioning
  */
 
-static const int PROTOCOL_VERSION = 70812;
+static const int PROTOCOL_VERSION = 70813;
 
 // Enforce minimum proto version to kick off wallets on old chain.
-static const int MIN_PROTOCOL_VERSION = 70812;
+static const int MIN_PROTOCOL_VERSION = 70813;
 
 //! initial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;

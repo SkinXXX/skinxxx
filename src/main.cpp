@@ -1615,9 +1615,8 @@ int64_t GetBlockValue(int nHeight, CAmount nFees, bool fBudgetBlock)
     int64_t nBudgetMultiplier = COIN;
     if (!fBudgetBlock)
         nBudgetMultiplier = COIN - (Params().GetBudgetPercent() * CENT);
-
     CAmount nSubsidy = 10 * nBudgetMultiplier; // Default PoS reward
-    if (nHeight == 1)
+	if (nHeight == 1)
         return CAmount(669669669) * COIN;
     else if (nHeight > 1 && nHeight <= 350)
         return CAmount(1000) * COIN; // Anti-Entropy Blocks
