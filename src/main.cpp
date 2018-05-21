@@ -1615,14 +1615,18 @@ int64_t GetBlockValue(int nHeight, CAmount nFees, bool fBudgetBlock)
     int64_t nBudgetMultiplier = COIN;
     if (!fBudgetBlock)
         nBudgetMultiplier = COIN - (Params().GetBudgetPercent() * CENT);
-    CAmount nSubsidy = 10 * nBudgetMultiplier; // Default PoS reward
-	if (nHeight == 1)
-        return CAmount(669669669) * COIN;
-    else if (nHeight > 1 && nHeight <= 350)
-        return CAmount(1000) * COIN; // Anti-Entropy Blocks
-	else if (nHeight > 350 && nHeight <= Params().LAST_POW_BLOCK())
-         return CAmount(10) * COIN; // Low PoW block reward to help up the network	
-        
+
+
+    CAmount nSubsidy;
+
+    if (nHeight < 999){
+        return CAmount(669669.669) * COIN; // first 1000 PoW blocks = 669669.669 per block to help split coins for staking
+    } else if (nHeight >= 999 && nHeight <= Params().LAST_POW_BLOCK()){
+        return CAmount(10) * COIN; // Low PoW block reward to help up the network
+    } else {
+        nSubsidy = 10 * nBudgetMultiplier; // Default PoS reward
+    }
+
     return nSubsidy + nFees;
 }
 

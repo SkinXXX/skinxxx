@@ -122,7 +122,7 @@ public:
         //nBudgetPercent = 5;
         nMinStakeAge = 60*60*8; // 8 Hours
         nMasternodeRewardPercent = 60; // % of block reward that goes to masternodes
-        nRequiredMasternodeCollateral = 4000 * COIN; //10,000,000
+        nRequiredMasternodeCollateral = 4000 * COIN; //4000 coins
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
