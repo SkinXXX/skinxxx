@@ -1,13 +1,13 @@
 SKINXXX Core version 2.2.1 is now available from:
 
-  <https://github.com/Skinxxx/SkinXXXCore/skinxxx/releases>
+  <https://github.com/SkinXXX/skinxxx/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/Skinxxx/SkinXXXCore/skinxxx/issues>
+  <https://github.com/SkinXXX/skinxxx/issues>
 
 Compatibility
 ==============

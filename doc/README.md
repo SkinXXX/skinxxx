@@ -41,7 +41,7 @@ The following are developer notes on how to build SKIN on your native platform. 
 
 Development
 ---------------------
-The Skinxxx repo's [root README](https://github.com/Skinxxx/SkinXXXCore/skinxxx/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Skinxxx repo's [root README](https://github.com/SkinXXX/skinxxx/skinxxx/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

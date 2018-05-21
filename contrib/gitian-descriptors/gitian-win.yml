@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/Skinxxx/SkinXXXCore.git"
+- "url": "https://github.com/SkinXXX/skinxxx.git"
   "dir": "skinxxx"
 files: []
 script: |

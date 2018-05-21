@@ -2,14 +2,14 @@
 
 SKINXXX Core version *version* is now available from:
 
-  <https://github.com/Skinxxx/SkinXXXCore/skinxxx/releases>
+  <https://github.com/SkinXXX/skinxxx/skinxxx/releases>
 
 This is a new major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/Skinxxx/SkinXXXCore/skinxxx/issues>
+  <https://github.com/SkinXXX/skinxxx/skinxxx/issues>
 
 Compatibility
 ==============

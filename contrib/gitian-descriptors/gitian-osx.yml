@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/Skinxxx/SkinXXXCore.git"
+- "url": "https://github.com/SkinXXX/skinxxx.git"
   "dir": "skinxxx"
 files:
 - "MacOSX10.11.sdk.tar.gz"

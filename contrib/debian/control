@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: http://www.skin.xxx
-Vcs-Git: git://github.com/Skinxxx/SkinXXXCore/skinxxx.git
-Vcs-Browser: http://github.com/Skinxxx/SkinXXXCore
+Vcs-Git: git://github.com/SkinXXX/skinxxx/skinxxx.git
+Vcs-Browser: http://github.com/SkinXXX/skinxxx
 
 Package: skinxxxd
 Architecture: any
