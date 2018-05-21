@@ -55,12 +55,11 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
 boost::assign::map_list_of
-		( 0, uint256("0000004903bce55e27c02b21b83d11dc9dddf2fca983793a8b8eaa9ba61f42e6"))
-        (250, uint256("0000005cf0b889f566a41723bafd18520416221196c12124f22d8e7d6e1567b7"));
+		( 0, uint256("0000004903bce55e27c02b21b83d11dc9dddf2fca983793a8b8eaa9ba61f42e6"));
 static const Checkpoints::CCheckpointData data = {
 &mapCheckpoints,
-1523991624, // * UNIX timestamp of last checkpoint block
-252,    // * total number of transactions between genesis and last checkpoint
+1513389723, // * UNIX timestamp of last checkpoint block
+0,    // * total number of transactions between genesis and last checkpoint
             //   (the tx=... number in the SetBestChain debug.log lines)
 2000        // * estimated number of transactions per day after checkpoint
 };
@@ -186,8 +185,9 @@ public:
 
         //vFixedSeeds.clear();
         //vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("144.202.68.217", "144.202.68.217")); 
-		vSeeds.push_back(CDNSSeedData("207.148.14.152", "207.148.14.152"));
+        vSeeds.push_back(CDNSSeedData("seed1.skin.xxx", "seed1.skin.xxx")); 
+		vSeeds.push_back(CDNSSeedData("seed2.skin.xxx", "seed2.skin.xxx"));
+		
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0x53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 0x4b);
