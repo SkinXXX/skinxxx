@@ -259,10 +259,10 @@ BREW =
 BUILD_QT = qt
 BUILD_TEST = test
 BUILD_TEST_QT = test
-CC = /usr/bin/gcc
+CC = gcc
 CCACHE = 
 CCDEPMODE = depmode=gcc3
-CFLAGS = -g3 -gdwarf-2
+CFLAGS = -g -O2
 CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
@@ -270,15 +270,15 @@ CLIENT_VERSION_MINOR = 1
 CLIENT_VERSION_REVISION = 3
 COMPARISON_TOOL_REORG_TESTS = 0
 COPYRIGHT_YEAR = 2018
-CPP = /usr/bin/gcc -E
+CPP = gcc -E
 CPPFILT = /usr/bin/c++filt
 CPPFLAGS =  -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -DHAVE_QT5
 CRYPTO_CFLAGS = 
 CRYPTO_LIBS = -lcrypto
-CXX = /usr/bin/g++ -std=c++11
-CXXCPP = /usr/bin/g++ -std=c++11 -E
+CXX = g++ -std=c++11
+CXXCPP = g++ -std=c++11 -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -g3 -gdwarf-2  -Wstack-protector -fstack-protector-all -fPIC -fvisibility=hidden
+CXXFLAGS = -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIC -fvisibility=hidden
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -336,9 +336,9 @@ MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
 NM = /usr/bin/nm -B
 NMEDIT = 
 OBJCOPY = /usr/bin/objcopy
-OBJCXX = /usr/bin/g++ -std=c++11
+OBJCXX = g++ -std=c++11
 OBJCXXDEPMODE = depmode=gcc3
-OBJCXXFLAGS = -g3 -gdwarf-2  -Wstack-protector -fstack-protector-all -fPIC
+OBJCXXFLAGS = -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIC
 OBJDUMP = objdump
 OBJEXT = o
 OTOOL = 
@@ -358,7 +358,7 @@ PORT =
 PROTOBUF_CFLAGS = -pthread
 PROTOBUF_LIBS = -lprotobuf -pthread -lpthread
 PROTOC = /usr/bin/protoc
-PTHREAD_CC = /usr/bin/gcc
+PTHREAD_CC = gcc
 PTHREAD_CFLAGS = -pthread
 PTHREAD_LIBS = 
 PYTHON = /usr/bin/python3
@@ -413,8 +413,8 @@ abs_srcdir = /home/csadmin/NetBeansProjects/skinxxx
 abs_top_builddir = /home/csadmin/NetBeansProjects/skinxxx
 abs_top_srcdir = /home/csadmin/NetBeansProjects/skinxxx
 ac_ct_AR = ar
-ac_ct_CC = /usr/bin/gcc
-ac_ct_CXX = 
+ac_ct_CC = gcc
+ac_ct_CXX = g++
 ac_ct_DUMPBIN = 
 ac_ct_OBJCXX = 
 am__include = include
