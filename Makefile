@@ -194,7 +194,8 @@ am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/src/config/skinxxx-config.h.in \
 	$(top_srcdir)/src/test/buildenv.py.in COPYING INSTALL \
 	build-aux/compile build-aux/config.guess build-aux/config.sub \
-	build-aux/install-sh build-aux/ltmain.sh build-aux/missing
+	build-aux/depcomp build-aux/install-sh build-aux/ltmain.sh \
+	build-aux/missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -259,26 +260,26 @@ BREW =
 BUILD_QT = qt
 BUILD_TEST = test
 BUILD_TEST_QT = test
-CC = gcc
+CC = /usr/bin/gcc
 CCACHE = 
 CCDEPMODE = depmode=gcc3
-CFLAGS = -g -O2
+CFLAGS = -g3 -gdwarf-2
 CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
-CLIENT_VERSION_MINOR = 1
-CLIENT_VERSION_REVISION = 3
+CLIENT_VERSION_MINOR = 2
+CLIENT_VERSION_REVISION = 0
 COMPARISON_TOOL_REORG_TESTS = 0
 COPYRIGHT_YEAR = 2018
-CPP = gcc -E
+CPP = /usr/bin/gcc -E
 CPPFILT = /usr/bin/c++filt
 CPPFLAGS =  -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -DHAVE_QT5
 CRYPTO_CFLAGS = 
 CRYPTO_LIBS = -lcrypto
-CXX = g++ -std=c++11
-CXXCPP = g++ -std=c++11 -E
+CXX = /usr/bin/g++ -std=c++11
+CXXCPP = /usr/bin/g++ -std=c++11 -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIC -fvisibility=hidden
+CXXFLAGS = -g3 -gdwarf-2  -Wstack-protector -fstack-protector-all -fPIC -fvisibility=hidden
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -336,9 +337,9 @@ MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
 NM = /usr/bin/nm -B
 NMEDIT = 
 OBJCOPY = /usr/bin/objcopy
-OBJCXX = g++ -std=c++11
+OBJCXX = /usr/bin/g++ -std=c++11
 OBJCXXDEPMODE = depmode=gcc3
-OBJCXXFLAGS = -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIC
+OBJCXXFLAGS = -g3 -gdwarf-2  -Wstack-protector -fstack-protector-all -fPIC
 OBJDUMP = objdump
 OBJEXT = o
 OTOOL = 
@@ -346,10 +347,10 @@ OTOOL64 =
 PACKAGE = skinxxx
 PACKAGE_BUGREPORT = www.skin.xxx
 PACKAGE_NAME = Skinxxx Core
-PACKAGE_STRING = Skinxxx Core 1.1.3
+PACKAGE_STRING = Skinxxx Core 1.2.0
 PACKAGE_TARNAME = skinxxx
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.1.3
+PACKAGE_VERSION = 1.2.0
 PATH_SEPARATOR = :
 PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
@@ -358,7 +359,7 @@ PORT =
 PROTOBUF_CFLAGS = -pthread
 PROTOBUF_LIBS = -lprotobuf -pthread -lpthread
 PROTOC = /usr/bin/protoc
-PTHREAD_CC = gcc
+PTHREAD_CC = /usr/bin/gcc
 PTHREAD_CFLAGS = -pthread
 PTHREAD_LIBS = 
 PYTHON = /usr/bin/python3
@@ -400,7 +401,7 @@ TIFFCP =
 UIC = /usr/lib/x86_64-linux-gnu/qt5/bin/uic
 USE_QRCODE = 
 USE_UPNP = 
-VERSION = 1.1.3
+VERSION = 1.2.0
 WINDOWS_BITS = 
 WINDRES = 
 X11XCB_CFLAGS = 
@@ -413,8 +414,8 @@ abs_srcdir = /home/csadmin/NetBeansProjects/skinxxx
 abs_top_builddir = /home/csadmin/NetBeansProjects/skinxxx
 abs_top_srcdir = /home/csadmin/NetBeansProjects/skinxxx
 ac_ct_AR = ar
-ac_ct_CC = gcc
-ac_ct_CXX = g++
+ac_ct_CC = /usr/bin/gcc
+ac_ct_CXX = 
 ac_ct_DUMPBIN = 
 ac_ct_OBJCXX = 
 am__include = include
