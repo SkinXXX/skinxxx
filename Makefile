@@ -194,7 +194,8 @@ am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/src/config/skinxxx-config.h.in \
 	$(top_srcdir)/src/test/buildenv.py.in COPYING INSTALL \
 	build-aux/compile build-aux/config.guess build-aux/config.sub \
-	build-aux/install-sh build-aux/ltmain.sh build-aux/missing
+	build-aux/depcomp build-aux/install-sh build-aux/ltmain.sh \
+	build-aux/missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -266,8 +267,8 @@ CFLAGS = -g3 -gdwarf-2
 CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
-CLIENT_VERSION_MINOR = 1
-CLIENT_VERSION_REVISION = 3
+CLIENT_VERSION_MINOR = 2
+CLIENT_VERSION_REVISION = 0
 COMPARISON_TOOL_REORG_TESTS = 0
 COPYRIGHT_YEAR = 2018
 CPP = /usr/bin/gcc -E
@@ -346,10 +347,10 @@ OTOOL64 =
 PACKAGE = skinxxx
 PACKAGE_BUGREPORT = www.skin.xxx
 PACKAGE_NAME = Skinxxx Core
-PACKAGE_STRING = Skinxxx Core 1.1.3
+PACKAGE_STRING = Skinxxx Core 1.2.0
 PACKAGE_TARNAME = skinxxx
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.1.3
+PACKAGE_VERSION = 1.2.0
 PATH_SEPARATOR = :
 PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
@@ -400,7 +401,7 @@ TIFFCP =
 UIC = /usr/lib/x86_64-linux-gnu/qt5/bin/uic
 USE_QRCODE = 
 USE_UPNP = 
-VERSION = 1.1.3
+VERSION = 1.2.0
 WINDOWS_BITS = 
 WINDRES = 
 X11XCB_CFLAGS = 
