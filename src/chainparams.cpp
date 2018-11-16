@@ -1,8 +1,9 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The Skinxxx developers
-// Copyright (c) 2017 The ColossusCoinXT developers
+// Copyright (c) 2015 2018 PIVX Developers
+// Copyright (c) 2015-2018 COLX Developers
+// Copyright (c) 2017-2018 The Skinxxx developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -186,8 +187,11 @@ public:
 
         //vFixedSeeds.clear();
         //vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("seed1.skin.xxx", "seed1.skin.xxx")); 
-		vSeeds.push_back(CDNSSeedData("seed2.skin.xxx", "seed2.skin.xxx"));
+        vSeeds.push_back(CDNSSeedData("216.196.217.106", "216.196.217.106"));
+	vSeeds.push_back(CDNSSeedData("216.196.217.107", "216.196.217.107"));	
+	vSeeds.push_back(CDNSSeedData("216.196.217.108", "216.196.217.108"));
+	vSeeds.push_back(CDNSSeedData("216.196.217.109", "216.196.217.109"));
+	vSeeds.push_back(CDNSSeedData("216.196.217.110", "216.196.217.110"));
 		
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0x53);
