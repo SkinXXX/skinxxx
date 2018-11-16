@@ -1,5 +1,7 @@
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The Skinxxx developers
+// Copyright (c) 2015 2018 PIVX Developers
+// Copyright (c) 2015-2018 COLX Developers
+// Copyright (c) 2017-2018 The Skinxxx developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -26,11 +28,13 @@ CMasternodeSync::CMasternodeSync()
 
 bool CMasternodeSync::IsSynced()
 {
+    //return true;
+    
     return RequestedMasternodeAssets == MASTERNODE_SYNC_FINISHED;
 }
 
 bool CMasternodeSync::IsBlockchainSynced()
-{
+{  
     static bool fBlockchainSynced = false;
     static int64_t lastProcess = GetTime();
 
@@ -134,7 +138,7 @@ bool CMasternodeSync::IsBudgetFinEmpty()
 }
 
 void CMasternodeSync::GetNextAsset()
-{
+{    
     switch (RequestedMasternodeAssets) {
     case (MASTERNODE_SYNC_INITIAL):
     case (MASTERNODE_SYNC_FAILED): // should never be used here actually, use Reset() instead
